@@ -269,6 +269,9 @@ knitr::include_graphics("imgs/syllabus qr.png")
 ]
 
 .pull-right[
+
+Course website: https://github.com/woomora/CORE-econ-macro/tree/master
+
 The schedule is tentative and subject to change. 
 Please check the most recent version of the syllabus.
 
