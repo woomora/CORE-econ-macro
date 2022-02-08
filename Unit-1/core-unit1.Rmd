@@ -1003,6 +1003,11 @@ Markets contribute to increasing the productivity of labour by allowing people t
 knitr::include_graphics("imgs/figure-01-10.svg")
 ```
 
+---
+
+```{r out.width="85%"}
+knitr::include_graphics("https://eoimages.gsfc.nasa.gov/images/imagerecords/83000/83182/ISS038-E-038300_lrg.jpg")
+```
 
 ---
 # Divergence in growth
