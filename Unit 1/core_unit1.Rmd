@@ -1,7 +1,7 @@
 ---
 title: "CORE Econ Macro"
 author: "Guillermo Woo-Mora"
-date: "02/02/2022"
+date: "10/02/2022"
 output: 
   xaringan::moon_reader:
     lib_dir: libs
@@ -12,11 +12,57 @@ output:
       ratio: 16:9
 ---
 
-```{r setup, include=FALSE}
+```{r meta, echo=FALSE}
+library(metathis)
+meta() %>%
+  meta_general(
+    description = "An Introduction to xaringan for Presentations: The Basics",
+    generator = "xaringan and remark.js"
+  ) %>% 
+  meta_name("github-repo" = "spcanelon/xaringan-basics-and-beyond")
+  # meta_social(
+  #   title = "Sharing Your Work with xaringan &#8212; Day 1",
+  #   url = "https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html#1",
+  #   image = "https://raw.githubusercontent.com/spcanelon/xaringan-basics-and-beyond/main/slides/day-01-cover-image.png",
+  #   image_alt = "Title slide for the day 1 slides of the Sharing Your Work with xaringan workshop series",
+  #   og_type = "website",
+  #   og_author = "Silvia Canelon",
+  #   twitter_card_type = "summary_large_image",
+  #   twitter_creator = "@spcanelon"
+  # )
+```
+
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(out.width = "90%")
 knitr::opts_chunk$set(fig.align="center")
 
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+# set default options
+opts_chunk$set(echo=FALSE,
+               collapse = TRUE,
+               fig.width = 7.252,
+               fig.height = 4,
+               dpi = 300)
+# set engines
+knitr::knit_engines$set("markdown")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+# uncomment the following lines if you want to use the NHS-R theme colours by default
+# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
+# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
+# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
+# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
 ```
 
 ---
@@ -39,8 +85,10 @@ knitr::opts_chunk$set(fig.align="center")
 
   - Ideally: Open the newspaper and have a better understanding what is happening globally.
 
-    - Spoiler: We will only have a better understanding. Unfortunately, we would not be able to fully know what happen, is happening, or will happen. But that's because there is uncertainty and we are humans :)
-    
+--
+
+  - **Spoiler**: We will only have a better understanding. Unfortunately, we would not be able to fully know what happen, is happening, or will happen. But that's because there is uncertainty and we are humans `r emo::ji("smile")`
+
 --
 
 ## What kind of world are we living in? 
@@ -251,12 +299,12 @@ Teams will have to schedule a meeting in office hours to discuss their policy br
 
 --
 
-- Be nice to each other :)
+- Be nice to each other `r emo::ji("smiling face with smiling eyes")`
 --
 
 - No harassment to any person or of any kind will be tolerated.
 - Computers allowed. No cellphones.
-- Attendance is not mandatory, but it may influence the professor’s benevolence ;) 
+- Attendance is not mandatory, but it may influence the professor’s benevolence `r emo::ji("winking face")`
 - You have enough time for your assignments, so late assignments are penalized. One point
 by each hour after deadline. 
 - Academic integrity and honesty: cite other peoples’ ideas and work.
