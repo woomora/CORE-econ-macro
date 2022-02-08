@@ -1,6 +1,6 @@
-# CORE Econonmics - Macro :chart_with_upwards_trend::chart_with_downwards_trend:
+# CORE Economics - Macro :chart_with_upwards_trend::chart_with_downwards_trend:
 
-Hi! Welcome to the CORE Econonmics - Macro course's website :wave:
+Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :closed_book:This is a course for [Sciences pour un monde durable](https://psl.eu/formation/sciences-monde-durable) program at PSL based on [*The Economy*](https://www.core-econ.org/the-economy/) textbook by the [CORE Econ team](https://www.core-econ.org/).
 
