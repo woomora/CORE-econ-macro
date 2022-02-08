@@ -1034,6 +1034,11 @@ Not all capitalist economies are equally successful
 knitr::include_graphics("imgs/figure-01-11.svg")
 ```
 
+---
+
+```{r gdp-inst, out.width="100%", echo=FALSE}
+knitr::include_graphics("imgs/gdp-inst.png")
+```
 
 ---
 # Political systems
