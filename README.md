@@ -9,3 +9,5 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 :clipboard: You can find the slides here:
 
   - [Unit 1: Intro and the Capitalist Revolution](https://woomora.github.io/CORE-econ-macro/Unit-1/core-unit1.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-1/core-unit1.pdf))
+
+  - [Unit 2: Technological change, Population, and Growth](https://woomora.github.io/CORE-econ-macro/Unit-2/core-unit2.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-2/core-unit2.pdf))
