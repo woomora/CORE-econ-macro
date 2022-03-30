@@ -18,5 +18,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
   - [Unit 6: The Firm: Owners, Managers, and Employees](https://woomora.github.io/CORE-econ-macro/Unit-6/core-unit6.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-6/core-unit6.pdf))
 
+  - [Unit 7: The Firm: Owners, Managers, and Employees](https://woomora.github.io/CORE-econ-macro/Unit-7/core-unit7.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-7/core-unit7.pdf))
+
 
 You can reach me at guillermo.woo-mora [at] psemail.eu.
