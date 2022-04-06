@@ -593,7 +593,6 @@ knitr::include_graphics("imgs/figure-07-12-b-i.svg")
 
 ---
 # Price Elasticity of Demand
-
 --
 
 Maximize profit by choosing the point where the slope of the isoprofit curve (MRS) is equal to the slope of the demand curve (MRT),
