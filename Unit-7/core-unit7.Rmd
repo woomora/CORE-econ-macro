@@ -607,7 +607,7 @@ So the firm’s decision depends on how steep the demand curve is:
  
 --
 
-$$\varepsilon = - \frac{\textit{% change in demand}}{\textit{% change in price}} = - \frac{100 (\frac{\Delta Q}{Q})}{100 (\frac{\Delta P}{P})}$$
+$$\varepsilon = - \frac{\% \textit{change in demand}}{\%  \textit{change in price}} = - \frac{100 (\frac{\Delta Q}{Q})}{100 (\frac{\Delta P}{P})}$$
 
 --
 
