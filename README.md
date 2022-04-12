@@ -22,5 +22,9 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
   - [Unit 9: The labour market: Wages, profifit, and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-9/core-unit9.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-9/core-unit9.pdf))
 
+- **Credit markets**
+
+  - [Unit 10: Banks, money, and the credit market](https://woomora.github.io/CORE-econ-macro/Unit-10/core-unit10.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-10/core-unit10.pdf))
+
 
 You can reach me at guillermo.woo-mora [at] psemail.eu.
