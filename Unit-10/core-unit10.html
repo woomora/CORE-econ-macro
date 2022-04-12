@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Credit markets</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Guillermo Woo-Mora" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script src="libs/xaringanExtra-webcam/webcam.js"></script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Credit markets
+## Unit 10: Banks, money, and the credit market
+### Guillermo Woo-Mora
+### 13/04/2022
+
+---
+
+
+
+
+## Barter system
+
+&lt;img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Barter-Chickens_for_Subscription.jpg/800px-Barter-Chickens_for_Subscription.jpg" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+## The Irish example
+
+What to do when there is no banks nor money? 
+--
+ **Trust**.
+ 
+--
+
+&lt;img src="https://www.irishtimes.com/polopoly_fs/1.2668557.1464777909!/image/image.jpg_gen/derivatives/box_620_330/image.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+## Money
+
+**Money**: 
+--
+ A medium of exchange used to purchase goods or services.
+
+--
+
+&lt;img src="https://media.giphy.com/media/j3x5hjUoXIesM/giphy.gif" width="30%" style="display: block; margin: auto;" /&gt;
+ 
+--
+
+bank notes, bank deposits, cheques, coins, ...
+
+--
+
+- allows purchasing power to be transferred among people.
+
+--
+
+- there must be **trust** that others will accept your money as payment.
+
+--
+
+- time is essential: money allows shifting consumption and production over time.
+
+--
+
+Governments and banks usually provide this trust.
+
+
+
+---
+
+--
+
+.pull-left[
+
+**Wealth**: Stock of things owned or value of that stock.
+
+`\(\sum (\textit{buildings}, \textit{land}, \textit{machinery}, \textit{capital goods}) \\ – \textit{debts owed} + \textit{debts owed to you}\)`
+
+]
+
+--
+
+.pull-right[
+
+**Income**: The amount of money one receives over some period of time (flow).
+
+]
+
+
+--
+
+&lt;img src="imgs/f10-1.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+
+.pull-left[
+
+**Wealth**: Stock of things owned or value of that stock.
+
+`\(\sum (\textit{buildings}, \textit{land}, \textit{machinery}, \textit{capital goods}) \\ – \textit{debts owed} + \textit{debts owed to you}\)`
+
+]
+
+.pull-right[
+
+**Income**: The amount of money one receives over some period of time (flow).
+
+]
+
+
+.pull-left[
+
+&lt;img src="imgs/f10-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+- **Expenditure**: Consumption flow. 
+
+- **Depreciation**: Reduction in the value of a stock of wealth over time.
+
+- **Net income**: The maximum amount that one could consume without running down wealth. 
+`\(\textit{Net income} = \textit{gross income} – depreciation\)`
+
+- **Earnings**: Wages, salaries, and other income from labour.
+
+- **Savings**: Income that is not consumed.
+
+- **Investment**: Expenditure on newly produced capital goods.
+
+
+
+]
+
+---
+## Inequalities: on what?
+
+&lt;img src="imgs/WIR2022.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+## Consumption over time
+
+--
+
+Trade-off between consuming goods now and later:
+--
+ **opportunity cost** of having more goods now is having fewer goods later.
+
+--
+
+Borrowing and lending allow us to rearrange our capacity to buy goods and services across time.
+
+--
+
+**Repayment**: principal + interest.
+
+--
+
+**Interest rate (r)**: The price of bringing some buying power forward in time. `\(r = \frac{repaument}{principal} - 1\)` 
+
+--
+
+**(1+r)**: Tradeoff between current and future consumption (MRT)
+
+--
+
+Example: Julia, principal = 91 and repayment = 100
+
+--
+
+.pull-left[
+
+`$$repayment = 91 + 91\cdot r = 91 \cdot (1 + r) \approx 100$$`
+
+
+]
+
+--
+
+.pull-right[
+
+`$$r = \frac{100}{91} - 1  \approx 1.10 - 1 = .10 = 10\%$$`
+
+]
+
+---
+
+&lt;img src="imgs/f10-2-a.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia knows that in the next period (later) she will have $100 from her paycheck or harvest.
+
+---
+
+&lt;img src="imgs/f10-2-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+
+&lt;img src="imgs/f10-2-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+
+&lt;img src="imgs/f10-2-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+At the same interest rate (10%), she could also borrow 70 to spend now, and repay 77 at the end of the year. In that case she would have 23 to spend next year.
+
+---
+
+&lt;img src="imgs/f10-2-d.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+She could also borrow 30 to spend now, and repay 33 at the end of the year. In that case she would have 67 to spend next year.
+
+---
+
+&lt;img src="imgs/f10-2-e.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The boundary of Julia’s feasible set is her feasible frontier, shown for the interest rate of 10%.
+
+---
+
+&lt;img src="imgs/f10-2-f.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Juila can borrow now and choose any combination on her feasible frontier.
+
+---
+
+&lt;img src="imgs/f10-2-g.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+If, instead of 10%, the interest rate is 78%, Julia can only borrow a maximum of $56 now.
+
+---
+
+&lt;img src="imgs/f10-2-h.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The feasible set with the interest rate of 78% is the dark shaded area, while the feasible set with an interest rate of 10% is the dark shaded area plus the light shaded area.
+
+---
+
+What would you  do?
+--
+ How much consumption we bring forward depends on how impatient we are.
+
+--
+
+How much consumption an individual will bring forward depends on:  
+
+--
+
+- **consumption smoothing**: changing consumption across time (consuming a lot in one period and little in the other).
+
+--
+
+- **impatience**
+
+--
+
+  - **Myopia (short-sightedness)**: People experience the present satisfaction more strongly than the same satisfaction later
+  - **Prudence**: People know that they may not be around in the future, and so they want to consume now
+  
+--
+
+**Diminishing marginal returns to consumption**  the value to the individual of an additional unit of consumption in a given period declines the more that is consumed.
+
+--
+
+&lt;img src="https://media.giphy.com/media/lHBbcpFTS5c2Y/giphy.gif" width="35%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="imgs/f10-3-a.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The dashed line shows the combinations of consumption now and consumption later from which Julia can choose.
+
+---
+
+&lt;img src="imgs/f10-3-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia’s IC is bowed toward the origin as a consequence of diminishing marginal returns to consumption in each period: the more goods she has in the present, the less she values an additional one now relative to more in the future. 
+
+---
+
+&lt;img src="imgs/f10-3-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The MRS at C is high (the slope of her indifference curve is steep): Julia has little consumption now and a lot later, so diminishing marginal returns mean that she would like to move some consumption to the present.
+
+---
+
+&lt;img src="imgs/f10-3-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The MRS at E is low: She has a lot of consumption now and less later, so diminishing marginal returns mean that she would like to move some consumption to the future.
+
+---
+
+&lt;img src="imgs/f10-3-d.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+MRS is falling as we move along the indifference curve from C to E: the slope is steeper at C than at E.
+
+---
+
+&lt;img src="imgs/f10-3-e.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia will choose point F. It is on the highest attainable indifference curve. She prefers to smooth consumption between now and later.
+
+---
+## Optimal decision-making
+
+--
+
+**Discount rate** `\((\rho)\)`: a measure of a person's impatience.
+
+--
+  - Consumption smoothing
+  - Pure impatience 
+  
+--
+
+Individual borrows at the point where discount rate = interest rate
+
+--
+
+$$ \textit{slope of the indifference curve (MRS)} = \textit{slope of the feasible frontier (MRT)}$$
+
+--
+
+.pull-left[
+`$$MRS = 1 + \rho$$`
+]
+
+.pull-right[
+`$$MRT = 1 + r$$`
+]
+
+--
+
+$$ MRS = MRT \iff 1 + \rho = 1 + r \iff \rho = r $$
+
+---
+
+&lt;img src="imgs/f10-4-a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Julia wishes to get to the highest indifference curve but is limited by her feasible frontier.
+
+---
+
+&lt;img src="imgs/f10-4-b.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+When the interest rate is 10%, the highest attainable indifference curve will be the one that is tangent to the feasible frontier.
+
+---
+
+&lt;img src="imgs/f10-4-c.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Point E: MRS = MRT.
+
+---
+
+&lt;img src="imgs/f10-4-d.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+At point F, her discount rate, `\(\rho\)`, exceeds `\(r\)`, the interest rate, so she would like to bring consumption forward in time. 
+
+---
+
+&lt;img src="imgs/f10-4-e.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+If the interest rate at which she can borrow increases, the feasible set gets smaller.
+
+---
+
+&lt;img src="imgs/f10-4-f.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+The best Julia can do now is to borrow less (35 instead of 58), as shown by point G.
+
+
+---
+
+## Borrowers and savers
+
+--
+
+Think that instead of having 100 in the next period, you have 100 in this period.
+--
+  Instead of borrowing, lending.
+
+--
+
+.pull-left[
+
+**Reservation indifference curve**: all of the points at which the individual would be just as well off as at the reservation position (endowment).
+
+The borrower and the saver have different indifference curves because they have **different endowments.** 
+
+]
+
+--
+
+.pull-right[
+&lt;img src="imgs/f10-5.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+&lt;img src="imgs/f10-6-a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Marco has $100 of grain available now.
+
+---
+
+&lt;img src="imgs/f10-6-b.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+There is a 20% depreciation for next period. The dark line shows Marco’s feasible frontier using storage, and the shaded area shows his feasible set.
+
+---
+
+&lt;img src="imgs/f10-6-c.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Marco’s reservation indifference curve goes through his endowment.
+
+---
+
+&lt;img src="imgs/f10-6-d.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Point H on Marco’s indifference curve denotes the amount of storage that he will choose.
+
+---
+
+&lt;img src="imgs/f10-6-e.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+A better plan would be to lend the money. The light line shows the feasible frontier when Marco lends at 10%.
+
+---
+
+&lt;img src="imgs/f10-6-f.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Marco is now able to reach a higher indifference curve.
+
+---
+## Investment
+
+--
+
+.pull-left[
+
+If Marco owns some land:
+
+- he could invest the grain (planting it as seed and feeding it to his draft animals to help him work the fields until harvest). 
+
+- this opportunity to invest will further expand his feasible set. 
+
+- he has invested 100, harvested 150, and so earned a profit of 150 − 100 = 50, or a profit rate of 50%.
+
+- the slope of the red line is −1.5, where the absolute value (1.5) is the marginal rate of transformation of investment into returns, or 1 plus the rate of return on the investment.
+
+]
+
+.pull-right[
+&lt;img src="imgs/f10-7-a.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Investment
+
+.pull-left[
+
+If Marco owns some land:
+
+- he could invest the grain (planting it as seed and feeding it to his draft animals to help him work the fields until harvest). 
+
+- this opportunity to invest will further expand his feasible set. 
+
+- he has invested 100, harvested 150, and so earned a profit of 150 − 100 = 50, or a profit rate of 50%.
+
+- the slope of the red line is −1.5, where the absolute value (1.5) is the marginal rate of transformation of investment into returns, or 1 plus the rate of return on the investment.
+
+]
+
+.pull-right[
+&lt;img src="imgs/f10-7-b.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Investment
+
+.pull-left[
+
+If Marco owns some land:
+
+- he could invest the grain (planting it as seed and feeding it to his draft animals to help him work the fields until harvest). 
+
+- this opportunity to invest will further expand his feasible set. 
+
+- he has invested 100, harvested 150, and so earned a profit of 150 − 100 = 50, or a profit rate of 50%.
+
+- the slope of the red line is −1.5, where the absolute value (1.5) is the marginal rate of transformation of investment into returns, or 1 plus the rate of return on the investment.
+
+]
+
+.pull-right[
+&lt;img src="imgs/f10-7-c.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+&lt;img src="imgs/f10-8-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+If he could get a loan at 10%, he would be better off by investing everything he has. This expands his feasible set, as shown by the dotted red line.
+
+---
+
+&lt;img src="imgs/f10-8-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+Marco ends up consuming at point L, with 80 now and 62 in the future.
+
+---
+### To summarize
+
+--
+
+Borrowing, lending, storing, and investing,
+--
+ are ways of moving goods consumption forward (to the present) or backwards (to the future) in time.
+
+--
+
+People differ in which of these activities they engage (some borrowing, some lending) because:
+
+--
+
+- They have differences in their situation: For example, having an income now or later will affect their discount rates and their opportunities. Also, some have investment opportunities (like Marco), while others do not.
+
+--
+
+- They differ in their level of pure impatience.
+
+--
+
+.pull-left[
+&lt;img src="https://www.forbes.fr/wp-content/uploads/2021/02/gettyimages-137678871-740x490.jpg" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="https://www.humanite.fr/sites/default/files/images/54341.HR.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Balance Sheet
+
+--
+
+A **balance sheet**: summarises what the household or firm owns, and what it owes to others.
+
+--
+
+.pull-left[
+**Assets**: Anything of value that is owned. 
+]
+
+.pull-right[
+**Liabilities**: Anything of value that is owed. 
+]
+
+--
+
+$$ \textbf{net worth} = assets - liabilities $$
+
+--
+
+&lt;img src="imgs/f10-11.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+## Banks
+
+--
+
+A **bank** is a firm that makes profits by lending and borrowing.
+
+--
+
+Banks borrow from households (deposits), other banks, and the central bank. 
+
+--
+
+The interest they pay on deposits is lower than the interest they charge on loans, which is how banks make profits.
+
+--
+
+&lt;img src="https://cdn.radiofrance.fr/s3/cruiser-production/2020/12/37fb277c-bec6-4a31-aa07-7758049b9935/560x315_000_1o77f8.webp" width="60%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+## Central Banks
+
+--
+
+**Base money/high-powered money**: notes and coins.
+--
+ Money as legal tender.
+ 
+--
+
+Legal tender has to be accepted as payment by law.
+
+--
+
+The central bank is the only bank that can create legal tender.
+
+--
+
+- the central bank is usually owned by the government. 
+- acts as the banker for the commercial banks, who have accounts at the central bank that hold legal tender.
+- by crediting these accounts, the central bank can create money.
+
+--
+
+.pull-left[
+&lt;img src="https://www.lerevenu.com/sites/site/files/styles/img_lg/public/field/image/banque-de-france.jpg?itok=YKgcvFIM" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-left[
+&lt;img src="https://static01.nyt.com/images/2020/12/10/business/10economy-briefing-ecb/merlin_181044159_0a82e241-2b77-4df7-b64e-fe6b697f5b82-jumbo.jpg?quality=75&amp;auto=webp" width="70%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Types of money
+
+--
+
+-  **Base money:** Cash held by households, firms, and banks, and the balances held by commercial banks in their accounts at the central bank, known as reserves. Base money is the liability of the central bank.
+
+--
+
+- **Bank money:** Money in the form of bank deposits created by commercial banks when they extend credit to firms and households. Bank money is the liability of commercial banks.
+
+--
+
+- **Broad money:** The amount of broad money in the economy is measured by the stock of money in circulation. This is defined as the sum of bank money and the base money that is in the hands of the non-bank public.
+
+--
+
+$$ \textit{broad money} = \textit{base money} + \textit{bank money}
+ $$
+
+--
+
+Example: Marco has $100 in cash and he puts it in a bank account in Abacus Bank.
+
+| **Abacus Bank's assets** | | **Abacus Bank's liabilities** | |
+| -----------------------|
+| Base money: | 100 | Payable on demand to Marco | 100 |
+
+
+
+
+
+
+
+---
+## Types of money
+
+-  **Base money:** Cash held by households, firms, and banks, and the balances held by commercial banks in their accounts at the central bank, known as reserves. Base money is the liability of the central bank.
+
+- **Bank money:** Money in the form of bank deposits created by commercial banks when they extend credit to firms and households. Bank money is the liability of commercial banks.
+
+- **Broad money:** The amount of broad money in the economy is measured by the stock of money in circulation. This is defined as the sum of bank money and the base money that is in the hands of the non-bank public.
+
+
+$$ \textit{broad money} = \textit{base money} + \textit{bank money}
+ $$
+
+
+Marco wants to pay $20 to his local grocer, Gino, in return for groceries, so he instructs Abacus Bank to transfer the money to Gino’s account in Bonus Bank.
+
+.pull-left[
+
+| **Abacus Bank's assets** | | **Abacus Bank's liabilities** | |
+| -----------------------|
+| Base money: | 80 | Payable on demand to Marco | 80 |
+
+]
+
+.pull-right[
+| **Bonus Bank's assets** | | **Bonus Bank's liabilities** | |
+| -----------------------|
+| Base money: | 20 | Payable on demand to Gino | 20 |
+]
+
+
+
+
+
+
+---
+## Types of money
+
+-  **Base money:** Cash held by households, firms, and banks, and the balances held by commercial banks in their accounts at the central bank, known as reserves. Base money is the liability of the central bank.
+
+- **Bank money:** Money in the form of bank deposits created by commercial banks when they extend credit to firms and households. Bank money is the liability of commercial banks.
+
+- **Broad money:** The amount of broad money in the economy is measured by the stock of money in circulation. This is defined as the sum of bank money and the base money that is in the hands of the non-bank public.
+
+
+$$ \textit{broad money} = \textit{base money} + \textit{bank money}
+ $$
+
+
+Suppose that Gino borrows 100 from Bonus Bank. Bonus Bank lends him the money by crediting his bank account with 100, so he is now owed 120. But he owes a debt of 100 to the bank. So Bonus Bank’s balance sheet has expanded.
+
+.pull-left[
+
+| **Abacus Bank's assets** | | **Abacus Bank's liabilities** | |
+| -----------------------|
+| Base money: | 80 | Payable on demand to Marco | 80 |
+
+]
+
+.pull-right[
+| **Bonus Bank's assets** | | **Bonus Bank's liabilities** | |
+| -----------------------|
+| Base money: | 20 | Payable on demand to Gino | 120 |
+| Bank loan: | 100 | | |
+]
+
+---
+## Default risk and liquidity risk
+
+--
+
+Banks provide the service of 
+
+.pull-left[
+
+**maturity transformation**:
+
+- deposits can be withdrawn at any time
+- but loans only need to be repaid after a specified time
+
+]
+
+--
+
+.pull-right[
+
+**liquidity transformation**: 
+
+
+- deposits are liquid 
+- loans to borrowers are frozen (illiquid)
+
+]
+
+--
+
+This exposes the bank to risks:
+
+1. **Default risk**: loans are not repaid.
+2. **Liquidity risk**: an asset cannot be exchanged for cash rapidly enough to prevent a financial loss.
+
+
+---
+## Banking crisis
+
+--
+
+.pull-left[
+
+- Banks make money by lending much more than they hold in legal tender. 
+
+
+- **Bank run**: situation when all depositors demand their money at once; may result in bank failure. 
+
+
+- Banks can also fail by making bad investments, such as by giving loans that do not get paid back.
+
+- The government may intervene, because unlike the failure of a firm, a banking crisis can bring down the financial system. 
+
+]
+
+--
+
+.pull-right[
+
+&lt;img src="https://m.media-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_FMjpg_UX1000_.jpg" width="65%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+## The money market
+
+--
+
+Banks need enough base money to cover their net transactions. 
+
+--
+
+They borrow base money on the money market at the short-term interest rate. 
+
+- The demand for base money depends on how many transactions commercial banks have to make. 
+
+- The supply of base money is a decision by the central bank.
+
+--
+
+.pull-left[
+**Policy interest rate**: The interest rate on base money set by the central bank.
+]
+
+.pull-right[
+**Bank lending rate**: The average interest rate charged by commercial banks to firms and households.
+]
+
+---
+
+## The financial system
+
+&lt;img src="imgs/f10-14.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+## The business of banking
+
+--
+
+.pull-left[
+**Bank’s costs**:
+
+- operational: the salaries of bank officers, branch rents
+- interest costs: paying interest on their liabilities (deposits and other borrowing)
+
+]
+
+.pull-right[
+
+**Bank’s revenue**: 
+- interest and repayment of loans
+
+]
+
+--
+
+**Expected return**: The return on the loans, taking into account the default risk. 
+
+--
+
+`$$\textbf{net worth} = assets – liabilities$$`
+
+The net worth of a bank is what is owed to the shareholders/ owners. It is also called **equity**.
+
+Negative net worth means the bank is insolvent.
+
+--
+
+Leverage describes the reliance of a company on debt. 
+
+$$leverage = \frac{\textit{total assets}}{\textit{net worth}}  $$
+
+---
+
+| **Assets (owned by the bank or owed to it)** | | **% of balance sheet** | **Liabilities (what the bank owes households, firms and other banks)** | | **% of balance sheet** |
+|-------|
+| Cash reserve balances at the central bank (A1) |	Owned by the bank: immediately accessible funds |	2 |	Deposits (L1)	| Owned by households and firms	| 50|
+| Financial assets, some of which (government bonds) may be used as collateral for borrowing) (A2)	| Owned by the bank	| 30 | Secured borrowing (collateral provided) (L2) | Includes borrowing from other banks via the money market |	30 |
+| Loans to other banks (A3)	| Via the money market	| 11 | Unsecured borrowing (no collateral provided) (L3)	| | 16 |
+| Loans to households (A4) | | 55	|	
+| Fixed assets such as buildings and equipment (A5) |	Owned by the bank |	2	|
+| **Total assets** |		| 100	| **Total liabilities**	|	| 96 |
+
+
+$$\textit{net worth} = \textit{total assets} − \textit{total liabilities} = equity \quad (L4)	 = 4 $$
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-a.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Julia expects to receive $100 in one year.
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+At the moneylender’s interest rate of 78%, she borrowed in order to spend $35 now (point G).
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+At the interest rate of 10% she would borrow and spend $58 now (point E).
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-d.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The right-hand panel of the figure traces out Julia’s consumption spending now as the interest rate falls, with G and E corresponding to the same points in the left-hand panel.
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-e.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The downward-sloping line is Julia’s demand for loans, which also shows her expenditure now.
+
+---
+## Policy rate and the economy
+
+&lt;img src="imgs/f10-18-e.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+**higher interest rate** `\(\rightarrow\)` **low spending today**
+
+---
+## Principal-agent problem
+
+--
+
+Lending is risky.
+
+--
+
+**Principal-agent problem**: 
+a conflict of interest between principal and agent, about some hidden action or attribute of the agent that cannot be enforced or guaranteed in a binding contract.
+
+--
+
+Example: Financing a project.
+
+Lenders face the risk that money borrowed will not be repaid, but lack information about the project’s success or borrower’s effort so cannot ensure that the project succeeds. 
+
+--
+
+| | **Actors** | **Conflict of interest over** | **Enforceable contracts cover** | **Unenforceable** | **Result** |
+| -------- |
+| **Labour Market (Units 6 and 9)** | Employers  Employees | Wages, work (quality and amount) | Wages, time, conditions | Work (quality and amount), duration of employment | Effort under-provided; unemployment |
+| **Credit market (Units 10 and 12)** |	Lender Borrower	| Interest rate, conduct of project (effort, prudence) | Interest rate |	Effort, prudence, repayment |	Too much risk, credit constraints |
+
+---
+## Equity and collateral
+
+--
+
+To resolve the conflict of interest between the principal (lender) and the agent (borrower):
+
+--
+
+- **Equity**: the lender may require the borrower to put some of her wealth into the project
+
+--
+
+- **Collateral**: the borrower has to set aside property that will be transferred to the lender if the loan is not repaid
+
+--
+
+## Credit rationing
+
+--
+
+Those with less wealth find it more difficult to provide equity or collateral. 
+
+--
+
+**Credit rationing**: when those with less wealth
+
+
+- borrow on unfavourable terms compared with those with more wealth (**credit-constrained**)
+
+--
+
+- or are refused loans entirely (**credit-excluded**)
+
+---
+
+**Credit-rationing increases inequality**: 
+
+--
+ People with limited wealth are not able to profit from the investment opportunities that are open to those with more assets.
+ 
+--
+
+.left-column[
+
+Example: 
+
+An economy is composed of 90 farmers who borrow from 10 lenders. 
+
+`\(i = \textit{share of lenders} = 0.10\)`
+
+`\(\Pi = \textit{rate of profit} = 0.15\)`
+
+`\(\Rightarrow\)` lenders’ share of total income is 2/3 and the borrowers’ is 1/3. 
+
+The Gini coefficient is 0.57.
+
+]
+
+.right-column[
+&lt;img src="imgs/f10-21-a.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+**Credit-rationing increases inequality**: People with limited wealth are not able to profit from the investment opportunities that are open to those with more assets.
+ 
+.left-column[
+
+Example: 
+
+An economy is composed of 90 farmers who borrow from 10 lenders. 
+
+`\(i = \textit{share of lenders} = 0.10\)`
+
+`\(\Pi = \textit{rate of profit} = 0.15\)`
+
+Suppose that 40 of the prospective borrowers are excluded. Since they cannot borrow, they receive no income at all.
+
+]
+
+.right-column[
+&lt;img src="imgs/f10-21-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+**Credit-rationing increases inequality**: People with limited wealth are not able to profit from the investment opportunities that are open to those with more assets.
+ 
+.left-column[
+
+Example: 
+
+An economy is composed of 90 farmers who borrow from 10 lenders. 
+
+`\(i = \textit{share of lenders} = 0.10\)`
+
+`\(\Pi = \textit{rate of profit} = 0.15\)`
+
+When some prospective borrowers are excluded, the Gini coefficient increases to 0.70.
+
+]
+
+.right-column[
+&lt;img src="imgs/f10-21-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Summary
+
+--
+
+1) Ways to move consumption forward/into the future
+
+--
+
+- Borrowing, saving, investing
+- Options available depend on individual’s endowment
+- Optimal choice depends on individual’s discount rate
+
+--
+
+2) Outline of the banking system
+
+--
+
+- Banks create money (lend) to make profits
+- Central bank sets the policy rate, which influences spending
+- Issues: principal-agent problem, credit constraints 
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
