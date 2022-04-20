@@ -1,0 +1,847 @@
+---
+title: "Economic accounting and fluctuations"
+subtitle: "Unit 13: Economic fluctiations and unemployment"
+author: "Guillermo Woo-Mora"
+date: "20/04/2022"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(out.width = "90%")
+knitr::opts_chunk$set(fig.align="center")
+options(htmltools.dir.version = FALSE)
+
+
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+# set default options
+opts_chunk$set(echo=FALSE,
+               collapse = TRUE,
+               fig.width = 7.252,
+               fig.height = 4,
+               dpi = 300)
+# set engines
+knitr::knit_engines$set("markdown")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+# uncomment the following lines if you want to use the NHS-R theme colours by default
+# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
+# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
+# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
+# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
+```
+
+--
+
+```{r out.width="80%"}
+knitr::include_graphics("https://pbs.twimg.com/media/EaP79PwWoAIykCb.jpg")
+```
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/covid1.png")
+```
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/covid2.png")
+```
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/covid3.png")
+```
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("https://static01.nyt.com/images/2020/03/26/us/up-coronavirus-official-unemployment-claims-promo-1585230160180/up-coronavirus-official-unemployment-claims-promo-1585230160180-superJumbo-v6.jpg")
+```
+
+---
+## Economic growth is not a smooth process
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/uk-real-gdp-per-capita-in-2011-us-dollars.svg")
+```
+
+---
+## Economic growth is not a smooth process
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/uk-log-of-real-gdp-per-capita-in-2011-us.svg")
+```
+
+---
+.pull-left[
+## The business cycle
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f13-3-a.png")
+```
+]
+
+---
+.pull-left[
+## The business cycle
+
+- **Business cycle**: Alternating periods of positive and negative growth rates.
+
+
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f13-3-b.png")
+```
+]
+
+---
+.pull-left[
+## The business cycle
+
+- **Business cycle**: Alternating periods of positive and negative growth rates.
+
+- **Recession**: period when output is declining or below its potential level
+
+
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f13-3-c.png")
+```
+]
+
+---
+.pull-left[
+## The business cycle
+
+- **Business cycle**: Alternating periods of positive and negative growth rates.
+
+- **Recession**: period when output is declining or below its potential level
+
+- The business cycle affects labour market outcomes.
+
+
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f13-3-d.png")
+```
+]
+
+---
+.pull-left[
+## The business cycle
+
+- **Business cycle**: Alternating periods of positive and negative growth rates.
+
+- **Recession**: period when output is declining or below its potential level
+
+- The business cycle affects labour market outcomes
+
+  - Changes in the rate of GDP growth are negatively correlated with the unemployment rate.
+  
+  - Output falls $\rightarrow$ Unemployment rises
+ $\rightarrow$ Well-being falls
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f13-3-d.png")
+```
+]
+
+---
+**Okun’s Law**: 
+--
+a strong and stable relationship between unemployment and GDP growth. 
+
+--
+
+```{r out.width="57.5%"}
+knitr::include_graphics("imgs/f13-5.png")
+```
+
+---
+## Measuring the aggregate economy 
+
+--
+
+**National accounts**: 
+--
+system used to measure overall output and expenditure in a country.
+
+--
+
+.left-column[
+
+Three equivalent ways to measure GDP:
+
+
+1. Total spending on domestic products
+
+
+2. Total domestic production (measured as value added)
+
+3. Total domestic income
+
+]
+
+--
+
+.right-column[
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f13-6.png")
+```
+]
+
+---
+## Exports, imports, and government
+
+--
+
+- How do we account for international transactions?
+ e.g. foreign production is domestic consumption (imports); or domestic production is foreign consumption (exports)
+ 
+--
+
+  - We include exports and exclude imports, so that GDP includes value added, income from, or consumption of, domestic production.
+  
+--
+
+- How do we incorporate government?
+
+--
+
+  - Treat it as another producer – public services are “bought” via taxes
+  
+--
+  
+  - Assume that cost of production captures the value added
+
+---
+## Components of GDP
+
+--
+
+$$GDP = Y = C + I + G + X – M$$
+--
+
+- **Consumption (C)**: Expenditure on consumer goods and services 
+
+--
+
+- **Investment (I)**: Expenditure on newly produced capital goods (incl. equipment, buildings, and inventories = unsold output) 
+
+--
+
+- **Government spending (G)**: Government expenditure on goods and services (excluding transfers to avoid double-counting)
+
+--
+
+- **Net exports (trade balance)** = **Exports (X)** minus **imports (M)**
+
+--
+
+| | US | Eurozone | China |
+|-------------------------|
+| Consumption (C)	| 68.4%	| 55.9%	| 37.3% |
+| Government spending (G)	| 15.1%	| 21.1%	| 14.1% |
+| Investment (I)	| 19.1%	| 19.5%	| 47.3% |
+| Change in inventories	 | 0.4%	 | 0.0%	 | 2.0% |
+| Exports (X)	| 13.6%	| 43.9%	| 26.2% |
+| Imports (M)	| 16.6%	| 40.5%	| 23.8% |
+
+
+
+
+---
+## Components of GDP
+
+$$GDP = Y = C + I + G + X – M$$
+
+- **Consumption (C)**: Expenditure on consumer goods and services 
+
+- **Investment (I)**: Expenditure on newly produced capital goods (incl. equipment, buildings, and inventories = unsold output) 
+
+- **Government spending (G)**: Government expenditure on goods and services (excluding transfers to avoid double-counting)
+
+- **Net exports (trade balance)** = **Exports (X)** minus **imports (M)**
+
+
+$$ \Delta GDP \% = \Delta Y \% = \Delta C \% \cdot \frac{C}{Y} + \Delta I \% \cdot \frac{I}{Y}  + \Delta G \% \cdot \frac{G}{Y}  + \Delta NE \% \cdot \frac{NE}{Y} $$
+
+| 	| GDP	| Consumption	| Investment |	Government spending	| Net exports |
+|-----------|
+| 2009	| −2.8	| −1.06	| −3.52	| 0.64	| 1.14 |
+
+---
+## Economic fluctuations: UK
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-a.png")
+```
+
+--
+
+Economies fluctuate between good and bad times. 
+
+---
+## Economic fluctuations: UK
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-b.png")
+```
+
+Economies fluctuate between good and bad times. 
+
+---
+## Economic fluctuations: UK
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-c.png")
+```
+
+Economies fluctuate between good and bad times. 
+
+---
+## Economic fluctuations: UK
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-d.png")
+```
+
+Economies fluctuate between good and bad times. 
+
+---
+## Economic fluctuations: UK
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-e.png")
+```
+
+Economies fluctuate between good and bad times. 
+
+---
+## Economic fluctuations: India
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9b.png")
+```
+
+Economies fluctuate between good and bad times. 
+
+---
+--
+
+**Shock**: an unexpected event which causes GDP to fluctuate.
+
+--
+
+Two kinds of shocks:
+--
+ **Household shocks**
+
+--
+ and **Economy-wide shocks**.
+
+--
+ How to deal with them?
+
+--
+
+.pull-left[
+
+**Household shocks**
+
+1) **Self-insurance** – saving and borrowing. Other households are not involved. 
+
+2) **Co-insurance** – support from social network or government.
+
+This reflects that households prefer to **smooth their consumption**, and that they are (to a degree) **altruistic**.
+
+]
+
+--
+
+.pull-right[
+
+**Economy-wide shocks**
+
+Co-insurance is less effective if the bad shock hits everyone at the same time.
+
+But co-insurance is even more necessary.
+
+In farming economies of the past that were based in volatile climates, people practised co-insurance based on **trust, reciprocity, and altruism**.
+
+
+
+]
+
+--
+
+.pull-left[
+
+Formal mechanisms
+```{r out.width="80%"}
+knitr::include_graphics("https://www.portdebouc.fr/media/images/page/images/principale/85/1000-1000/logo-cpam.jpg?version=1559138298")
+```
+]
+
+--
+
+.pull-right[
+
+Informal mechanisms
+
+```{r out.width="50%"}
+knitr::include_graphics("https://miro.medium.com/max/1280/1*GLCCcriKywWHkfmEW3WIsA.jpeg")
+```
+]
+
+---
+## Smoothing Consumption
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-10-a.png")
+```
+
+The blue line shows the path of income over time: it starts low, rises when the individual is promoted and falls at retirement.
+
+---
+## Smoothing Consumption
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-10-b.png")
+```
+
+This is the red line. It is smooth (flat) from the point at which the individual first gets a job.
+
+---
+## Smoothing Consumption
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f13-10-c.png")
+```
+
+At this time income is low. The individual saves and repays the debt when older and earning more, and finally runs down savings after retirement, when income falls again.
+
+---
+## Smoothing Consumption
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f13-10-c.png")
+```
+
+**Consumption smoothing is a basic source of stabilisation in an economy.** They think about what might happen to their income in the future, and they save and borrow to smooth the bumps in income. This is self-insurance.
+
+---
+## Limitations to smoothing: credit constraints
+
+--
+
+.left-column[
+
+**Credit constraints** – limits on amount borrowed/ability to borrow.
+
+The blue lines on the figure show that the path of income over time is the same in both households.
+]
+
+--
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-11-a.png")
+```
+]
+
+---
+## Limitations to smoothing: credit constraints
+
+
+.left-column[
+
+**Credit constraints** – limits on amount borrowed/ability to borrow.
+
+In a consumption-smoothing household, consumption changes immediately once the household receives the news.
+
+]
+
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-11-b.png")
+```
+]
+
+---
+## Limitations to smoothing: credit constraints
+
+
+.left-column[
+
+**Credit constraints** – limits on amount borrowed/ability to borrow.
+
+A credit-constrained household that cannot borrow has to wait until the income arrives before adjusting its standard of living.
+
+]
+
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-11-c.png")
+```
+]
+
+---
+## Limitations to smoothing: credit constraints
+
+.left-column[
+
+**Credit constraints** – limits on amount borrowed/ability to borrow.
+
+A credit-constrained household that cannot borrow has to wait until the income arrives before adjusting its standard of living.
+
+
+The households unable to adjust to a temporary income shock have lower welfare.
+
+]
+
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-11-c.png")
+```
+]
+
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-a.png")
+```
+
+Consider a household that receives the same income, y, this period and next period, indicated by the endowment point A.
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-b.png")
+```
+
+The interest rate is r so if the household can borrow and save, then it can choose any point on the budget constraint, which has the slope −(1 + r).
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-c.png")
+```
+
+If the household prefers to consume the same amount each period, shown by the point A where the indifference curve is tangent to the budget constraint.
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-d.png")
+```
+
+There is an unexpected negative temporary shock in income, which lowers this year’s income to y′, leaving expected income next year unaffected at y.
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-e.png")
+```
+
+If it can borrow and save, then its budget constraint has a slope of −(1 + r) and passes through point A′.
+
+---
+## Limitations to smoothing: credit constraints
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-12-f.png")
+```
+
+Optimal consumption at A″: the household prefers to smooth consumption, consuming c′ in both periods. The household borrows c′ − y′ now and repays (1 + r)(c′ − y′) next period following the shock.
+
+---
+## Limitations to smoothing: weakness of will
+
+--
+
+.left-column[
+
+**Weakness of will** – inability to commit to beneficial future plans.
+
+
+The blue lines in the figure show that income follows the same path in both sets of households.
+
+
+]
+
+--
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-13-a.png")
+```
+]
+
+---
+## Limitations to smoothing: weakness of will
+
+
+.left-column[
+
+**Weakness of will** – inability to commit to beneficial future plans.
+
+
+When a consumption-smoothing household receives news of the imminent fall in income, it immediately starts saving to supplement consumption when income falls.
+
+]
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-13-b.png")
+```
+]
+
+---
+## Limitations to smoothing: weakness of will
+
+.left-column[
+
+**Weakness of will** – inability to commit to beneficial future plans.
+
+
+The weak-willed household does not react to the news, and keeps consumption high until income falls.
+
+]
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-13-c.png")
+```
+]
+
+---
+## Limitations to smoothing: weakness of will
+
+.left-column[
+
+**Weakness of will** – inability to commit to beneficial future plans.
+
+
+The weak-willed household does not react to the news, and keeps consumption high until income falls.
+
+A household is able to smooth consumption but doesn’t, and may regret it later.
+
+]
+
+.right-column[
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-13-c.png")
+```
+]
+
+---
+## Investment
+
+--
+
+Firms don’t have preferences for smoothing like households.
+--
+ They adjust investment plans to both temporary and permanent shocks, to maximise their profits.  
+
+--
+
+**Capacity utilisation**: A measure of the extent to which a firm, industry, or entire economy is producing as much as the stock of its capital goods and current knowledge would allow.
+
+--
+
+.pull-left[
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f13-15.png")
+```
+]
+
+.pull-right[
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f13-16.png")
+```
+]
+
+--
+
+Investment decisions depend on firms’ expectations about future demand.
+
+---
+## Investment: A coordination game
+
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f13-17.png")
+```
+
+---
+## Investment: A coordination game
+
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f13-18.png")
+```
+
+--
+
+**Business confidence** coordinates firms to invest at the same time. 
+
+---
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f13-19-a.png")
+```
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f13-19-b.png")
+```
+
+---
+
+## Investment and the aggregate economy
+
+--
+
+- The benefits of coordinating investment makes cycles self-reinforcing.
+
+--
+
+- Firms respond positively to the growth of demand in the economy. **This is why investment is more volatile than GDP.**
+
+--
+
+  - Government spending is less volatile than investment (does not depend on business confidence)
+  
+  - Exports depend on demand from other countries, so will fluctuate according to the business cycles of major export markets.  
+
+---
+## Inflation
+
+--
+
+**Inflation**: an increase in the general price level in the economy, usually measured over a year.
+
+--
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/uk-inflation-rate-19892019.svg")
+```
+
+
+---
+
+Inflation tends to be lower during recessions.
+
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/uk-gdp-growth-19572016.svg")
+```
+
+---
+
+Inflation tends to be lower during high unemployment.
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/uk-unemployment-rate-19712017.svg")
+```
+
+---
+## Measuring inflation
+
+--
+
+.pull-left[
+
+**Consumer Price Index (CPI)**
+
+Measures the general level of prices that consumers have to pay for goods and services, including consumption taxes
+
+- Based on a representative bundle of consumer goods – “cost of living”
+- Common measure of inflation = change in CPI 
+
+]
+
+.pull-left[
+
+**GDP deflator**
+
+A measure of the level of prices for domestically produced output (ratio of nominal to real GDP) 
+
+- Tracks prices of components of GDP (C, I, G, NX)
+- Allows GDP to be compared across countries and over time
+
+]
+
+--
+
+```{r out.width = "35%"}
+knitr::include_graphics("https://media.giphy.com/media/xT5LMW0JYGEd9EIQF2/giphy.gif")
+```
+
+---
+## Trends in inflation
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/inflation-levels-and-volatility-in-high--and-low-income-economies-1960-2017.svg")
+```
+
+---
+## Summary
+
+--
+
+1) Economic growth is not a smooth process – the economy goes through a business cycle
+
+--
+
+  - Households try to smooth their consumption over the business cycle (problem: credit constraints)
+  - Investment is more volatile than GDP; the outcome of a self-reinforcing coordination game
+  -  Inflation moves with the business cycle
+  
+--
+
+2) System of national accounts to measure the economy
+
+  - GDP = C + I + G + X – M
+  - Measuring GDP as income, spending, production
