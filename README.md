@@ -29,7 +29,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 - **Economic accounting and fluctuations**
 
-  - [Unit 13: Economic fluctiations and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-13/core-unit13.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-13/core-unit13.pdf))
+  - [Unit 13: Economic fluctuations and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-13/core-unit13.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-13/core-unit13.pdf))
 
 
 You can reach me at guillermo.woo-mora [at] psemail.eu.
