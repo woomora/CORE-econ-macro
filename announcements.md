@@ -6,7 +6,7 @@
 
 ## **Policy and research project** :page_facing_up: 
 
-- Guidelines:
+### Guidelines :mag:
   - 35 minutes presentation
     - 25 minutes on the unit's topics
     - 10 minutes on policy proposal 
@@ -24,7 +24,7 @@
       - A research question proposal to further study in more depth the topic (only the re-
 search question)
   
-- Presentations calendar :date:
+### Presentations calendar :date:
   - 08/06
     - Unit 21: Innovation, Information, and the Networked Economy
     - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
