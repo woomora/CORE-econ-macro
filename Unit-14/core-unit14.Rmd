@@ -1,0 +1,1121 @@
+---
+title: "Fiscal Policy"
+subtitle: "Unit 14: Unemployment and Fiscal Policy"
+author: "Guillermo Woo-Mora"
+date: "11/05/2022"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(out.width = "90%")
+knitr::opts_chunk$set(fig.align="center")
+options(htmltools.dir.version = FALSE)
+
+
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+# set default options
+opts_chunk$set(echo=FALSE,
+               collapse = TRUE,
+               fig.width = 7.252,
+               fig.height = 4,
+               dpi = 300)
+# set engines
+knitr::knit_engines$set("markdown")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+# uncomment the following lines if you want to use the NHS-R theme colours by default
+# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
+# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
+# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
+# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
+```
+
+--
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/fluctuations-in-output-and-the-size-of-government-in-the-us.svg")
+```
+
+---
+
+Aggregate demand (GDP) can fluctuate due to consumption and investment decisions.
+
+--
+
+Sometimes the aggregate decisions of households and firms can destabilize the economy.
+
+--
+
+- How can the government stabilize the economy?
+
+--
+
+- Why might government policies be ineffective? 
+
+--
+
+- How can we model the link between output and unemployment?
+
+--
+
+Use a model of aggregate demand to explain how government spending can stabilize the economy
+
+---
+## The Multiplier model
+
+--
+
+Simple model that excludes the government and foreign trade.
+--
+ Then we only have
+--
+ consumption 
+--
+ and investment.
+
+--
+
+$$C = c_0 + c_1 Y$$
+
+--
+
+.pull-left[
+
+- $c_0 \rightarrow$ **autonomous consumption**: how much people will spend, independent of their income.
+
+- $c_1 \rightarrow$ **marginal propensity to consume (MPC)**: the effect of one additional unit of income on consumption.
+
+- $0 > c_1 > 1$: only part of an increase in income is consumed; the rest is saved.
+
+]
+
+--
+
+.pull-right[
+```{r out.width="120%"}
+knitr::include_graphics("imgs/f14-2-a.png")
+```
+
+]
+
+
+
+
+---
+## The Multiplier model
+
+Simple model that excludes the government and foreign trade. Then we only have consumption and investment.
+
+
+$$C = c_0 + c_1 Y$$
+
+
+.pull-left[
+
+- $c_0 \rightarrow$ **autonomous consumption**: how much people will spend, independent of their income.
+
+- $c_1 \rightarrow$ **marginal propensity to consume (MPC)**: the effect of one additional unit of income on consumption.
+
+- $0 > c_1 > 1$: only part of an increase in income is consumed; the rest is saved.
+
+]
+
+
+.pull-right[
+```{r out.width="120%"}
+knitr::include_graphics("imgs/f14-2-b.png")
+```
+
+]
+
+
+
+
+---
+## The Multiplier model
+
+Simple model that excludes the government and foreign trade. Then we only have consumption and investment.
+
+
+$$C = c_0 + c_1 Y$$
+
+
+.pull-left[
+
+- $c_0 \rightarrow$ **autonomous consumption**: how much people will spend, independent of their income.
+
+- $c_1 \rightarrow$ **marginal propensity to consume (MPC)**: the effect of one additional unit of income on consumption.
+
+- $0 > c_1 > 1$: only part of an increase in income is consumed; the rest is saved.
+
+]
+
+
+.pull-right[
+```{r out.width="120%"}
+knitr::include_graphics("imgs/f14-2-c.png")
+```
+]
+
+---
+## Consumption function
+
+--
+
+Marginal propensity to consume varies across people:
+
+--
+
+- poor households with credit constraints react a lot to variation in current income, so their MPC is large
+
+--
+
+- for wealthy households, current income matters little for current consumption, so their MPC is small
+
+--
+
+Expectations about future income are reflected in autonomous consumption.
+
+--
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-3.png")
+```
+
+---
+## Goods market equilibrium
+
+--
+
+$$output= \textit{aggregate demand for goods produced in the home economy}$$
+$$Y = AD$$
+
+--
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f14-4-a.png")
+```
+
+**Goods market equilibrium**: the economy will continue producing at that output level unless something changes spending behaviour.
+
+---
+## Goods market equilibrium
+
+$$Y = AD$$
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f14-4-b.png")
+```
+
+The 45-degree line from the origin of the diagram shows all the combinations in which output is equal to aggregate demand, meaning the economy is in goods market equilibrium.
+
+---
+## Goods market equilibrium
+
+$$Y = AD = c_0 + c_1 Y$$
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f14-4-c.png")
+```
+
+The first component of aggregate demand is consumption, which is represented by the consumption line.
+
+---
+## Goods market equilibrium
+
+$$Y = AD = c_0 + c_1 Y + I$$
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f14-4-d.png")
+```
+
+Adding investment to the consumption line simply leads to a parallel upward shift of the aggregate demand line.
+
+---
+## The multiplier process
+
+--
+
+Changes in output can be greater than the initial change in aggregate demand. 
+
+--
+
+This is because of the circular flow of expenditure, income, and output.
+
+--
+
+$$Y = AD = C + I = c_0 + c_1 Y + I$$
+
+--
+
+$$\Rightarrow Y - c_1 Y = c_0 + I \iff Y \cdot (1 - c_1) = c_0 + I$$
+$$\iff Y  = \frac{1}{(1 - c_1)} \cdot (c_0 + I)$$
+--
+
+The multiplier represents the relative magnitude of this change.
+
+--
+
+- multiplier = 1: the increase in GDP = the initial increase in spending
+
+--
+
+- multiplier > (<) 1: the total increase in GDP > (<) the initial increase in spending
+
+--
+
+**Decrease on investment**
+--
+ $\rightarrow$ lower spending
+--
+ $\rightarrow$ lower production and lower incomes
+--
+ $\rightarrow$
+firms will fire workers
+--
+ $\rightarrow$ further decline in spending
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-a.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-b.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-c.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-d.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-e.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-f.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-g.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-h.png")
+```
+
+---
+## The multiplier process
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-5-i.png")
+```
+
+---
+
+- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+
+--
+
+- But consumption and saving behaviour can also shift the aggregate demand curve.
+
+--
+
+$$Y = AD = c_0 + c_1 Y + I$$ 
+
+--
+
+.left-column[
+**Fall in house prices**
+
+$\rightarrow$ bad news for a household with a mortgage
+
+$\rightarrow$ they may choose to save more (precautionary saving)
+
+$\rightarrow$ their autonomous consumption would fall
+
+]
+
+--
+
+.right-column[
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-6-a.png")
+```
+
+]
+
+---
+
+- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+
+- But consumption and saving behaviour can also shift the aggregate demand curve.
+
+$$Y = AD = c_0 + c_1 Y + I$$ 
+
+.left-column[
+**Fall in house prices**
+
+$\rightarrow$ bad news for a household with a mortgage
+
+$\rightarrow$ they may choose to save more (precautionary saving)
+
+$\rightarrow$ their autonomous consumption would fall
+
+]
+
+
+.right-column[
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-6-b.png")
+```
+
+]
+
+---
+
+- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+
+- But consumption and saving behaviour can also shift the aggregate demand curve.
+
+$$Y = AD = c_0 + c_1 Y + I$$ 
+
+.left-column[
+**Fall in house prices**
+
+$\rightarrow$ bad news for a household with a mortgage
+
+$\rightarrow$ they may choose to save more (precautionary saving)
+
+$\rightarrow$ their autonomous consumption would fall
+
+]
+
+
+.right-column[
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-6-c.png")
+```
+
+]
+
+---
+
+- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+
+- But consumption and saving behaviour can also shift the aggregate demand curve.
+
+$$Y = AD = c_0 + c_1 Y + I$$ 
+
+.left-column[
+**Fall in house prices**
+
+$\rightarrow$ bad news for a household with a mortgage
+
+$\rightarrow$ they may choose to save more (precautionary saving)
+
+$\rightarrow$ their autonomous consumption would fall
+
+]
+
+
+.right-column[
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-6-d.png")
+```
+
+]
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-a.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-b.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-c.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-d.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-e.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-f.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-g.png")
+```
+
+---
+## Household Wealth
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-7-h.png")
+```
+
+**Target wealth**: the level of wealth that a household aims to hold, based on its economic goals (or preferences) and expectations.
+
+---
+
+**Precautionary saving**: An increase in saving to restore wealth to its target level. 
+
+--
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-8-a.png")
+```
+
+---
+
+**Precautionary saving**: An increase in saving to restore wealth to its target level. 
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-8-b.png")
+```
+
+---
+
+**Precautionary saving**: An increase in saving to restore wealth to its target level. 
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-8-c.png")
+```
+
+- A fall in expected earnings will lead to cut in consumption (precautionary savings) to restore target wealth.
+
+- Changes in house prices affect consumption through 1) changes in household wealth (home equity), and 2) changes in credit constraints -lower house value makes it more difficult to borrow (greater credit constraint)-.
+
+---
+## Investment
+--
+
+Volatility of investment vs the smoothness of consumption spending.
+--
+ How do firms make investment decisions? What to do with accumulated profits?
+ 
+--
+
+- *Dividends*: Allocate the funds to managerial or employee salaries, or to dividends for owners.
+- *Saving*: Buy an interest-bearing financial asset such as a bond, or retire (pay off) existing debt.
+- *Investment abroad*: Build new productive capacity in another country.
+- **Investment at home**: Build new capacity in the home country.
+
+--
+
+.pull-left[
+
+- Owner’s discount rate: 
+$$\rho$$
+
+- Interest rate on assets: 
+$$r$$
+
+- Net profit rate on investment:
+$$\Pi$$
+
+]
+
+--
+
+.pull-right[
+
+- Consume the extra income (dividends) if 
+
+$$\rho > r ≥ \Pi$$
+
+- Save the extra income/repay debts if
+
+$$r > \rho ≥ \Pi$$
+
+- Invest (at home or abroad) if Π > ρ ≥ r 
+
+$$\Pi > \rho ≥ r$$
+
+]
+
+--
+
+**A lower interest rate makes investment more likely.**
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-9-a.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-9-b.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-9-c.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-9-d.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f14-9-e.png")
+```
+
+---
+
+Higher expected rate of profit $E(\Pi)$ increases investment, holding $r$ constant.
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-10a-a.png")
+```
+
+---
+
+Higher expected rate of profit $E(\Pi)$ increases investment, holding $r$ constant.
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-10a-b.png")
+```
+
+Improvement in business environment (such as fall in the risk of expropriation by the government) also increases investment.
+
+---
+
+Higher forecast demand raises the desired size of each project, so investment rises.
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-10b-a.png")
+```
+
+---
+
+Higher forecast demand raises the desired size of each project, so investment rises.
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-10b-b.png")
+```
+
+---
+## Aggregate investment function
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f14-10c-a.png")
+```
+
+---
+## Aggregate investment function
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f14-10c-b.png")
+```
+
+---
+## Aggregate investment function
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f14-10c-c.png")
+```
+
+How investment spending in the economy as a whole depends on other variables (interest rate and profit expectations). 
+
+Investment is not very sensitive to interest rate. Instead, the shift factors are much more important.
+
+---
+## Adding government and net exports to aggregate demand
+
+--
+$$AD = C + I + G + X - M$$
+ 
+--
+
+.pull-left[
+
+Government enters AD via
+
+- Government spending: exogenous $\rightarrow$ shifts AD curve upwards
+
+$$G$$
+
+- Consumption **C**: household’s MPC is out of disposable income (1-t)Y
+
+$$C= c_0 + c_1(1-t)Y$$
+
+- Investment: depends on the interest rate and after-tax rate of profit
+
+
+$$I= I(r)$$
+
+]
+
+--
+
+.pull-right[
+
+- Exports: exogenous
+
+$$X$$
+
+- Imports: depends on domestic income.
+
+$$M = mY$$
+
+Marginal propensity to import = The fraction of each additional unit of income that is spent on imports
+
+]
+
+--
+
+$$AD = Y = c_0 + c_1(1 - t) Y + I(r) + G + X - mY$$
+
+---
+## The multiplier model (again)
+
+$$AD = Y = c_0 + c_1(1 - t) Y + I(r) + G + X - mY$$
+
+--
+
+Saving, taxation and imports are referred to as leakages from the circular flow of income.
+--
+ They reduce the size of the multiplier.
+ 
+--
+
+- some household income goes directly to the government as taxes
+- some income is used to buy goods abroad
+
+--
+
+$$ Y = \frac{1}{1 - c_1 (1 - t) + m} \cdot (c_0 + I(r) + G + M)$$
+--
+
+Smaller multiplier = flatter AD curve. 
+
+---
+## Stabilising the economy
+
+--
+
+There are three main ways that government spending and taxation can dampen fluctuations in the economy:
+
+--
+
+- The size of government: government spending on consumption and investment is usually stable.
+  - Higher tax rate lowers the multiplier
+- Automatic stabilization mechanisms: Unemployment insurance helps households smooth consumption
+  - Failure of private market because of correlated risk, hidden actions, hidden attributes
+- **Fiscal policy**
+
+--
+
+.pull-left[
+
+**The paradox of thrift**: the aggregate attempt to increase savings leads to a fall in aggregate income.
+
+- A family worried about their falling wealth cuts spending and saves more
+
+- But in the economy as a whole, spending and earning go together
+
+**Fallacy of composition:** what is true for one part of the economy (a single household) is not true of the whole economy.
+
+
+]
+
+--
+
+.pull-right[
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/14-john-maynard-keynes.jpeg")
+```
+
+]
+
+---
+## Fiscal stimulus
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11a-a.png")
+```
+
+---
+## Fiscal stimulus
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11a-b.png")
+```
+
+Cut taxes to encourage the private sector to spend more, or increase spending (G), which directly increases AD 
+
+---
+## Fiscal stimulus
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11a-c.png")
+```
+
+The rise in G operates via the multiplier, so the increase in Y will typically be greater than the increase in G.
+
+---
+## Financing fiscal stimulus
+
+--
+
+.pull-left[
+
+
+
+
+]
+
+--
+
+.pull-right[
+
+```{r out.width="100%"}
+knitr::include_graphics("https://media.giphy.com/media/26ybwpPwBQ7tblT8c/giphy.gif")
+```
+
+]
+
+--
+
+- In a recession, budget deficit is part of its stabilizing role.
+
+--
+
+- When government chooses to reduce its deficit, this may amplify fluctuations in the economy.
+
+---
+## Austerity policy
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11b-a.png")
+```
+
+---
+## Austerity policy
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11b-b.png")
+```
+
+---
+## Austerity policy
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f14-11b-c.png")
+```
+
+Austerity policy can reinforce a recession by further reducing aggregate demand.
+
+---
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-12.png")
+```
+
+---
+## How responsive is the economy to government spending?
+
+--
+
+- In reality, the multiplier also depends on:
+
+  -  rate of capacity utilisation (the phase of the business cycle):  with fully employed resources, an increase in government spending would **crowd out** private spending
+
+  - expectations of the private sector: the multiplier could be negative if rising fiscal deficit erodes consumer confidence
+
+--
+
+
+.pull-left[
+
+- After the 2008 Financial crisis, a heated political debate
+
+  - Robert Barro: $\leq 0.8$
+  - President Obama’s Council of Economic Advisors: $\approx 1.6$
+  - Alan Auerbach and Yuriy Gorodnichenko: **depends**
+      - recessions: $\in (1.5, 2)$
+      - expansions: $\approx 0.5$
+
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/14_auerbach_gorodnichenko.png")
+```
+]
+
+---
+## The government’s finances
+
+--
+
+.pull-left[
+**Revenue**
+
+- income taxes
+- spending taxes (VAT, sales tax)
+- wealth taxes (inheritance taxes)
+
+]
+
+
+.pull-left[
+**Expenditure**
+
+- health
+- education
+- defence
+- public investment (roads or schools)
+
+]
+
+--
+
+**Government primary deficit**
+
+$$ \textit{primary budget deficit} = G − T$$
+
+$$\textit{Budget balance} = T - G $$
+
+--
+
+| | Budget | | 
+|----|
+| in balance: $G = T$ | deficit: $G > T$ | surplus: $G < T$ |
+
+--
+
+- procyclical
+
+- the government must borrow to cover the gap between spending and revenue, by **issuing bonds**
+
+
+---
+## Government debt
+
+--
+
+- **Government debt**: sum of all the bonds sold over time to finance budget deficit – matured bonds (repaid debt).
+
+--
+
+- **Sovereign debt crisis**: a situation in which government bonds come to be considered risky (default risk).
+
+--
+
+.pull-left[
+
+- A large stock of debt relative to GDP can be a problem because the government has to pay interest on its debt.
+
+- There is no point at which the government has to pay off all its stock of debt—it can roll it over instead by issuing new bonds.
+
+- Indebtedness can fall
+  - if the primary budget balance is positive
+  - if GDP is growing faster than government debt
+  - if inflation is high (real value of debt falls)
+
+]
+
+.pull-right[
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/uk-government-debt-as-a-percentage-of-gdp-17272016.svg")
+```
+
+]
+
+---
+## Foreign markets and aggregate demand
+
+--
+
+- Fluctuations in the growth rate of important markets abroad influence the domestic economy via demand for exports.
+- Demand for imports dampens domestic fluctuations.
+- Foreign trade limits the use of fiscal stimulus if the marginal propensity to import is large.
+
+--
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+---
+## Linking Aggregate Demand and unemployment
+
+--
+
+.pull-left[
+
+**Supply-side** = labour market model
+
+Medium-run model: wages and prices can change, but capital stock, technology and institutions are fixed
+
+]
+
+
+
+.pull-right[
+
+**Demand-side** = multiplier model
+
+Short-run model: all variables fixed
+
+]
+
+.center[
+**Production function connects employment (N) and output (Y)**
+]
+
+--
+
+.pull-left[
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f14-18-a.png")
+```
+
+]
+
+
+
+.pull-right[
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f14-18-b.png")
+```
+
+]
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-19-a.png")
+```
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-19-b.png")
+```
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/f14-19-c.png")
+```
+
+
+---
+## Summary
+
+- The aggregate demand function and its components: $AD = C + I + G + NX$
+
+- Shocks to aggregate demand are amplified by the multiplier
+
+- Government can stabilise economic fluctuations
+  - Automatic stabilisers
+  - Fiscal stimulus – offset decline in aggregate demand from the private sector
+  - Austerity policies amplify the negative demand shock
+
+- Fiscal stimulus in a recession must be reversed in a boom to prevent government debt from escalating (sovereign debt crisis)
+
+--
+## Next session
+
+- The relationship between unemployment and inflation: The Phillips curve
+
+- How governments use monetary policy to affect inflation
+
+- Developing our model of aggregate demand: What happens to wages and prices in booms/recessions
+
+---
+
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/macro_roadmap.png")
+```
+
+
