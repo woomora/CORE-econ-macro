@@ -1,14 +1,16 @@
 # CORE Economics - Macro: Announcements :loudspeaker:
 
-## **Exam** :books: : 01/06
+## **Exam** :books:
 
-## **Policy and research project** :page_facing_up: :
+- 01/06 
+
+## **Policy and research project** :page_facing_up: 
 
 - Guidelines:
-  - 35 minutes presentation.
+  - 35 minutes presentation
     - 25 minutes on the unit's topics
     - 10 minutes on policy proposal 
-  - Send policy proposal **the night before the presentation** to my email.
+  - Send policy proposal **the night before the presentation** to my email
   - What I will evaluate?
     - Presentation:   
       - Active participation of all team integrants
@@ -22,7 +24,7 @@
       - A research question proposal to further study in more depth the topic (only the re-
 search question)
   
-- Presentations calendar :date: :
+- Presentations calendar :date:
   - 08/06
     - Unit 21: Innovation, Information, and the Networked Economy
     - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
@@ -32,7 +34,9 @@ search question)
     - Unit 18: The Nation and the World Economy
     - Unit 19: Economic Inequality  
 
-## **Problem set** :pencil2: : Some problems to prepare for the exam. 
+## **Problem set** :pencil2:
+
+Some problems to prepare for the exam. 
 
 - Unit 6: 
   - EXERCISE 6.3: https://www.core-econ.org/the-economy/book/text/06.html#exercise-63-assumptions-of-the-model
