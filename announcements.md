@@ -6,28 +6,37 @@
 
 ## **Policy and research project** :page_facing_up: 
 
-
-
 ### Guidelines :mag:
+
+The project’s overreaching goal is that students show the acquired knowledge and tools to understand and provide alternatives to real-world problems. Thus, it is crucial to **use the concepts and models studied in the course**.
+
+#### Policy brief
 
 The policy brief is a PDF document with a maximum of **five** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf).
 
-  - 35 minutes presentation
-    - 25 minutes on the unit's topics
-    - 10 minutes on policy proposal 
-  - Send policy proposal **the night before the presentation** to my email
-  - What I will evaluate?
-    - Presentation:   
-      - Active participation of all team integrants
-      - Cover unit's main topics
-      - Understanding and ability to respond questions
-    - Policy brief
-      - A detailed and delimited policy question
-      - A brief literature review on the topic
-      - The use of data to describe the problem and context
-      - A policy proposal to tackle the problem
-      - A research question proposal to further study in more depth the topic (only the re-
+Send policy proposal **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
+
+- What I will evaluate?
+  - A detailed and delimited policy question
+  - A brief literature review on the topic
+  - The use of data to describe the problem and context
+  - A policy proposal to tackle the problem
+  - A research question proposal to further study in more depth the topic (only the re-
 search question)
+
+#### Presentation
+
+An in-depth reading of the assigned chapter, summarize it and present it to the rest of the class.
+
+35 minutes presentation:
+- 25 minutes on the unit's topics
+- 10 minutes on policy proposal 
+
+- What I will evaluate?  
+  - Active participation of all team integrants
+  - Cover unit's main topics
+  - Understanding and ability to respond questions
+  - Time
   
 ### Presentations calendar :date:
   - 08/06
