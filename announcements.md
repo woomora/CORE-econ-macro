@@ -28,15 +28,13 @@ search question)
 
 An in-depth reading of the assigned chapter, summarize it and present it to the rest of the class.
 
-35 minutes presentation:
-- 25 minutes on the unit's topics
-- 10 minutes on policy proposal 
+35 minutes presentation: **25 minutes on the unit's topics** and **10 minutes on policy proposal**.
 
 - What I will evaluate?  
-  - Active participation of all team integrants
   - Cover unit's main topics
   - Understanding and ability to respond questions
-  - Time
+  - Sticking with time
+  - Active participation of all team integrants
   
 ### Presentations calendar :date:
   - 08/06
@@ -71,6 +69,4 @@ Some problems to prepare for the exam.
 
 - Unit 15:
   - [EXERCISE 15.9](https://www.core-econ.org/the-economy/book/text/15.html#exercise-159-a-construction-boom) 
-
- 
  
