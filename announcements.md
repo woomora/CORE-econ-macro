@@ -6,7 +6,12 @@
 
 ## **Policy and research project** :page_facing_up: 
 
+
+
 ### Guidelines :mag:
+
+The policy brief is a PDF document with a maximum of **five** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf).
+
   - 35 minutes presentation
     - 25 minutes on the unit's topics
     - 10 minutes on policy proposal 
@@ -39,23 +44,24 @@ search question)
 Some problems to prepare for the exam. 
 
 - Unit 6: 
-  - EXERCISE 6.3: https://www.core-econ.org/the-economy/book/text/06.html#exercise-63-assumptions-of-the-model
-  - EXERCISE 6.4: https://www.core-econ.org/the-economy/book/text/06.html#exercise-64-the-employer-sets-the-wage
-  - EXERCISE 6.5: https://www.core-econ.org/the-economy/book/text/06.html#exercise-65-effort-and-wages
+  - [EXERCISE 6.3](https://www.core-econ.org/the-economy/book/text/06.html#exercise-63-assumptions-of-the-model)
+  - [EXERCISE 6.4](https://www.core-econ.org/the-economy/book/text/06.html#exercise-64-the-employer-sets-the-wage)
+  - [EXERCISE 6.5](https://www.core-econ.org/the-economy/book/text/06.html#exercise-65-effort-and-wages)
    
 - Unit 9: 
-  - EXERCISE 9.2: https://www.core-econ.org/the-economy/book/text/09.html#exercise-92-shifts-in-the-wage-setting-curve  
+  - [EXERCISE 9.2](https://www.core-econ.org/the-economy/book/text/09.html#exercise-92-shifts-in-the-wage-setting-curve) 
 
 - Unit 10:
-  - EXERCISE 10.3: https://www.core-econ.org/the-economy/book/text/10.html#exercise-103-an-increase-in-the-interest-rate
+  - [EXERCISE 10.3](https://www.core-econ.org/the-economy/book/text/10.html#exercise-103-an-increase-in-the-interest-rate)
   
 - Unit 13:
-  - EXERCISE 13.6: https://www.core-econ.org/the-economy/book/text/13.html#exercise-136-changes-in-income-changes-in-consumption
+  - [EXERCISE 13.6](https://www.core-econ.org/the-economy/book/text/13.html#exercise-136-changes-in-income-changes-in-consumption)
    
 - Unit 14: 
-  - EXERCISE 14.3: https://www.core-econ.org/the-economy/book/text/14.html#exercise-143-the-multiplier-model  
+  - [EXERCISE 14.3](https://www.core-econ.org/the-economy/book/text/14.html#exercise-143-the-multiplier-model) 
 
+- Unit 15:
+  - [EXERCISE 15.9](https://www.core-econ.org/the-economy/book/text/15.html#exercise-159-a-construction-boom) 
 
- 
  
  
