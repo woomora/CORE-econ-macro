@@ -48,7 +48,7 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
 
 ## **Problem set** :pencil2:
 
-Some problems to prepare for the exam. 
+Some problems to prepare for the exam. Two more [here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf).
 
 - Unit 6: 
   - [EXERCISE 6.3](https://www.core-econ.org/the-economy/book/text/06.html#exercise-63-assumptions-of-the-model)
