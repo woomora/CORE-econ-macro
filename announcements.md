@@ -40,8 +40,8 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
   - 08/06
     - Unit 21: Innovation, Information, and the Networked Economy
     - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
-    - Unit 22: Economics, politics, and public policy  
   - 15/06
+    - Unit 22: Economics, politics, and public policy  
     - Unit 20: Economics of the environment
     - Unit 18: The Nation and the World Economy
     - Unit 19: Economic Inequality  
