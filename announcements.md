@@ -28,7 +28,7 @@ search question)
 
 An in-depth reading of the assigned chapter, summarize it and present it to the rest of the class.
 
-35 minutes presentation: **25 minutes on the unit's topics** and **10 minutes on policy proposal**.
+45 minutes presentation: **30 minutes on the unit's topics** and **15 minutes on policy proposal**.
 
 - What I will evaluate?  
   - Cover unit's main topics
