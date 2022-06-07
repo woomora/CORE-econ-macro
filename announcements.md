@@ -14,15 +14,14 @@ The project’s overreaching goal is that students show the acquired knowledge a
 
 The policy brief is a PDF document with a maximum of **five** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf).
 
-Send policy proposal **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
+Send policy brief **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
 
 - What I will evaluate?
   - A detailed and delimited policy question
   - A brief literature review on the topic
   - The use of data to describe the problem and context
   - A policy proposal to tackle the problem
-  - A research question proposal to further study in more depth the topic (only the re-
-search question)
+  - A research question proposal to further study in more depth the topic (only the research question)
 
 #### Presentation
 
