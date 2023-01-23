@@ -12,9 +12,9 @@ The project’s goal is that students show the acquired knowledge and tools to u
 
 #### Policy brief
 
-The policy brief is a PDF document with a maximum of **five** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf).
+The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf).
 
-Send policy brief **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
+A first outline is due to **15/03**. Send the final policy brief **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
 
 - What I will evaluate?
   - A detailed and delimited policy question
@@ -27,7 +27,7 @@ Send policy brief **the night before the presentation** to my email: guillermo.w
 
 An in-depth reading of the assigned chapter, summarize it and present it to the rest of the class.
 
-45 minutes presentation: **30 minutes on the unit's topics** and **15 minutes on policy proposal**.
+45 minutes presentation: **30 minutes on the unit's topics** and **15 minutes on the policy proposal**.
 
 - What I will evaluate?  
   - Cover unit's main topics
