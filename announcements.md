@@ -2,13 +2,13 @@
 
 ## **Exam** :books:
 
-- 01/06 
+- 26/04
 
 ## **Policy and research project** :page_facing_up: 
 
 ### Guidelines :mag:
 
-The project’s overreaching goal is that students show the acquired knowledge and tools to understand and provide alternatives to real-world problems. Thus, it is crucial to **use the concepts and models studied in the course**.
+The project’s goal is that students show the acquired knowledge and tools to understand and provide alternatives to real-world problems. Thus, it is crucial to **use the concepts and models studied in the course**.
 
 #### Policy brief
 
@@ -36,6 +36,8 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
   - Active participation of all team integrants
   
 ### Presentations calendar :date:
+
+<!---
   - 08/06
     - Unit 21: Innovation, Information, and the Networked Economy
     - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
@@ -43,7 +45,7 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
     - Unit 22: Economics, politics, and public policy  
     - Unit 20: Economics of the environment
     - Unit 18: The Nation and the World Economy
-    - Unit 19: Economic Inequality  
+    - Unit 19: Economic Inequality --->
 
 ## **Problem set** :pencil2:
 
