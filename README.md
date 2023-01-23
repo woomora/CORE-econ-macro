@@ -14,7 +14,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
   - [Unit 1: Intro and the Capitalist Revolution](https://woomora.github.io/CORE-econ-macro/Unit-1/core-unit1.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-1/core-unit1.pdf))
 
-  - [Unit 2: Technological change, Population, and Growth](https://woomora.github.io/CORE-econ-macro/Unit-2/core-unit2.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-2/core-unit2.pdf))
+<!---  - [Unit 2: Technological change, Population, and Growth](https://woomora.github.io/CORE-econ-macro/Unit-2/core-unit2.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-2/core-unit2.pdf)) --->
 
 - **Labour markets and unemployment**
 
@@ -26,7 +26,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 - **Credit markets**
 
-  - [Unit 10: Banks, money, and the credit market](https://woomora.github.io/CORE-econ-macro/Unit-10/core-unit10.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-10/core-unit10.pdf))
+ - [Unit 10: Banks, money, and the credit market](https://woomora.github.io/CORE-econ-macro/Unit-10/core-unit10.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-10/core-unit10.pdf)) --->
 
 
 - **Economic accounting and fluctuations**
