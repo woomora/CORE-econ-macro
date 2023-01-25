@@ -1,8 +1,11 @@
 # CORE Economics - Macro: Announcements :loudspeaker:
 
-## **Exam** :books:
 
-- 26/04
+## Weekly presentation :newspaper:
+
+Present in 10 minutes one piece of relevant news from the previous week. Try to use news from newspapers or *journals* (*Le Monde*, *Libération*, *Le Figaro*, *New York Times*, *The Guardian*, *Financial Times*, *The Economist*, *El País*) and not outlets from websites.
+
+Schedule [here](https://raw.githubusercontent.com/woomora/CORE-econ-macro/master/other/CORE-econ%20macro%20weekly%20news%20presentation.png).
 
 ## **Policy and research project** :page_facing_up: 
 
@@ -47,9 +50,15 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
     - Unit 18: The Nation and the World Economy
     - Unit 19: Economic Inequality --->
 
-## **Problem set** :pencil2:
+## **Exam** :books:
 
-Some problems to prepare for the exam. Two more [here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf).
+- 26/04
+
+### **Previous exam and problem set** :pencil2:
+
+[Here]([https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE-Econ-Macro-Exam-Solutions.pdf) you can find the exam from last year with the solutions to each excercise.
+
+Some problems to prepare for the exam. One more [here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf).
 
 - Unit 6: 
   - [EXERCISE 6.3](https://www.core-econ.org/the-economy/book/text/06.html#exercise-63-assumptions-of-the-model)
