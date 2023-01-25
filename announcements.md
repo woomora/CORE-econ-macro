@@ -56,7 +56,7 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
 
 ### **Previous exam and problem set** :pencil2:
 
-[Here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE-Econ-Macro-Exam-Solutions.pdf) you can find the exam from last year with the solutions to each excercise.
+[Here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE-Econ-Macro-Exam-Solutions.pdf) you can find the exam from last year with the solutions to each excercise.
 
 Some problems to prepare for the exam. One more [here](https://github.com/woomora/CORE-econ-macro/blob/master/other/CORE_Econ_Macro_Problems.pdf).
 
