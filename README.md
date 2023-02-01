@@ -14,6 +14,10 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
   - [Intro](https://woomora.github.io/CORE-econ-macro/Intro/core-intro.html#1)
 
+- **Market performance and failure**
+
+  - [Unit 12: Markets, efficiency, and public policy](https://woomora.github.io/CORE-econ-macro/Unit-12/core-unit12.html#1)
+
 <!---   - [Unit 1: Intro and the Capitalist Revolution](https://woomora.github.io/CORE-econ-macro/Unit-1/core-unit1.html#1)  --->
 
 <!---   - [Unit 2: Technological change, Population, and Growth](https://woomora.github.io/CORE-econ-macro/Unit-2/core-unit2.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-2/core-unit2.pdf)) --->
