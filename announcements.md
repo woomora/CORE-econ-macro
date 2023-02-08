@@ -27,7 +27,7 @@ The project’s goal is that students show the acquired knowledge and tools to u
 
 The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for the policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf). You also can find examples of policy briefs from last year [here](https://github.com/woomora/CORE-econ-macro/tree/master/other/Policy%20brief%20examples). 
 
-A first outline is due to **15/03**. Send the final policy brief **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
+A first outline is due on **15/03**. Send the final policy brief **the night before the presentation** to my email: guillermo.woo-mora [at] psemail.eu
 
 - What I will evaluate?
   - A detailed and delimited policy question
