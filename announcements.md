@@ -9,6 +9,9 @@ Schedule [here](https://raw.githubusercontent.com/woomora/CORE-econ-macro/master
 
 ## **Policy and research project** :page_facing_up: 
 
+### Teams :busts_in_silhouette:
+
+
 ### Guidelines :mag:
 
 The project’s goal is that students show the acquired knowledge and tools to understand and provide alternatives to real-world problems. Thus, it is crucial to **use the concepts and models studied in the course**.
