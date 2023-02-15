@@ -1626,6 +1626,21 @@ knitr::include_graphics("imgs/f10-21-c.png")
 
 ---
 .center[
+## Too Big to Fail
+]
+
+
+.center[
+
+<iframe width="840" height="472.5" src="https://www.youtube.com/embed/S4pwc5oxuRQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+[Too Big to Fail: Lessons from a Decade of Financial Sector Reforms](https://www.core-econ.org/insights/too-big-to-fail/text/01.html#5-results-of-the-evaluation-of-the-tbtf-reforms)
+
+]
+
+---
+.center[
 ## Summary
 ]
 
