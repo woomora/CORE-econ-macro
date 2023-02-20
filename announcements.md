@@ -13,9 +13,9 @@ Schedule [here](https://raw.githubusercontent.com/woomora/CORE-econ-macro/master
 
 | Team | Unit | Team Representative | Member 2 | Member 3 | Member 4 |  Member 5 | Member 6 | 
 | --- | --- | --- | --- | --- | --- | --- | --- | 
-| 1 | Unit 19: Economic Inequality | Milène | Alice L. | Ina | Céleste | Alice G. |  | 
-| 2 | Unit 20: Economics of the environment | Suzon | Damien | Leopold | Julia | Clément |  | 
-| 3 | Unit 17: The Great Depression, Golden Age, and Global Financial Crisis | Anne | Juliette | Léa | Manon C. | Elif |  | 
+| 1 | Unit 19: Economic Inequality | Milène | Alice L. | Ina | Céleste | Alice G. | Lina | 
+| 2 | Unit 20: Economics of the environment | Suzon | Damien | Leopold | Julia | Clément | Abel | 
+| 3 | Unit 17: The Great Depression, Golden Age, and Global Financial Crisis | Anne | Juliette | Léa | Manon C. | Elif | Laura | 
 | 4 | Unit 18: The Nation and the World Economy | Elvire | Jeanne | Manon P. | Clotilde | Luka |  | 
 | 5 | Unit 22: Economics, politics, and public policy | Lucie | Yann | Romane | Dalia | Maxence |  | 
 
