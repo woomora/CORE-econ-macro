@@ -26,13 +26,9 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 <!---   - [Unit 2: Technological change, Population, and Growth](https://woomora.github.io/CORE-econ-macro/Unit-2/core-unit2.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-2/core-unit2.pdf)) --->
 
-<!--- - **Labour markets and unemployment**
+- **Labour markets and unemployment**
 
-  - [Unit 6: The Firm: Owners, Managers, and Employees](https://woomora.github.io/CORE-econ-macro/Unit-6/core-unit6.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-6/core-unit6.pdf))
-
-  - [Unit 7: Price setting](https://woomora.github.io/CORE-econ-macro/Unit-7/core-unit7.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-7/core-unit7.pdf))
-
-  - [Unit 9: The labour market: Wages, profit, and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-9/core-unit9.html#1) ([pdf](https://github.com/woomora/CORE-econ-macro/blob/master/Unit-9/core-unit9.pdf)) --->
+  - [Unit 9: The labour market: Wages, profit, and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-9/core-unit9.html#1)
 
 
 
