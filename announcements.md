@@ -50,15 +50,12 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
   
 ### Presentations calendar :date:
 
-<!---
-  - 08/06
-    - Unit 21: Innovation, Information, and the Networked Economy
-    - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
-  - 15/06
-    - Unit 22: Economics, politics, and public policy  
-    - Unit 20: Economics of the environment
-    - Unit 18: The Nation and the World Economy
-    - Unit 19: Economic Inequality --->
+- Wednesday, 31/05. 8:00-12:15.
+   - 8:00-8:45. Unit 19: Economic Inequality.
+   - 8:45-9:30. Unit 20: Economics of the environment.
+   - 9:45-10:30. Unit 17: The Great Depression, Golden Age, and Global Financial Crisis.
+   - 10:30-11:15. Unit 18: The Nation and the World Economy.
+   - 11:15-12:00. Unit 22: Economics, politics, and public policy.
 
 ## **Exam** :books:
 
