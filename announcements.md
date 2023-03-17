@@ -59,7 +59,7 @@ An in-depth reading of the assigned chapter, summarize it and present it to the 
 
 ## **Exam** :books:
 
-- 26/04
+- 10/05
 
 ### **Previous exam and problem set** :pencil2:
 
