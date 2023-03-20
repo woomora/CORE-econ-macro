@@ -4,7 +4,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :closed_book:This is a course for [Sciences pour un monde durable](https://psl.eu/formation/sciences-monde-durable) program at PSL based on [*The Economy*](https://www.core-econ.org/the-economy/) textbook by the [CORE Econ team](https://www.core-econ.org/).
 
-:paperclip: You can find the syllabus [here](https://www.dropbox.com/s/fgnm15lgg2jdjku/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
+:paperclip: You can find the syllabus [here](https://www.dropbox.com/s/oc33ix6g188kwft/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
 
 :loudspeaker: You cand find announcements [here](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
 
