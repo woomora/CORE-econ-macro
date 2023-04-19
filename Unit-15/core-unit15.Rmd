@@ -1,0 +1,1043 @@
+---
+title: "Monetary policy"
+subtitle: "Unit 15: Inflation, unemployment, and monetary policy"
+author: "Guillermo Woo-Mora"
+date: "20/04/2023"
+output: 
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+<style>
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+</style>
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(out.width = "90%")
+knitr::opts_chunk$set(fig.align="center")
+options(htmltools.dir.version = FALSE)
+
+
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(tidyverse)
+library(xaringanExtra)
+# set default options
+opts_chunk$set(echo=FALSE,
+               collapse = TRUE,
+               fig.width = 7.252,
+               fig.height = 4,
+               dpi = 300)
+# set engines
+knitr::knit_engines$set("markdown")
+xaringanExtra::use_tile_view()
+xaringanExtra::use_panelset()
+xaringanExtra::use_clipboard()
+xaringanExtra::use_webcam()
+xaringanExtra::use_broadcast()
+xaringanExtra::use_share_again()
+xaringanExtra::style_share_again(
+  share_buttons = c("twitter", "linkedin", "pocket")
+)
+# uncomment the following lines if you want to use the NHS-R theme colours by default
+# scale_fill_continuous <- partial(scale_fill_nhs, discrete = FALSE)
+# scale_fill_discrete <- partial(scale_fill_nhs, discrete = TRUE)
+# scale_colour_continuous <- partial(scale_colour_nhs, discrete = FALSE)
+# scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
+```
+
+```{r out.width="85%"}
+knitr::include_graphics("imgs/inflation-levels-and-volatility-in-high--and-low-income-economies-1960-2017.svg")
+```
+
+---
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-20-b.png")
+```
+
+.pull-left[
+```{r out.width="87.5%"}
+knitr::include_graphics("imgs/f13-20-a.png")
+```
+]
+
+.pull-right[
+```{r out.width="85%"}
+knitr::include_graphics("imgs/f13-20-c.png")
+```
+]
+
+---
+
+.center2[
+<iframe width="1200" height="400" src="https://www.youtube.com/embed/tU3rGFyN5uQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+]
+
+---
+
+.center[
+## The Context
+]
+
+--
+
+Governments can use fiscal policy e.g. spending, taxation to stabilize the economy during recessions. (Unit 14)
+
+--
+
+Besides unemployment, fluctuations in GDP also affect prices.
+
+--
+
+- What factors affect the price level in an economy?
+
+--
+
+- What is the ideal level of inflation and how do central banks achieve it?
+
+--
+
+- How do central banks respond differently to supply-side and demand-side shocks?
+
+--
+
+.center[
+## This Unit
+]
+
+- **Inflation**: causes and effects on the economy
+
+--
+
+- The trade-off between inflation and unemployment
+
+--
+
+- How central banks can use monetary policy to respond to shocks in the economy
+
+--
+
+- The importance of expectations and how central banks can manage them
+
+---
+.center2[
+# Inflation
+]
+
+---
+.center[
+## Inflation
+]
+
+- **Inflation**: an increase in the general price level
+
+--
+
+  - **Zero inflation**: A constant price level from year to year
+  - **Deflation**: A decrease in the general price level
+  - **Disinflation**: A decrease in the rate of inflation
+
+
+```{r out.width="35%"}
+knitr::include_graphics("https://media.giphy.com/media/G59oKJeV3GY0nowiXs/giphy.gif")
+```
+
+
+--
+
+Fisher's equation:
+
+$$ \textit{Real interest rate} = \textit{Nominal interest rate} – \textit{Inflation rate}$$
+
+$$ r = i – \pi$$
+
+---
+
+.center[
+### Prices are messages on scarcity
+]
+
+--
+
+.pull-left[
+## What’s wrong with inflation?
+
+- For people on fixed nominal income (e.g. pensioners, PhD students), higher inflation means lower real value of income.
+
+
+- Inflation reduces the real value of debt – good for borrowers, bad for creditors.
+
+
+- High rate of inflation makes the economy work less well: 
+
+  - high inflation is often volatile $\rightarrow$ uncertainty
+  - it is harder for producers to distinguish between changes in relative prices and inflation
+  - menu costs as firms have to update their prices more frequently
+  
+]
+  
+--
+
+.pull-right[
+## What’s wrong with deflation?
+
+- When prices are falling, households will postpone consumption (particularly of durables) because they expect goods will be cheaper in the future.
+  - This is similar to a negative shock to aggregate demand.
+
+- Deflation increases the real debt burden, which may lead households to cut consumption to return to their target wealth.
+
+
+]
+
+---
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/imco1.jpeg")
+```
+
+---
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/imco2.jpeg")
+```
+
+---
+
+```{r out.width="100%"}
+knitr::include_graphics("imgs/imco3.jpeg")
+```
+
+---
+
+Wages and prices are determined by interactions between firms, consumers, and workers.  
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f9-9-b.png")
+```
+
+Thus, inflation is closely related to what happens in the labour market, and then in the goods/services markets.
+
+---
+.center[
+**Inflation arises from conflicts among economic actors**
+]
+
+--
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-2a.png")
+```
+
+1. **An increase in the bargaining power of firms over their consumers**: This is caused by a reduction in competition, which allows firms to charge a higher markup. It is a downward shift of the price-setting curve.
+
+---
+.center[
+**Inflation arises from conflicts among economic actors**
+]
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-2b.png")
+```
+
+2. **An increase in the bargaining power of workers over firms**: This allows them to get a higher wage in return for working hard.
+
+  a. *A shift upward of the wage-setting curve*: The wage they would receive is higher at every level of employment.
+
+---
+.center[
+**Inflation arises from conflicts among economic actors**
+]
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-2c.png")
+```
+
+2. **An increase in the bargaining power of workers over firms**: This allows them to get a higher wage in return for working hard.
+
+  b. *An increase in the level of employment, moving along the wage-setting curve*: In this case, the wage-setting curve is unchanged.
+  
+---
+.center2[
+# Phillips Curve
+]
+
+---
+.center[
+## Phillips Curve
+]
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f15-3.png")
+```
+
+---
+.center[
+## Phillips Curve
+]
+```{r out.width="65%"}
+knitr::include_graphics("imgs/phillipss-original-curve-wage-inflation-and-unemployment.svg")
+```
+
+---
+.center[
+## Inflation and employment
+]
+
+Higher employment may result in inflation.
+
+It increases workers’ bargaining position $\rightarrow$ higher wages $\rightarrow$ higher cost of production $\rightarrow$ higher prices
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/phillipss-original-curve-wage-inflation-and-unemployment.svg")
+```
+
+---
+.center[
+## Inflation and aggregate demand
+]
+
+An upswing in business cycle is often associated with rising inflation.
+
+--
+
+higher aggregate demand $\rightarrow$  higher employment $\rightarrow$ higher wages $\rightarrow$ higher cost of production $\rightarrow$ higher prices
+
+--
+
+- the economy experiences price and wage inflation, but the **real wage (W/P)** has not increased
+
+- constant real wage means that employment stays high
+- ... and the **wage-price** spiral continues
+
+```{r out.width="35%"}
+knitr::include_graphics("https://media.giphy.com/media/bMycGOQLESDCEnLNUz/giphy.gif")
+```
+
+---
+.center[
+## Stable price level
+]
+
+Prices are stable (inflation is 0) when the labour market is in equilibrium.
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f15-4a.png")
+```
+
+
+---
+.center[
+### Labour Market's Wages and Unemployment
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-4-b-a.png")
+```
+
+If there is labour market equilibrium: The bargaining gap is zero and the price level is constant.
+
+---
+.center[
+### Labour Market's Wages and Unemployment
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-4-b-b.png")
+```
+
+If unemployment is lower than at the equilibrium: There is a positive bargaining gap and there is inflation.
+
+---
+.center[
+### Labour Market's Wages and Unemployment
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-4-b-c.png")
+```
+
+If unemployment is higher than at the equilibrium: There is a negative bargaining gap and there is deflation.
+
+---
+
+.center[
+## Bargaining gap
+]
+
+**Bargaining gap**: The difference between the real wage required to incentivize effort, and the real wage that gives firms enough profits to stay in business.
+
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/bargaining power.png")
+```
+
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-4-c-a.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-4-c-b.png")
+```
+
+---
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-4-c-c.png")
+```
+
+
+---
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-4-d-a.png")
+```
+
+---
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-4-d-b.png")
+```
+
+---
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-4-d-c.png")
+```
+
+---
+.center[
+## Trade-off: inflation and unemployment
+]
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/inflation-and-presidential-election-victory-in-the-us.svg")
+```
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-a.png")
+```
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-b.png")
+```
+
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-c.png")
+```
+
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-d.png")
+```
+
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-e.png")
+```
+
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-f.png")
+```
+
+Indifference curves show policymaker’s preferred tradeoffs between inflation and unemployment (MRS)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-g.png")
+```
+
+Phillips Curve determines the feasible trade-offs between inflation and unemployment (MRT)
+
+---
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-5-h.png")
+```
+
+.center[
+Optimal inflation rate where: MRS = MRT
+]
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-a.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-b.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-c.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-d.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-e.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-f.png")
+```
+
+---
+.center[
+## The Phillips Curve Over Time
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-6-g.png")
+```
+
+.center[
+Trade-off between inflation and unemployment is not stable
+]
+
+---
+.center[
+### Expectations: Shifting the Phillips Curve
+]
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-9-a.png")
+```
+
+$$ Inflation = \textit{expected inflation} + \textit{bargaining gap} $$
+
+---
+.center[
+### Expectations: Shifting the Phillips Curve
+]
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-9-b.png")
+```
+
+
+$$ Inflation = \textit{expected inflation} + \textit{bargaining gap} $$
+
+---
+.center[
+### Expectations: Shifting the Phillips Curve
+]
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f15-9-c.png")
+```
+
+
+$$ Inflation = \textit{expected inflation} + \textit{bargaining gap} $$
+
+---
+.center[
+### Expectations: Shifting the Phillips Curve
+]
+
+
+$$ Inflation = \textit{expected inflation} + \textit{bargaining gap} $$
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/bargaining power 2.png")
+```
+
+
+--
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/bargaining power 3.png")
+```
+
+---
+.center[
+## Inflation-stabilizing rate 
+]
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f15-10-a.png")
+```
+
+Zero bargaining gap. Inflation is as expected: 3%.
+
+---
+.center[
+## Inflation-stabilizing rate 
+]
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f15-10-b.png")
+```
+
+At the start of year 1, inflation is equal to the bargaining gap (2%) plus expected inflation (3%).
+
+---
+.center[
+## Inflation-stabilizing rate 
+]
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f15-10-c.png")
+```
+
+At the start of year 2, with no change in the bargaining gap, inflation goes up to 7%, equal to the bargaining gap plus expected inflation.
+
+---
+.center[
+## Inflation-stabilizing rate 
+]
+
+```{r out.width="65%"}
+knitr::include_graphics("imgs/f15-10-d.png")
+```
+
+As long as the bargaining gap remains unchanged, inflation rises each year.
+
+---
+.center[
+## Supply shocks
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-13-a.png")
+```
+
+Labour market equilibrium
+
+---
+.center[
+## Supply shocks
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-13-b.png")
+```
+
+Input prices rise $\rightarrow$ Markups don't change $\rightarrow$ Real wages fall $\rightarrow$ Downward shift of price-setting curve
+
+---
+.center[
+## Supply shocks
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-13-c.png")
+```
+
+Input prices rise $\rightarrow$ Markups don't change $\rightarrow$ Real wages fall $\rightarrow$ Downward shift of price-setting curve $\rightarrow$ Positive bargaining gap $\rightarrow$  Inflation will increase
+
+---
+.center[
+## Supply shocks
+]
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f15-13-d.png")
+```
+
+New equilibrium
+
+---
+.center[
+## Oil shocks
+]
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f15-12.png")
+```
+
+---
+.center2[
+# Monetary policy 
+]
+
+---
+.center[
+## Monetary policy 
+]
+
+--
+
+Monetary policy relies on the central bank being able to control interest rates,
+--
+ and on changes in interest rates influencing aggregate demand.
+
+--
+
+Fisher's equation:
+
+$$ \textit{Real interest rate} = \textit{Nominal interest rate} – \textit{Inflation rate}$$
+
+$$ r = i – \pi$$
+--
+
+Backward induction:
+
+--
+
+1) Choose the desired level of aggregate demand, based on the labour market equilibrium and the Phillips curve
+
+--
+
+2) Estimate the real interest rate, which will produce this level of aggregate demand (using the multiplier model)
+
+--
+
+3) Calculate the nominal policy rate that will produce the appropriate market interest rate
+
+
+---
+.center[
+## Transmission mechanisms
+]
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f15-14.png")
+```
+
+---
+.center[
+## Transmission mechanisms
+]
+
+.pull-left[
+### Asset prices
+
+A change in the policy rate has a ripple effect through all the interest rates in the economy. 
+
+When the interest rate goes down, the price of assets goes up (Einstein Unit 10) 
+
+$$ PV = \frac{X}{1 + r} $$
+
+Households who own assets will be wealthier, which will increase their consumption.
+
+]
+
+--
+
+.pull-right[
+### Profit expectations
+
+Consistent policymaking and good communication with the public builds confidence in the Central Bank. 
+
+This can lead firms to expect higher demand and therefore increase investment. 
+
+Households may be confident that they will not lose their jobs, and they may increase their consumption.
+
+]
+
+---
+.center[
+## Exchange rate
+]
+
+**Exchange rate**: number of units of home currency that can be exchanged for one unit of foreign currency. 
+
+--
+
+$$ \textit{Exchange rate} = \frac{\textit{Home currency}}{USD} $$
+
+--
+
+- When one USD buys more home currency, the home currency is said to have **depreciated**. 
+
+- When one AUD buys more USD, the AUD is said to have **appreciated**.
+
+--
+
+Interest rates affect demand for home currency in the foreign exchange market, so affects the exchange rate (appreciation/depreciation). 
+
+--
+
+Example. Decline in investment demand in Australia.
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/f15-16-a.png")
+```
+
+---
+.center[
+## Exchange rate as transmission mechanism
+]
+
+A depreciation of the home country’s exchange rate makes their exports cheaper, and imports from abroad more expensive.
+
+```{r out.width="90%"}
+knitr::include_graphics("imgs/f15-16-b.png")
+```
+
+---
+.center[
+## Monetary policy in the multiplier model
+]
+
+```{r out.width="67.5%"}
+knitr::include_graphics("imgs/f15-15-a.png")
+```
+
+---
+.center[
+## Monetary policy in the multiplier model
+]
+
+```{r out.width="67.5%"}
+knitr::include_graphics("imgs/f15-15-b.png")
+```
+
+---
+.center[
+## Monetary policy in the multiplier model
+]
+
+```{r out.width="67.5%"}
+knitr::include_graphics("imgs/f15-15-c.png")
+```
+
+$$ r > r' $$
+
+---
+.center[
+## Monetary policy limitations
+]
+
+--
+
+- A country without its own currency does not have its own monetary policy (Eurozone)
+
+--
+
+- **Zero lower bound**: The short-term nominal interest rate (policy rate) cannot go below zero
+
+--
+
+  - When the economy is in a slump, a nominal interest rate of zero may not be low enough to stabilize the economy
+  
+--
+
+  - **Quantitative Easing**: Central bank purchases of financial assets aimed at increasing investment by reducing yields (Unit 10)
+
+--
+
+```{r out.width="45%"}
+knitr::include_graphics("https://www.economist.com/sites/default/files/images/2019/03/articles/main/20190316_fnd000.jpg")
+```
+
+---
+.center[
+## Demand shocks
+]
+
+```{r out.width="47.5%"}
+knitr::include_graphics("imgs/f15-18-a.png")
+```
+
+---
+.center[
+## Demand shocks
+]
+
+```{r out.width="47.5%"}
+knitr::include_graphics("imgs/f15-18-b.png")
+```
+
+---
+.center[
+## Demand shocks
+]
+
+```{r out.width="47.5%"}
+knitr::include_graphics("imgs/f15-18-c.png")
+```
+
+---
+.center[
+## Demand shocks
+]
+
+```{r out.width="47.5%"}
+knitr::include_graphics("imgs/f15-18-d.png")
+```
+
+---
+.center[
+## Inflation targeting
+]
+
+**Inflation targeting**: monetary policy regime where the central bank uses policy instruments to keep the economy close to an inflation target.
+
+Usually ~ 2%.
+
+--
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f15-21.png")
+```
+
+---
+.center[
+## Inflation and central bank independence
+]
+
+Making the central bank independent from the government gives inflation targets credibility and prevents an inflation spiral by setting expectations.
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/inflation-and-central-bank-independence-oecd-countries.svg")
+```
+
+---
+.center[
+## Current affairs
+]
+
+```{r out.width="90%"}
+knitr::include_graphics("https://publications.banque-france.fr/sites/default/files/images/illustrations/projections-mars-2023-g3-g4.png")
+```
+
+---
+.center[
+## Current affairs
+]
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/libe-politique-monetaire.png")
+```
+
+---
+.center[
+## Continuous academic debate
+]
+
+```{r out.width="70%"}
+knitr::include_graphics("imgs/conflict1.png")
+```
+
+---
+.center[
+## Continuous academic debate
+]
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/conflict2.png")
+```
+
+---
+.center[
+## Continuous academic debate
+]
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/conflict3.png")
+```
+
+---
+.center[
+## Summary
+]
+
+--
+
+
+1) Inflation is caused by bargaining gaps and capacity constraints
+
+--
+
+- Phillips Curve: tradeoff between inflation and unemployment
+- Positive bargaining gap leads to persistently high inflation
+- The trade-off isn't stable: expectations matter
+
+--
+
+2) Central banks can stabilize the economy by changing the policy rate
+
+--
+
+- 4 channels of monetary transmission mechanism: interest rate, asset prices, profit expectations, exchange rates
+- Zero lower bound puts a limitation on monetary policy
+
+--
+## Next (and final) unit
+
+--
+
+- The long-term effects of economic policies, institutions, and technological progress on living standards and unemployment 
+
+- Factors that determine the economic performance of a country, and why policies might fail 
+
+
+
