@@ -5,7 +5,7 @@
 
 Present in 10 minutes one piece of relevant news from the previous week. Try to use news from newspapers or *journals* (*Le Monde*, *Libération*, *Le Figaro*, *New York Times*, *The Guardian*, *Financial Times*, *The Economist*, *El País*) and not outlets from websites.
 
-Schedule [here](https://raw.githubusercontent.com/woomora/CORE-econ-macro/master/other/CORE-econ%20macro%20weekly%20news%20presentation.png).
+Schedule [here](https://raw.githubusercontent.com/woomora/CORE-econ-macro/master/other/CORE-econ%20macro%20weekly%20news%20presentation%20final.png).
 
 ## **Policy and research project** :page_facing_up: 
 
