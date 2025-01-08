@@ -14,10 +14,6 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
   - [Intro](https://woomora.github.io/CORE-econ-macro/Intro/core-intro.html#1)
 
-- **Market performance and failure**
-
-  - [Unit 12: Markets, efficiency, and public policy](https://woomora.github.io/CORE-econ-macro/Unit-12/core-unit-12.html#1)
-
 - **Credit markets**
 
   - [Unit 10: Banks, money, and the credit market](https://woomora.github.io/CORE-econ-macro/Unit-10/core-unit10.html#1)
