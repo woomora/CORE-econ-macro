@@ -4,15 +4,17 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :closed_book:This is a course for [Sciences pour un monde durable](https://psl.eu/formation/sciences-monde-durable) program at PSL based on [*The Economy*](https://www.core-econ.org/the-economy/) textbook by the [CORE Econ team](https://www.core-econ.org/).
 
-:paperclip: You can find the syllabus [here](https://www.dropbox.com/s/oc33ix6g188kwft/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
+:paperclip: [Syllabus](https://www.dropbox.com/s/oc33ix6g188kwft/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
 
-:loudspeaker: You cand find announcements [here](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
+:loudspeaker: [Announcements](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
 
-:calendar:
+:calendar: [Calendar](https://calendar.google.com/calendar/embed?src=9ee653f58834e758256bdcac717c0b0cef055a83ec6c8a3793cb3387686358a8%40group.calendar.google.com&ctz=Europe%2FParis)
 
+```html
 <iframe src="https://calendar.google.com/calendar/embed?src=9ee653f58834e758256bdcac717c0b0cef055a83ec6c8a3793cb3387686358a8%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+```
 
-:clipboard: You can find the slides here:
+:clipboard: Slides below:
 
 - **Introduction**
 
