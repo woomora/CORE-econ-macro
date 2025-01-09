@@ -8,9 +8,11 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :loudspeaker: You cand find announcements [here](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
 
-:clipboard: You can find the slides here:
-
 :calendar:
+
+<iframe src="https://calendar.google.com/calendar/embed?src=9ee653f58834e758256bdcac717c0b0cef055a83ec6c8a3793cb3387686358a8%40group.calendar.google.com&ctz=Europe%2FParis" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+:clipboard: You can find the slides here:
 
 - **Introduction**
 
