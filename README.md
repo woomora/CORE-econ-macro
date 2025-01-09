@@ -10,6 +10,8 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :clipboard: You can find the slides here:
 
+:calendar:
+
 - **Introduction**
 
   - [Intro](https://woomora.github.io/CORE-econ-macro/Intro/core-intro.html#1)
