@@ -6,9 +6,9 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :paperclip: [Syllabus](https://www.dropbox.com/s/oc33ix6g188kwft/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
 
-:loudspeaker: [Announcements](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
-
 :calendar: [Calendar](https://calendar.google.com/calendar/embed?src=9ee653f58834e758256bdcac717c0b0cef055a83ec6c8a3793cb3387686358a8%40group.calendar.google.com&ctz=Europe%2FParis).
+
+:loudspeaker: [Announcements](https://github.com/woomora/CORE-econ-macro/blob/master/announcements.md).
 
 :clipboard: Slides below:
 
