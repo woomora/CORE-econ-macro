@@ -4,7 +4,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 :closed_book:This is a course for [Sciences pour un monde durable](https://psl.eu/formation/sciences-monde-durable) program at PSL based on [*The Economy*](https://www.core-econ.org/the-economy/) textbook by the [CORE Econ team](https://www.core-econ.org/).
 
-:paperclip: [Syllabus](https://www.dropbox.com/s/oc33ix6g188kwft/Woo-Mora.%20Syllabus%20CORE%20Econ%20Macro%20PSL.pdf?dl=0).
+:paperclip: [Syllabus](https://github.com/woomora/CORE-econ-macro/blob/master/PSL%202025%20Spring%20%E2%80%93%20CORE%20Econ%20Macro.pdf).
 
 :calendar: [Calendar](https://calendar.google.com/calendar/embed?src=9ee653f58834e758256bdcac717c0b0cef055a83ec6c8a3793cb3387686358a8%40group.calendar.google.com&ctz=Europe%2FParis).
 
@@ -15,7 +15,8 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 - **Introduction**
 
   - [Intro](https://woomora.github.io/CORE-econ-macro/Intro/core-intro.html#1)
-  - [Unit 1: The Capitalist Revolution](https://woomora.github.io/CORE-econ-micro/Unit-1/core-unit1.html#1)
+  - [Unit 1: The Capitalist Revolution]
+<!---  (https://woomora.github.io/CORE-econ-micro/Unit-1/core-unit1.html#1)  --->
   - [Unit 2: Technology, population and growth](https://woomora.github.io/CORE-econ-micro/Unit-2/core-unit2.html#1)
  
 <!---   - [Unit 1: Intro and the Capitalist Revolution](https://woomora.github.io/CORE-econ-macro/Unit-1/core-unit1.html#1)  --->
