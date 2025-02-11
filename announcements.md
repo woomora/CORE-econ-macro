@@ -21,7 +21,7 @@ The project aims to demonstrate students' ability to apply the knowledge and too
 The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for writing a policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf). Examples from previous years are available [here](https://github.com/woomora/CORE-econ-macro/tree/master/other/Policy%20brief%20examples).
 
 - **Deadlines:**
-  - First outline due on **15/03**.
+  - Reach out by mail to set an appointment before **28/03**.
   - Final policy brief due the **night before your presentation** to my email: guillermo.woo-mora [at] psemail.eu.
 
 - **Evaluation Criteria:**
@@ -53,7 +53,6 @@ The presentation includes an in-depth reading of the assigned chapter, a summary
 
 ## **Exam DATES** :books:
 
-- Midterm exam: **Tuesday, March 25th, 15:45–17:45.**
 - Final exam: **Tuesday, June 3rd, 15:45–17:45.**
 
 ### **Previous Final Exam and Problem Set** :pencil2:
