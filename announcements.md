@@ -6,9 +6,9 @@
 
 | Team | Unit | First Outline | Team Representative | Member 2 | Member 3 | Member 4 | Member 5 | Member 6 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
-|     |     |     |     |     |     |     |     |     |
+|   1  | Unit 20: Economics of the environment    |     |  Eloïse Mauras   |  Candice Potard   |  Titouan Geldreich   |  Tom Cantin   |   Camille Tran  |     |
+|  2   |  Unit 22: Economics, politics, and public policy   |     |   Ariane  |   Selma  |   Assya   |  Anitha   |  Lisa   |     |
+|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |     |   Damian Peska  |  Valentine Datil Rioual   |     |  Justin Brendolise   |   Lucas Lau Grady  |  Maël Sorenson   |
 |     |     |     |     |     |     |     |     |     |
 |     |     |     |     |     |     |     |     |     |
 
