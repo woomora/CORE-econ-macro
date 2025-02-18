@@ -8,7 +8,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |   1  | Unit 20: Economics of the environment    |     |  Eloïse Mauras   |  Candice Potard   |  Titouan Geldreich   |  Tom Cantin   |   Camille Tran  |     |
 |  2   |  Unit 22: Economics, politics, and public policy   |     |   Ariane  |   Selma  |   Assya   |  Anitha   |  Lisa   |     |
-|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   Damian Peska  |  Valentine Datil Rioual   |  Justin Brendolise   |   Lucas Lau Grady  |  Maël Sorenson   | |
+|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   |   Damian Peska  |  Valentine Datil Rioual   |  Justin Brendolise   |   Lucas Lau Grady  |  Maël Sorenson   | |
 |     |     |     |     |     |     |     |     |     |
 |     |     |     |     |     |     |     |     |     |
 
