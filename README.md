@@ -15,7 +15,7 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 - **Introduction**
 
   - [Intro](https://woomora.github.io/CORE-econ-macro/Intro/core-intro.html#1)
-  - [Unit 1: The Capitalist Revolution](https://woomora.github.io/CORE-econ-micro/Unit-1/core-unit1.html#1)
+  - [Unit 1: The Capitalist Revolution](https://woomora.github.io/CORE-econ-macro/Unit-1/core-unit1.html#1)
   - [Unit 2: Technology, population and growth]
 
 <!---   (https://woomora.github.io/CORE-econ-micro/Unit-2/core-unit2.html#1) --->
