@@ -4,7 +4,7 @@
 
 ### Teams :busts_in_silhouette:
 
-| Team | Unit | First Outline | Team Representative | Member 2 | Member 3 | Member 4 | Member 5 | Member 6 |
+| Team | Unit | First Outline | Team Representative | Team Member 2 | Team Member 3 | Team Member 4 | Team Member 5 | Team Member 6 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |   1  | Unit 20: Economics of the environment    |     |  Eloïse Mauras   |  Candice Potard   |  Titouan Geldreich   |  Tom Cantin   |   Camille Tran  |     |
 |  2   |  Unit 22: Economics, politics, and public policy   |     |   Ariane  |   Selma  |   Assya   |  Anitha   |  Lisa   |     |
