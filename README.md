@@ -20,8 +20,8 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
 
 - **Labour markets and unemployment**
 
-  - [Unit 6: The firm: Owners, managers, and employees](https://woomora.github.io/CORE-econ-micro/Unit-6/core-unit6.html#1)
-  - [Unit 7: The firm and its customers](https://woomora.github.io/CORE-econ-micro/Unit-7/core-unit7.html#1)
+  - [Unit 6: The firm: Owners, managers, and employees](https://woomora.github.io/CORE-econ-macro/Unit-6/core-unit6.html#1)
+  - [Unit 7: The firm and its customers](https://woomora.github.io/CORE-econ-macro/Unit-7/core-unit7.html#1)
   - [Unit 9: The labour market: Wages, profit, and unemployment]
 
 <!---  (https://woomora.github.io/CORE-econ-macro/Unit-9/core-unit9.html#1) --->
