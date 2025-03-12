@@ -1,7 +1,11 @@
 ---
-title: "Unit 2: Technological change, Population, and Growth"
+title: "CORE Econ Macro"
+subtitle: | 
+ | Technological change, Population, and Growth
 author: "Guillermo Woo-Mora"
-date: "16/02/2022"
+date: | 
+ | Paris Sciences et Lettres
+ | Spring 2025
 output: 
   xaringan::moon_reader:
     lib_dir: libs
@@ -12,25 +16,18 @@ output:
       ratio: 16:9
 ---
 
-```{r meta, echo=FALSE}
-library(metathis)
-meta() %>%
-  meta_general(
-    description = "An Introduction to xaringan for Presentations: The Basics",
-    generator = "xaringan and remark.js"
-  ) %>% 
-  meta_name("github-repo" = "spcanelon/xaringan-basics-and-beyond")
-  # meta_social(
-  #   title = "Sharing Your Work with xaringan &#8212; Day 1",
-  #   url = "https://spcanelon.github.io/xaringan-basics-and-beyond/slides/day-01-basics.html#1",
-  #   image = "https://raw.githubusercontent.com/spcanelon/xaringan-basics-and-beyond/main/slides/day-01-cover-image.png",
-  #   image_alt = "Title slide for the day 1 slides of the Sharing Your Work with xaringan workshop series",
-  #   og_type = "website",
-  #   og_author = "Silvia Canelon",
-  #   twitter_card_type = "summary_large_image",
-  #   twitter_creator = "@spcanelon"
-  # )
-```
+<style>
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+</style>
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE)
@@ -65,9 +62,6 @@ xaringanExtra::style_share_again(
 # scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
 ```
 
-
----
-
 --
 
 'Potato blight' - Great Famine (Ireland, 1845 - 1852) 
@@ -78,13 +72,43 @@ xaringanExtra::style_share_again(
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/9/97/Skibbereen_by_James_Mahony%2C_1847.JPG")
 ```
 
---
+By the time the Irish famine ended, about a million people out of an initial total of 8.5 million had died.
+
+---
+'Potato blight' - Great Famine (Ireland, 1845 - 1852) 
+ 
+```{r out.width= "27.5%"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/9/97/Skibbereen_by_James_Mahony%2C_1847.JPG")
+```
 
 Nassau Senior consistently opposed British government famine relief
 
+> feared the famine of 1848 in Ireland would not kill more than a million people, and that would scarcely be enough to do much good.
+
 --
 
-> feared the famine of 1848 in Ireland would not kill more than a million people, and that would scarcely be enough to do much good.
+A result of **Malthusianism**, a key early 19th-century economic theory by Thomas Malthus in *An Essay on the Principle of Population*.
+
+---
+
+**Malthusianism**, a key early 19th-century economic theory by Thomas Malthus in *An Essay on the Principle of Population*.
+
+--
+
+Malthus held that a sustained increase in income per capita would be impossible.
+
+--
+
+1. **Malthusian Poverty Trap:**  
+   $$
+   \uparrow \textit{Technology} \Rightarrow \; \uparrow \textit{Productivity} \Rightarrow  \; \uparrow \textit{Income} \Rightarrow  \;  \uparrow \textit{Birth Rate} \Rightarrow  \; \uparrow \textit{Population Growth}
+   $$
+ $$
+   \Rightarrow  \; \downarrow \textit{Living Standards} \Rightarrow  \;  \textit{Subsistence Level} \Rightarrow  \;  \textit{No Further Growth}
+   $$
+--
+
+But in Malthus’ lifetime something big was happening all around him...
 
 ---
 
@@ -94,97 +118,56 @@ knitr::include_graphics("imgs/figure-02-01.svg")
 
 ---
 
+.center2[
+# What caused the break from the Malthusian trap?
+]
 
+
+---
+
+.center2[
 # Techological change, Population, and Growth
-
---
-
-
-- The capitalist and industrial revolution.
-
-- Economic models.
-
-- Explaining growth.
-
-- Explaining stagnation.
-
---
-
-
-### Technological progress
-
---
-
-- How did the technological revolution start?
-- Why did it not start earlier?
-- Why did it started in England?
-
---
-
-Use economic models to explain the rapid growth in real wages and population in the last 2 centuries, and the stagnation in the centuries before that.
-
+]
 
 ---
-## Key concepts in economic models
+## **Introduction: Technological Change, Population, and Growth**  
 
 --
 
-**Ceteris paribus** = simplification that involves "holding other things (in/outside the model) constant”. 
+#### **1) The Capitalist and Industrial Revolutions**  
+- Why did the **Industrial Revolution** occur in Britain?  
+- How did **economic models** help explain this transformation?  
+- The role of **wages, machinery costs, and relative prices** in driving economic decisions.  
 
 --
 
-**Incentives** = economic rewards or punishments, which influence the benefits and costs of alternative courses of action.
+#### **2) The Role of Economic Models**  
+- Models help us understand **why and when technological revolutions happen**.  
+- They allow us to explore both **economic growth** and **stagnation** over time.  
+- Key question: **What conditions enabled sustained economic progress?**  
 
 --
 
-**Relative prices** help us compare alternatives.
-
---
-
-**Economic rent** = the benefit received from a choice, taking into account the next best alternative (reservation option)
-
-$$ \textit{economic rent} = \textit{benefit from option taken}  -  \textit{benefit from next best option} $$ 
-
---
-
-**Equilibrium of a model** = situation that is self-perpetuating. Something of interest does not change unless an external force is introduced that alters the model's description of the situation.
-
+#### **3) Understanding Technological Progress**  
+- **How did the technological revolution start?**  
+- **Why did it not start earlier?**  
+- **Why did it start in England?**  
 
 ---
-## Economic models: See more by looking at less
+.center2[
+# Economists, historians, and the Industrial Revolution
+]
 
---
+---
 
-A useful model
-
---
-
-- **It is clear**: it helps us better understand something important
-
---
-
-- **It predicts accurately**: its predictions are consistent with evidence 
-
---
-
-- **It improves communication**: it helps us to understand what we agree (and disagree) about 
-
---
-
-- **It is useful**: We can use it to find ways to improve how the economy works
-
---
-
-
-```{r out.width="45%"}
-knitr::include_graphics("imgs/tube-map.gif")
+```{r, out.width="80%"}
+knitr::include_graphics("imgs/econ_historians_meme.jpeg")
 ```
 
+
 ---
+## Economists, historians, and the Industrial Revolution
 
-## Explaining grwoth: the Industrial Revolution
-
---
 
 Why did the Industrial Revolution happen first in the 18th Century, on an island off the coast of Europe?
 
@@ -212,6 +195,117 @@ Many alternative explanations
 --
 
 - **Kenneth Pomeranz**: abundance of coal and access to colonies
+
+--
+
+Economists can learn from historians, but historical arguments are often too imprecise for economic models. Conversely, historians may find economic models too simplistic. 
+
+--
+
+(If you're interested in **drama, academic gossip, or debates** between historians and economists, I highly recommend this [post](https://www.noahpinion.blog/p/on-the-wisdom-of-the-historians).)
+
+---
+.center2[
+# Economic models: How to see more by looking at less
+]
+
+---
+## Economic models: See more by looking at less
+
+We need to be able to stand back and look at the big picture. 
+
+--
+
+They often use mathematical equations and graphs as well as words and pictures. 
+
+--
+
+A good model:
+
+--
+
+- **Is clear**: it helps us better understand something important
+
+--
+
+- **Predicts accurately**: its predictions are consistent with evidence 
+
+--
+
+- **Improves communication**: it helps us to understand what we agree (and disagree) about 
+
+--
+
+- **It is useful**: We can use it to find ways to improve how the economy works
+
+---
+## Economic models: See more by looking at less
+
+We need to be able to stand back and look at the big picture. 
+
+They often use mathematical equations and graphs as well as words and pictures. 
+
+.pull-left[
+A good model:
+
+- **Is clear**: it helps us better understand something important
+
+- **Predicts accurately**: its predictions are consistent with evidence 
+
+- **Improves communication**: it helps us to understand what we agree (and disagree) about 
+
+- **It is useful**: We can use it to find ways to improve how the economy works
+]
+
+.pull-right[
+```{r out.width="90%"}
+knitr::include_graphics("imgs/tube-map.gif")
+```
+]
+
+--
+
+Bad models can result in disastrous policies. To have confidence in a model, we need to see whether it is consistent with evidence.
+
+---
+.center2[
+# Basic concepts: Prices, costs, and innovation rents
+]
+
+---
+## Key concepts in economic models
+
+--
+
+**Ceteris paribus** = simplification that involves "holding other things (in/outside the model) constant”. 
+
+--
+
+**Incentives** = economic rewards or punishments, which influence the benefits and costs of alternative courses of action.
+
+--
+
+**Relative prices** help us compare alternatives.
+
+--
+
+**Economic rent** = the benefit received from a choice, taking into account the next best alternative (reservation option)
+
+$$ \textit{economic rent} = \textit{benefit from option taken}  -  \textit{benefit from next best option} $$ 
+
+
+--
+**Reservation option**: A person’s next best alternative among all options in a particular transaction.
+
+--
+
+**Equilibrium of a model**: situation that is self-perpetuating. Something of interest does not change unless an external force is introduced that alters the model's description of the situation.
+
+---
+.center2[
+# Modelling a dynamic economy: Technology and costs
+]
+
 
 ---
 
@@ -584,14 +678,39 @@ knitr::include_graphics("imgs/figure-02-06-d.svg")
 
 
 Which is the least-cost technology?
+--
+ **B**
 
 ---
+
+**Suppose that the wage is £10 and the price of coal is £20 per tonne** $\rightarrow \textit{Relative price}:  \frac{w}{p} = \frac{10}{20} = .5$
+
+
+| Technology | Number of workers | Coal required (tonnes) | Total cost (£) |
+|------------|------------------|------------------------|---------------|
+| B          | 4                | 2                      | 80            |
+| A          | 1                | 6                      | 130           |
+| E          | 10               | 1                      | 120           |
+
+*Wage £10, cost of coal £20 per tonne*
+
+Which is the least-cost technology? **B**
+
+---
+.center2[
+# Modelling a dynamic economy: Innovation and profit
+]
+
+---
+## How does a cost-reducing innovation raise the profits of the firm?
 
 **Suppose that the price of coal falls to £5 while the wage remains at £10**
 --
  $\rightarrow \textit{Relative price}:  \frac{w}{p} = \frac{10}{5} = 2$
  
---
+---
+**Suppose that the price of coal falls to £5 while the wage remains at £10**
+ $\rightarrow \textit{Relative price}:  \frac{w}{p} = \frac{10}{5} = 2$
 
 ```{r out.width="70%"}
 knitr::include_graphics("imgs/figure-02-07-a.svg")
@@ -627,10 +746,7 @@ knitr::include_graphics("imgs/figure-02-07-c.svg")
 The slope of the isocost line is equal to −(10/5) = −2. If you spent £10 on labour by hiring an extra worker, you could reduce coal by 2 tonnes and keep the total cost at £40.
 
 ---
-
 ## How does a cost-reducing innovation raise the profits of the firm?
-
---
 
 At the original relative price, B is the lower cost technology
 
@@ -642,7 +758,6 @@ knitr::include_graphics("imgs/figure-02-08-a.svg")
 When the wage is £10 and the price of coal is relatively high at £20, the cost of producing 100 metres of cloth using technology B is £80: choosing the B-technology puts the firm on the HJ isocost curve.
 
 ---
-
 ## How does a cost-reducing innovation raise the profits of the firm?
 
 The price of coal falls to £5
@@ -651,7 +766,24 @@ The price of coal falls to £5
 knitr::include_graphics("imgs/figure-02-08-b.svg")
 ```
 
-If the price of coal falls relative to the wage as shown by the isocost curve FG, then using the A-technology, which is more energy-intensive than B, costs £40. From the table, we see that with these relative prices, A is now the least-cost technology.
+If the price of coal falls relative to the wage as shown by the isocost curve FG, then using the A-technology, which is more energy-intensive than B, costs £40. 
+
+
+---
+
+## How does a cost-reducing innovation raise the profits of the firm?
+
+The price of coal falls to £5
+
+| Technology | Number of workers | Coal required (tonnes) | Total cost (£) |
+|------------|------------------|------------------------|---------------|
+| B          | 4                | 2                      | 50            |
+| A          | 1                | 6                      | 40            |
+| E          | 10               | 1                      | 105           |
+
+*Wage £10, cost of coal £5 per tonne*
+
+If the price of coal falls relative to the wage as shown by the isocost curve FG, then using the A-technology, which is more energy-intensive than B, costs £40. 
 
 ---
 
@@ -677,24 +809,33 @@ $$ \Delta profits =  \Delta revenue -  \Delta costs =  0 -  (40 - 50) = 10 $$
 
 --
 
-The economic rent for a firm switching from B to A is £10 per 100 metres of cloth, which is the cost reduction made possible by the new technology --**Schumpeterian (innovation) rents**--
+The economic rent for a firm switching from B to A is £10 per 100 metres of cloth, which is the cost reduction made possible by the new technology 
+
+**Schumpeterian (innovation) rents**
 
 --
+
+.pull-left[
 
 Joseph Schumpeter: the adoption of technological improvements by **entrepreneurs** --first adopters-- a key part of his explanation for the dynamism of capitalism. 
 
---
-
 **Creative Destruction**: the process by which old technologies and the firms that do not adapt are swept away by the new, because they cannot compete in the market.
+]
 
 --
 
-```{r out.width="40%"}
+.pull-right[
+```{r out.width="80%"}
 knitr::include_graphics("https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy-downsized-large.gif")
 ```
+]
 
 ---
+.center2[
+# The British Industrial Revolution and incentives for new technologies
+]
 
+---
 ## Technological change in Industrial Revolution
 
 --
@@ -716,7 +857,7 @@ One of the first sectors to undergo technological change was textiles
 --
 
 
-```{r out.width="40%"}
+```{r out.width="37%"}
 knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/0/04/Zeichnung_Spinning_jenny.jpg")
 ```
 
@@ -794,9 +935,24 @@ We know that when the relative price of labour is high, technology A is lower co
 
 ---
 
-```{r}
+```{r, out.width="80%"}
 knitr::include_graphics("imgs/figure-02-01.svg")
 ```
+
+The historical evidence supports our model that uses relative prices and innovation rents to provide a simple account of the timing and the geographical spread of the permanent technological revolution.
+
+---
+
+```{r, out.width="80%"}
+knitr::include_graphics("imgs/figure-02-01.svg")
+```
+
+This is part of the explanation of the upward kink in the hockey stick. Explaining the long flat part of the stick is another story, requiring a different model.
+
+---
+.center2[
+# Malthusian economics: Diminishing average product of labour
+]
 
 ---
 ## Diminishing average product of labour
@@ -841,66 +997,73 @@ If we hold one input (land) fixed, and expand the other input (labour), the aver
 
 --
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-a.svg")
 ```
 
+The production function shows how the number of farmers working the land translates into grain produced at the end of the growing season.
+
 ---
 ## Diminishing average product of labour
 
 If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-b.svg")
 ```
 
+Point A on the production function shows the output of grain produced by 800 farmers.
+
 ---
 ## Diminishing average product of labour
 
 If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-c.svg")
 ```
 
+Point B on the production function shows the amount of grain produced by 1,600 farmers.
+
 ---
 ## Diminishing average product of labour
 
 If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-d.svg")
 ```
 
+At A, the average product of labour is 500,00/800 = 625 kg of grain per farmer. At B, the average product of labour is 732,000/1,600 = 458 kg of grain per farmer.
+
 ---
 ## Diminishing average product of labour
 
 If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-e.svg")
 ```
 
----
-## Diminishing average product of labour
-
-If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
-
-```{r out.width="80%"}
-knitr::include_graphics("imgs/figure-02-14-b-f.svg")
-```
+The slope of the ray from the origin to point B on the production function shows the average product of labour at point B. The slope is 458, meaning an average product of 458 kg per farmer when 1,600 farmers work the land.
 
 ---
 ## Diminishing average product of labour
 
 If we hold one input (land) fixed, and expand the other input (labour), the average output per worker is going to fall. 
 
-```{r out.width="80%"}
+```{r out.width="65%"}
 knitr::include_graphics("imgs/figure-02-14-b-f.svg")
 ```
 
----
+The slope of the ray to point A is steeper than to point B. When only 800 farmers work the land there is a higher average product of labour. The slope is 625, the average product of 625 kg per farmer that we calculated previously.
 
+---
+.center2[
+# Malthusian economics: Population grows when living standards rise
+]
+
+---
 ## Malthus argument
 
 --
@@ -979,6 +1142,15 @@ knitr::include_graphics("imgs/figure-02-16-e.svg")
 As the population rises, the economy moves down the line in the left diagram: wages fall until they reach equilibrium at A.
 
 ---
+## Modelling Malthus
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/figure-02-16-e.svg")
+```
+
+Malthusian population trap: Population will be constant when the wage is at subsistence level, it will rise when the wage is above subsistence level, and it will fall when the wage is below subsistence level.
+
+---
 ## Modelling Malthus: productivity increases
 
 ```{r out.width="75%"}
@@ -1024,6 +1196,20 @@ knitr::include_graphics("imgs/figure-02-17-e.svg")
 At C, the wage has reached subsistence level again. The population remains constant (point C′). The population is higher at equilibrium C than it was at equilibrium A.
 
 ---
+## Modelling Malthus: productivity increases
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/figure-02-17-e.svg")
+```
+
+Malthusian model predicts that even if productivity increases, living standards in the long run do not.
+
+---
+.center2[
+# The Malthusian trap and long-term economic stagnation
+]
+
+---
 ## Testing Malthus
 
 --
@@ -1045,44 +1231,170 @@ knitr::include_graphics("imgs/figure-02-18.svg")
 ```
 
 ---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-b.svg")
+```
 
-The permanent technological revolution meant that third condition no longer holds, and explains why Britain was able to escape the Malthusian trap.
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-b.svg")
+```
 
---
+The bubonic plague of 1348–50 was known as the Black Death. It killed 1.5 million people out of an estimated English population of 4 million, leading to a dramatic fall in labour supply.
 
-```{r}
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-c.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-c.svg")
+```
+
+This decline in the population had an economic benefit for the farmers and workers who survived: it meant that farmers had more and better land, and workers could demand higher wages. Incomes rose as the plague abated.
+
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-d.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-d.svg")
+```
+
+In 1351, King Edward III of England tried to limit wage rises by law, helping to cause a period of rebellions against authority, notably the Peasants’ Revolt of 1381. Despite the King’s actions, incomes continued to increase.
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-e.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-e.svg")
+```
+
+By the middle of the fifteenth century, the real wages of English building workers had doubled. Increased wages helped the population to recover in the sixteenth century, but Malthus’ law asserted itself: as the population increased, incomes fell.
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-d.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-e.svg")
+```
+
+By 1600, real wages had fallen to the level they were 300 years previously.
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-19-a-d.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-19-b-e.svg")
+```
+
+Our model of Malthusian economics helps to explain the rise and fall of incomes between 1300 and 1600 in England.
+
+---
+.center2[
+# Escaping from Malthusian stagnation
+]
+
+---
+## Escaping from Malthusian stagnation
+
+Improvements in technology could happen at a faster rate than population growth, offsetting the diminishing average product of labour.
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/figure-02-20.svg")
 ```
 
-
-https://ourworldindata.org/grapher/englands-economy-over-the-long-run-gdp-vs-population?time=1270..1292&country=~GBR
+[Our World in Data animation](https://ourworldindata.org/grapher/englands-economy-over-the-long-run-gdp-vs-population?time=1270..1292&country=~GBR
+)
 
 ---
 
-### Summary
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-21-a-b.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-21-b-b.svg")
+```
+
+The story begins with technological improvements, such as the spinning jenny and the steam engine, that increased output per worker. Innovation continued as the technological revolution became permanent, displacing thousands of spinsters, weavers and farmers.
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-21-a-b.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-21-b-c.svg")
+```
+
+The loss of employment reduced workers’ bargaining power, keeping wages low, seen in the flat line between 1750 and 1830. The size of the pie was increasing, but the workers’ slice was not.
+
+---
+
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-21-a-b.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-21-b-d.svg")
+```
+
+In the 1830s, higher productivity and low wages led to a surge in profits. Profits, competition, and technology drove businesses to expand. The demand for labour went up. People left farming for jobs in the new factories.
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-21-a-e.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-21-b-e.svg")
+```
+
+The supply of labour fell when business owners were stopped from employing children. The combination of higher labour demand and lower supply enhanced workers’ bargaining power.
+
+---
+```{r out.width="50%"}
+knitr::include_graphics("imgs/figure-02-21-a-e.svg")
+```
+
+```{r out.width="35%"}
+knitr::include_graphics("imgs/figure-02-21-b-f.svg")
+```
+
+The power of working people increased as they gained the right to vote and formed trade unions. These workers were able to claim a constant or rising share of the increases in productivity generated by the permanent technological revolution.
+
+---
+.center2[
+# Conclusion and summary
+]
+
+---
+## Conclusion & Key Takeaways
 
 --
 
-**1) Introduction to economic models**
-
-- Less is more: use simplifying assumptions e.g. *ceteris paribus*
-
---
-
-**2. Used models for insights on the technological revolution**
-
-- Model of a firm: high wages (relative to capital, including energy) motivated technological innovation
-- Malthus’ model: permanent technological change enabled economies to escape economic stagnation
+#### **1) The Role of Economic Models**  
+- Models simplify reality to highlight key mechanisms (e.g., *ceteris paribus* assumptions).  
+- Using models helps explain historical economic transformations, such as the Industrial Revolution.  
 
 --
 
-### Next unit (23/03/2021)
+#### **2) Insights on the Technological Revolution**  
+- **Firm Behavior:** High wages relative to capital (including energy) created incentives for technological innovation.  
+- **Malthusian Model:** Before the Industrial Revolution, population growth offset income gains, leading to stagnation.  
+- **Breaking the Cycle:** Permanent technological change allowed economies to escape Malthusian stagnation, leading to sustained growth.  
 
 --
 
-- An economic model of decision making under constraints
-
-- How individuals respond to technological change: Explaining trends in choices of working hours across time
-
-
+#### **Final Thought**  
+- Economic models help us understand past transformations and provide frameworks for analyzing present and future economic changes.  
 
