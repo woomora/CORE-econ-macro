@@ -6,12 +6,12 @@
 
 | Team | Unit | First Outline | Team Representative | Team Member 2 | Team Member 3 | Team Member 4 | Team Member 5 | Team Member 6 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|   1  | Unit 20: Economics of the environment    |     |  Eloïse Mauras   |  Candice Potard   |  Titouan Geldreich   |  Tom Cantin   |   Camille Tran  |     |
-|  2   |  Unit 22: Economics, politics, and public policy   |     |   Ariane  |   Selma  |   Assya   |  Anitha   |  Lisa   |     |
-|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   |   Damian Peska  |  Valentine Datil Rioual   |  Justin Brendolise   |   Lucas Lau Grady  |  Maël Sorenson   | |
-|   4  |  Unit 18: The Nation and the World Economy   |     |   Olga Magnet   |  Rivka Pelisse   |  Étienne Viguier    |  Cyriac Fresia-Compet   |   Arthur Blanchard   |     |
-|   5  |   Unit 21: Innovation, Information, and the Networked Economy  |     |   Maho Hirrien  |  Alice Chamley   |   Alice Gaudin  |   Jeanne Coquerel  |   Thelma Gay-Cortijo  |     |
-|  6  |   Unit 19: Economic Inequality  |     |   Marie   |  Micaela  |  Josephine  |   Agathe  |   Jiwoo  |     |
+|   1  | Unit 20: Economics of the environment    |     |  MAURAS Eloïse   |  POTARD Candice  |  GELDREICH Titouan  |  CANTIN Tom   |   TRAN Camille  |     |
+|  2   |  Unit 22: Economics, politics, and public policy   |     |   TAISNE Ariane  |   HOV Selma  |   FARADJI Assya   |  VIJAYAKUMAR Anitha   |  CIFFROY Lisa   |     |
+|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   |   PESKA Damian  |  DATIL-RIOUAL Valentine   |  BRENDOLISE Justin   |   LAU-GRADY Lucas  |  SORENSEN Mael   | |
+|   4  |  Unit 18: The Nation and the World Economy   |     |   MAGNET Olga   |  PELISSE Rivka  |  VIGUIER Etienne |  FRESIA--COMPET Cyriac   |   BLANCHARD Arthur    |     |
+|   5  |   Unit 21: Innovation, Information, and the Networked Economy  |     |   HIRRIEN Maho  | CHAMLEY Alice  |   GAUDIN Alice  |   COQUEREL Jeanne |   GAY-CORTIJO Thelma  |     |
+|  6  |   Unit 19: Economic Inequality  |     |   PRECETTI Marie   |  ELLMANN Micaela  |  MOURRE Josephine  |   CHAPELON Agathe  |   BAE Jiwoo  |     |
 
 
 ### Guidelines :mag:
