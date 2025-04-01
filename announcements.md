@@ -9,7 +9,7 @@
 | 1    | Unit 20: Economics of the Environment |                | MAURAS Eloïse      | POTARD Candice   | GELDREICH Titouan | CANTIN Tom       | TRAN Camille      |
 | 2    | Unit 22: Economics, Politics, and Public Policy |         | TAISNE Ariane      | HOV Selma        | FARADJI Assya     | VIJAYAKUMAR Anitha | CIFFROY Lisa     |
 | 3    | Unit 17: The Great Depression, Golden Age, and Global Financial Crisis | | PESKA Damian       | DATIL-RIOUAL Valentine | BRENDOLISE Justin | LAU-GRADY Lucas   | SORENSEN Mael    |
-| 4    | Unit 18: The Nation and the World Economy |           | MAGNET Olga        | PELISSE Rivka     | VIGUIER Etienne   | FRESIA--COMPET Cyriac | BLANCHARD Arthur |
+| 4    | Unit 18: The Nation and the World Economy |           | MAGNET Olga        | PELISSE Rivka     | VIGUIER Etienne   | FRESIA-COMPET Cyriac | BLANCHARD Arthur |
 | 5    | Unit 21: Innovation, Information, and the Networked Economy | | HIRRIEN Maho        | CHAMLEY Alice     | GAUDIN Alice       | COQUEREL Jeanne    | GAY-CORTIJO Thelma |
 | 6    | Unit 19: Economic Inequality |                   | PRECETTI Marie      | ELLMANN Micaela   | MOURRE Josephine  | CHAPELON Agathe    | BAE Jiwoo         |
 
