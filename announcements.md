@@ -18,7 +18,7 @@
 
 The project aims to demonstrate students' ability to apply the knowledge and tools acquired in class to analyze real-world problems and propose solutions using economic models and concepts.
 
-#### Policy Brief (25% of final grade)
+#### 📝 Policy Brief (25% of final grade)
 
 The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for writing a policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf). Examples from previous years are available [here](https://github.com/woomora/CORE-econ-macro/tree/master/other/Policy%20brief%20examples).
 
@@ -32,9 +32,18 @@ The policy brief is a PDF document with a maximum of **four** pages, excluding r
   - The use of data to describe the problem and context.
   - A policy proposal to tackle the problem.
   - A research question proposal to explore further (only the research question).
+ 
+| **Criteria** | **Description** | **Points** |
+|--------------|-----------------|------------|
+| **1. Policy Question** | Clearly formulated, relevant, and appropriately scoped policy question. | 5 |
+| **2. Literature Review** | Concise summary of relevant academic or institutional work on the topic. Demonstrates understanding of prior research. | 5 |
+| **3. Use of Data** | Effective use of data (charts, tables, indicators) to describe and contextualize the issue. Sources should be cited. | 5 |
+| **4. Policy Proposal** | Realistic, economically sound, and clearly linked to the problem. Demonstrates understanding of economic trade-offs. | 5 |
+| **5. Research Question Proposal** | A thoughtful, feasible research question extending from the brief. | 3 |
+| **6. Structure & Style** | Clarity, coherence, adherence to page limit, appropriate referencing, and professional formatting. | 2 |
+| **Total** | | **25 pts** |
 
-#### Presentation (25% of final grade)
-
+#### 🎤 Presentation (25% of final grade)
 The presentation includes an in-depth reading of the assigned chapter, a summary, and a class presentation.
 
 - **Duration:** 35 minutes (25 minutes for the chapter’s main topics and 10 minutes for the policy proposal).
@@ -56,23 +65,6 @@ The presentation includes an in-depth reading of the assigned chapter, a summary
     - Unit 21: Innovation, Information, and the Networked Economy
     - Unit 19: Economic Inequality
  
-## 📊 Grading Scheme – Policy and Research Project
-
-### 📝 Policy Brief (25% of final grade)
-
-| **Criteria** | **Description** | **Points** |
-|--------------|-----------------|------------|
-| **1. Policy Question** | Clearly formulated, relevant, and appropriately scoped policy question. | 5 |
-| **2. Literature Review** | Concise summary of relevant academic or institutional work on the topic. Demonstrates understanding of prior research. | 5 |
-| **3. Use of Data** | Effective use of data (charts, tables, indicators) to describe and contextualize the issue. Sources should be cited. | 5 |
-| **4. Policy Proposal** | Realistic, economically sound, and clearly linked to the problem. Demonstrates understanding of economic trade-offs. | 5 |
-| **5. Research Question Proposal** | A thoughtful, feasible research question extending from the brief. | 3 |
-| **6. Structure & Style** | Clarity, coherence, adherence to page limit, appropriate referencing, and professional formatting. | 2 |
-| **Total** | | **25 pts** |
-
-
-### 🎤 Presentation (25% of final grade)
-
 | **Criteria** | **Description** | **Points** |
 |--------------|-----------------|------------|
 | **1. Chapter Coverage** | Clear summary of key concepts and arguments from the assigned CORE unit. Accuracy and depth of understanding. | 8 |
