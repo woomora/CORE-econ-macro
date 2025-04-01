@@ -11,6 +11,8 @@
 |   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   |   Damian Peska  |  Valentine Datil Rioual   |  Justin Brendolise   |   Lucas Lau Grady  |  Maël Sorenson   | |
 |   4  |  Unit 18: The Nation and the World Economy   |     |   Olga Magnet   |  Rivka Pelisse   |  Étienne Viguier    |  Cyriac Fresia-Compet   |   Arthur Blanchard   |     |
 |   5  |   Unit 21: Innovation, Information, and the Networked Economy  |     |   Maho Hirrien  |  Alice Chamley   |   Alice Gaudin  |   Jeanne Coquerel  |   Thelma Gay-Cortijo  |     |
+|  6  |   Unit 19: Economic Inequality  |     |   Marie   |  Micaela  |  Josephine  |   Agathe  |   Jiwoo  |     |
+
 
 ### Guidelines :mag:
 
@@ -21,8 +23,8 @@ The project aims to demonstrate students' ability to apply the knowledge and too
 The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for writing a policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf). Examples from previous years are available [here](https://github.com/woomora/CORE-econ-macro/tree/master/other/Policy%20brief%20examples).
 
 - **Deadlines:**
-  - Reach out by mail to set an appointment before **28/03**.
-  - Final policy brief due the **night before your presentation** to my email: guillermo.woo-mora [at] psemail.eu.
+  - A first draft **1.5** pages two weeks before your presentation.
+  - Final policy brief due the **June 3rd, 2025** to my email: guillermo.woo-mora [at] psemail.eu.
 
 - **Evaluation Criteria:**
   - A detailed and delimited policy question.
@@ -35,7 +37,7 @@ The policy brief is a PDF document with a maximum of **four** pages, excluding r
 
 The presentation includes an in-depth reading of the assigned chapter, a summary, and a class presentation.
 
-- **Duration:** 45 minutes (30 minutes for the chapter’s main topics and 15 minutes for the policy proposal).
+- **Duration:** 35 minutes (25 minutes for the chapter’s main topics and 10 minutes for the policy proposal).
 
 - **Evaluation Criteria:**
   - Coverage of the chapter's main topics.
@@ -46,14 +48,13 @@ The presentation includes an in-depth reading of the assigned chapter, a summary
 ### Presentations Calendar :date:
 
 - Tuesday, May 6th, 15:45–17:45.
-- Tuesday, May 13th, 15:45–17:45.
-- Tuesday, May 20th, 15:45–17:45.
+- Wednesday, May 7th, 08:00–10:00.
 
 ---
 
 ## **Exam DATES** :books:
 
-- Final exam: **Tuesday, June 3rd, 15:45–17:45.**
+- Final exam: **Tuesday, May 20th, 15:45–17:45.**
 
 ### **Previous Final Exam and Problem Set** :pencil2:
 
