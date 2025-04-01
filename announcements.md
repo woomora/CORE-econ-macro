@@ -4,15 +4,25 @@
 
 ### Teams :busts_in_silhouette:
 
-| Team | Unit | First Outline | Team Representative | Team Member 2 | Team Member 3 | Team Member 4 | Team Member 5 | Team Member 6 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|   1  | Unit 20: Economics of the environment    |     |  MAURAS Eloïse   |  POTARD Candice  |  GELDREICH Titouan  |  CANTIN Tom   |   TRAN Camille  |     |
-|  2   |  Unit 22: Economics, politics, and public policy   |     |   TAISNE Ariane  |   HOV Selma  |   FARADJI Assya   |  VIJAYAKUMAR Anitha   |  CIFFROY Lisa   |     |
-|   3  |  Unit 17: The Great Depression, Golden Age, and Global Financial Crisis   |   |   PESKA Damian  |  DATIL-RIOUAL Valentine   |  BRENDOLISE Justin   |   LAU-GRADY Lucas  |  SORENSEN Mael   | |
-|   4  |  Unit 18: The Nation and the World Economy   |     |   MAGNET Olga   |  PELISSE Rivka  |  VIGUIER Etienne |  FRESIA--COMPET Cyriac   |   BLANCHARD Arthur    |     |
-|   5  |   Unit 21: Innovation, Information, and the Networked Economy  |     |   HIRRIEN Maho  | CHAMLEY Alice  |   GAUDIN Alice  |   COQUEREL Jeanne |   GAY-CORTIJO Thelma  |     |
-|  6  |   Unit 19: Economic Inequality  |     |   PRECETTI Marie   |  ELLMANN Micaela  |  MOURRE Josephine  |   CHAPELON Agathe  |   BAE Jiwoo  |     |
+| Team | Unit | First Outline | Team Representative | Team Member 2 | Team Member 3 | Team Member 4 | Team Member 5 |
+|------|------|----------------|----------------------|----------------|----------------|----------------|----------------|
+| 1    | Unit 20: Economics of the Environment |                | MAURAS Eloïse      | POTARD Candice   | GELDREICH Titouan | CANTIN Tom       | TRAN Camille      |
+| 2    | Unit 22: Economics, Politics, and Public Policy |         | TAISNE Ariane      | HOV Selma        | FARADJI Assya     | VIJAYAKUMAR Anitha | CIFFROY Lisa     |
+| 3    | Unit 17: The Great Depression, Golden Age, and Global Financial Crisis | | PESKA Damian       | DATIL-RIOUAL Valentine | BRENDOLISE Justin | LAU-GRADY Lucas   | SORENSEN Mael    |
+| 4    | Unit 18: The Nation and the World Economy |           | MAGNET Olga        | PELISSE Rivka     | VIGUIER Etienne   | FRESIA--COMPET Cyriac | BLANCHARD Arthur |
+| 5    | Unit 21: Innovation, Information, and the Networked Economy | | HIRRIEN Maho        | CHAMLEY Alice     | GAUDIN Alice       | COQUEREL Jeanne    | GAY-CORTIJO Thelma |
+| 6    | Unit 19: Economic Inequality |                   | PRECETTI Marie      | ELLMANN Micaela   | MOURRE Josephine  | CHAPELON Agathe    | BAE Jiwoo         |
 
+### Presentations Calendar :date:
+
+- Tuesday, May 6th, 15:45–17:45.
+    - Unit 20: Economics of the environment 
+    - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
+    - Unit 22: Economics, politics, and public policy
+- Wednesday, May 7th, 08:00–10:00.
+    - Unit 18: The Nation and the World Economy
+    - Unit 21: Innovation, Information, and the Networked Economy
+    - Unit 19: Economic Inequality
 
 ### Guidelines :mag:
 
@@ -53,17 +63,6 @@ The presentation includes an in-depth reading of the assigned chapter, a summary
   - Understanding and ability to respond to questions.
   - Adherence to the time limit.
   - Active participation of all team members.
-
-### Presentations Calendar :date:
-
-- Tuesday, May 6th, 15:45–17:45.
-    - Unit 20: Economics of the environment 
-    - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
-    - Unit 22: Economics, politics, and public policy
-- Wednesday, May 7th, 08:00–10:00.
-    - Unit 18: The Nation and the World Economy
-    - Unit 21: Innovation, Information, and the Networked Economy
-    - Unit 19: Economic Inequality
  
 | **Criteria** | **Description** | **Points** |
 |--------------|-----------------|------------|
