@@ -18,12 +18,12 @@
 
 The project aims to demonstrate students' ability to apply the knowledge and tools acquired in class to analyze real-world problems and propose solutions using economic models and concepts.
 
-#### Policy Brief
+#### Policy Brief (25% of final grade)
 
 The policy brief is a PDF document with a maximum of **four** pages, excluding references. You can find some guidelines for writing a policy brief [here](https://writingcenter.unc.edu/tips-and-tools/policy-briefs/) and [here](https://www.idrc.ca/sites/default/files/idrcpolicybrieftoolkit.pdf). Examples from previous years are available [here](https://github.com/woomora/CORE-econ-macro/tree/master/other/Policy%20brief%20examples).
 
 - **Deadlines:**
-  - A first draft **1.5** pages two weeks before your presentation.
+  - A first draft **1.5** pages is due two weeks before your presentation (**Wednesday April 23rd**).
   - Final policy brief due the **June 3rd, 2025** to my email: guillermo.woo-mora [at] psemail.eu.
 
 - **Evaluation Criteria:**
@@ -33,7 +33,7 @@ The policy brief is a PDF document with a maximum of **four** pages, excluding r
   - A policy proposal to tackle the problem.
   - A research question proposal to explore further (only the research question).
 
-#### Presentation
+#### Presentation (25% of final grade)
 
 The presentation includes an in-depth reading of the assigned chapter, a summary, and a class presentation.
 
@@ -48,7 +48,40 @@ The presentation includes an in-depth reading of the assigned chapter, a summary
 ### Presentations Calendar :date:
 
 - Tuesday, May 6th, 15:45–17:45.
+    - Unit 20: Economics of the environment 
+    - Unit 17: The Great Depression, Golden Age, and Global Financial Crisis
+    - Unit 22: Economics, politics, and public policy
 - Wednesday, May 7th, 08:00–10:00.
+    - Unit 18: The Nation and the World Economy
+    - Unit 21: Innovation, Information, and the Networked Economy
+    - Unit 19: Economic Inequality
+ 
+## 📊 Grading Scheme – Policy and Research Project
+
+### 📝 Policy Brief (25% of final grade)
+
+| **Criteria** | **Description** | **Points** |
+|--------------|-----------------|------------|
+| **1. Policy Question** | Clearly formulated, relevant, and appropriately scoped policy question. | 5 |
+| **2. Literature Review** | Concise summary of relevant academic or institutional work on the topic. Demonstrates understanding of prior research. | 5 |
+| **3. Use of Data** | Effective use of data (charts, tables, indicators) to describe and contextualize the issue. Sources should be cited. | 5 |
+| **4. Policy Proposal** | Realistic, economically sound, and clearly linked to the problem. Demonstrates understanding of economic trade-offs. | 5 |
+| **5. Research Question Proposal** | A thoughtful, feasible research question extending from the brief. | 3 |
+| **6. Structure & Style** | Clarity, coherence, adherence to page limit, appropriate referencing, and professional formatting. | 2 |
+| **Total** | | **25 pts** |
+
+
+### 🎤 Presentation (25% of final grade)
+
+| **Criteria** | **Description** | **Points** |
+|--------------|-----------------|------------|
+| **1. Chapter Coverage** | Clear summary of key concepts and arguments from the assigned CORE unit. Accuracy and depth of understanding. | 8 |
+| **2. Policy Proposal Section** | Clear, engaging policy application linked to the chapter. Explains the rationale and potential impact. | 6 |
+| **3. Team Engagement & Participation** | All team members actively contribute and share the stage. Balanced participation. | 4 |
+| **4. Response to Questions** | Demonstrates comprehension and ability to explain/defend the presentation when asked questions. | 3 |
+| **5. Timing & Delivery** | Respect of the 35-minute total time. Smooth delivery, clarity of speech, and use of visual aids (if any). | 2 |
+| **6. Creativity & Engagement** | Effort to make the presentation engaging—through visuals, examples, or clear structuring. | 2 |
+| **Total** | | **25 pts** |
 
 ---
 
