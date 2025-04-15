@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>CORE Econ Macro</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Guillermo Woo-Mora" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script src="libs/clipboard/clipboard.min.js"></script>
+    <link href="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-clipboard/xaringanExtra-clipboard.js"></script>
+    <script>window.xaringanExtraClipboard(null, {"button":"Copy Code","success":"Copied!","error":"Press Ctrl+C to Copy"})</script>
+    <script src="libs/xaringanExtra-webcam/webcam.js"></script>
+    <script id="xaringanExtra-webcam-options" type="application/json">{"width":"200","height":"200","margin":"1em"}</script>
+    <script src="libs/js-cookie/js.cookie.js"></script>
+    <script src="libs/peerjs/peerjs.min.js"></script>
+    <script src="libs/tiny.toast/toast.min.js"></script>
+    <link href="libs/xaringanExtra-broadcast/broadcast.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-broadcast/broadcast.js"></script>
+    <link href="libs/shareon/shareon.min.css" rel="stylesheet" />
+    <script src="libs/shareon/shareon.min.js"></script>
+    <link href="libs/xaringanExtra-shareagain/shareagain.css" rel="stylesheet" />
+    <script src="libs/xaringanExtra-shareagain/shareagain.js"></script>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# CORE Econ Macro
+]
+.subtitle[
+## <div class="line-block">The labour market: Wages, profit, and unemployment<br />
+</div>
+]
+.author[
+### Guillermo Woo-Mora
+]
+.date[
+### <div class="line-block">Paris Sciences et Lettres<br />
+Spring 2025</div>
+]
+
+---
+
+
+&lt;style&gt;
+
+.center2 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+&lt;/style&gt;
+
+
+
+.center2[
+# Introduction
+]
+
+---
+
+## Why unemployment rates changes across countries?
+
+&lt;iframe src="https://ourworldindata.org/grapher/unemployment-rate?tab=map" loading="lazy" style="width: 100%; height: 520px; border: 0px none;" allow="web-share; clipboard-write"&gt;&lt;/iframe&gt;
+
+---
+## Why unemployment rates changes across time?
+
+&lt;img src="https://www.liberation.fr/resizer/L79dZlA73bQVBbR7-9yLbEhVkZQ=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/liberation/4ZVMAYPNXRDCNDEHD5FDIG6TSI.PNG" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+.center2[
+&gt; Aggregate—meaning added up to measure the whole, not just the parts—to describe economy-wide facts or variables
+]
+
+---
+## This Unit
+
+- Models price-setting and wage-setting behaviour of firms, which determines economy-wide unemployment rate and real wage
+
+- Explains why unemployment exists even in equilibrium
+
+- Shows how the government can affect wages and unemployment by its policies
+
+- Analyses the role of labour unions
+
+---
+.center2[
+# Measuring the economy: Employment and unemployment
+]
+
+---
+## Measuring employment and unemployment
+
+&lt;img src="imgs/employment-structure.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+--
+
+The **unemployed** are the people who: 
+
+--
+
+- are not in paid employment or self-employment
+
+- are available for work
+
+- are actively seeking work
+
+---
+
+.pull-left[
+
+`$$\textit{participation rate} = \frac{labour force}{\textit{population of working age}}$$`
+
+
+`$$\textit{unemployment rate} = \frac{unemployed}{labour force}$$`
+
+`$$\textit{employment rate} = \frac{employed}{\textit{population of working age}}$$`
+
+]
+
+--
+
+.pull-right[
+
+|     | **Norway** | **Spain** |
+| --- | --- | --- | 
+| *No. of persons (millions)* |  |  |
+| Population of working age	| 3.5 | 37.6 |
+| Labour force | 2.5 | 21.6 |
+| Out of labour force (inactive) | 1.0 | 16.0 |
+| Employed | 2.4 | 18.1 |
+| Unemployed | 0.1 | 3.5 |
+
+]
+
+
+
+---
+
+.pull-left[
+
+`$$\textit{participation rate} = \frac{labour force}{\textit{population of working age}}$$`
+
+`$$\textit{unemployment rate} = \frac{unemployed}{labour force}$$`
+
+`$$\textit{employment rate} = \frac{employed}{\textit{population of working age}}$$`
+
+]
+
+.pull-right[
+
+|     | **Norway** | **Spain** |
+| --- | --- | --- | 
+| *No. of persons (millions)* |  |  |
+| Population of working age	| 3.5 | 37.6 |
+| Labour force | 2.5 | 21.6 |
+| Out of labour force (inactive) | 1.0 | 16.0 |
+| Employed | 2.4 | 18.1 |
+| Unemployed | 0.1 | 3.5 |
+| *Rates (%)* |  |  |
+| Participation rate | 2.5/3.5 = 71% | 21.6/37.6 = 58% |
+| Employment rate | 2.4/3.5 = 69% | 18.1/37.6 = 48% |
+| Unemployment rate	 | 0.1/2.5 = 4% | 3.5/21.6 = 16%  |
+
+]
+
+---
+
+&lt;img src="core-unit9_files/figure-html/unnamed-chunk-3-1.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+.center2[
+# Price-setting and wage-setting
+]
+
+---
+
+.center[
+### Modelling the labour market
+]
+
+Model the labour market of an entire economy, which determines the amount of unemployment in the population as a whole. 
+
+--
+
+.pull-left[
+
+- **Firms and employees (Unit 6)** 
+  - motivate employees to work hard and well
+  - set efficiency wages `\(\rightarrow\)` **employment rent (a cost of job loss)**
+  - wage-setting: human resources
+  
+&lt;img src="https://media.giphy.com/media/Mgd08v1esHvWg/giphy.gif" width="90%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+- **Firms and customers (Unit 7)**
+  - trade-off between selling more goods and setting a higher price
+  - profit-maximizing markup 
+  - price-setting: marketing department
+  
+&lt;img src="https://media.giphy.com/media/BGbcAIX19N1Xa/giphy.gif" width="90%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+.center[
+## Employment and prices in the aggregate
+]
+
+--
+
+**Real wage**: 
+--
+  nominal wage divided by the price level (a standard bundle of consumer goods)
+  
+--
+
+How does the real wage and the level of employment **in the economy as a whole** are determined?
+
+--
+
+1. Each firm decides what wage to pay, what price to charge for its products, and how many people to hire.
+
+--
+
+ - The human resources department determines the nominal wage set by the firm.
+ - Given the position of the demand curve, the marketing department then determines the amount of output the firm will sell.
+ - The production department then calculates how many employees have to be hired to produce the output determined by the marketing department, based on the firm’s production function.
+
+--
+
+2. Considering the outcome of all the firms’ decisions added together.
+
+
+---
+.center2[
+# The wage-setting curve: Employment and real wages
+]
+
+---
+## Recap: Employment rent
+
+&lt;img src="imgs/f6-3.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-a.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The upward-sloping line is called the wage-setting curve.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The labour force is the vertical line furthest to the right: it has a value less than 1, depending on the participation rate.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+Inactive workers are to the right of the labour force line.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The employment rate is the vertical line to the left of the labour force, indicating the share of the population who are actually working.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The unemployment rate is the proportion of those in the labour force who are not employed: that is, those workers in between the employment rate line and the labour force line.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+At 12% unemployment in the economy, the employee’s reservation wage is low and the worker will put in a high level of effort for a relatively low wage. The firm’s profit-maximizing wage is therefore low.
+
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+At 5% unemployment in the economy, the employee’s reservation wage is high and they will not put in much effort unless the wage is high. The firm’s profit-maximizing wage is therefore higher.
+
+---
+.center[
+## Wage-setting curve
+]
+
+&lt;img src="imgs/f9-4-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The wage-setting curve is a mathematical version of an ‘if-then’ statement: if the employment rate is *x*, then the Nash equilibrium wage will be *w*.
+
+---
+.center[
+## Deriving the wage-setting curve
+]
+
+.pull-left[
+
+&lt;img src="imgs/f9-5-a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="imgs/f9-5-b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+Higher U reduces the reservation wage, because a worker faces a longer expected period of unemployment if he or she loses a job.
+--
+
+This weakens the employees’ bargaining power and shifts the best response curve to the left.
+
+
+
+---
+.center[
+## Deriving the wage-setting curve
+]
+
+.pull-left[
+
+&lt;img src="imgs/f9-5-a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="imgs/f9-5-b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+With `\(U =  12\%\)`, the reservation wage is shown by point F. The employer’s profit-maximizing choice is point A with the low wage `\((w_L)\)`.
+
+---
+.center[
+## Deriving the wage-setting curve
+]
+
+.pull-left[
+
+&lt;img src="imgs/f9-5-a.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+&lt;img src="imgs/f9-5-b.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+With `\(U = 5\%\)`, the reservation wage is shown by point G. The employer’s profit-maximizing choice is point B with the high wage `\((w_H)\)`.
+
+---
+
+&lt;img src="imgs/f9-7.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+.center[
+**The wage-setting curve: The wage level required to motivate employees to fully engage in their work.**
+]
+
+---
+
+&lt;img src="imgs/f9-6.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+.center[
+**A wage-setting curve estimated for the US economy (1979–2013)**
+]
+
+---
+.center2[
+# The firm’s hiring decision
+]
+
+---
+## Profit-maximizing price
+
+The firm then hires a number of employees necessary to produce the quantity of output demanded at that price.
+
+- labour `\(n\)` is the only input
+- nominal wage `\(W\)` is the only cost
+- `\(\lambda = 1 \Rightarrow\)` one hour of labour produces one unit of output
+
+$$ \Pi = p \cdot q - W \cdot q $$
+
+| **Department** | **... knows** | **… and on this basis sets the firm’s** |
+| --- | --- | --- |
+| Human resources (HR) | Prices, wages and employment in other firms | Nominal wage, *W* |
+| Marketing | All of the above and firm’s demand function | Price of output, *p* |
+| Production | All of the above, plus labour productivity and amount the firm can sell | Employment, *n* |
+
+---
+## Profit-maximizing price
+
+Recall: `\(p = f(q)\)` price is a function of quantity, or the demand curve, where `\(f'(q) &lt; 0\)`.
+
+--
+
+$$ \max_q \Pi = f(q) \cdot q - W \cdot q $$
+
+--
+
+$$ \Rightarrow \frac{d \Pi}{dq} = f'(q) \cdot q + f(q) \cdot 1  - W \cdot 1 = 0 $$
+
+
+`$$\iff - \underbrace{f'(q)}_{\text{Demand's slope}}  = \underbrace{\frac{f(q) - W}{q}}_{\text{Isoprofit's slope}}$$`
+
+--
+
+`$$\iff - \underbrace{f'(q)}_{\text{Demand's slope}} = \underbrace{\frac{p - W}{q}}_{\text{Isoprofit's slope}}$$`
+
+---
+.center[
+slope of demand = slope of isoprofit curve
+
+`\(\frac{(p -W)}{q}\)`
+]
+
+&lt;img src="imgs/f9-9a.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The maximum profits occur at point B where the firm’s demand curve is tangent to an isoprofit curve.
+
+---
+.center[
+slope of isoprofit curve
+`\(\frac{(p -W)}{q}\)`
+]
+
+&lt;img src="imgs/f9-9b.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+Notice from the figure that once the firm has set a price, it has determined the division of the total revenue between profits and wages.
+
+---
+.center[
+slope of isoprofit curve
+`\(\frac{(p -W)}{q}\)`
+]
+
+&lt;img src="imgs/f9-9b.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+The division of the total revenue between profits and wages is based on the markup `\(\frac{(p-W)}{p}\)`.
+
+---
+.center[
+### Note: Elasticies and Markup
+]
+
+.pull-left[
+
+#### Elastic 
+
+$$ \varepsilon = - \frac{\Delta Q}{Q}/\frac{\Delta P}{P} &gt; 1 $$
+
+&lt;img src="imgs/d-elastic.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+.pull-right[
+
+#### Inelastic (or less elastic)
+
+$$ \varepsilon = - \frac{\Delta Q}{Q}/\frac{\Delta P}{P} &lt; 1 $$
+
+&lt;img src="imgs/d-inelastic.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+]
+
+
+---
+.center[
+### Note: Elasticies and Markup
+]
+
+**Markup**: profit margin as a proportion of the price.
+
+--
+
+.pull-left[
+
+**Demand: *Price Elasticity* **
+
+$$ \varepsilon = - \frac{\frac{\Delta Q}{Q}}{\frac{\Delta P}{P}} = - \frac{P}{Q} \cdot \frac{\Delta Q}{\Delta P}$$
+]
+
+--
+.pull-right[
+**Firm: *Slope of isoprofit curve* **
+
+$$ - \frac{(P-MC)}{Q} $$
+]
+
+--
+
+Note that `\(slope_D = \frac{\Delta P}{\Delta Q}\)` is the demand's slope
+--
+$$ \Rightarrow \varepsilon = - \frac{P}{Q} \cdot \frac{1}{slope_D} \iff slope_D = - \frac{P}{Q} \cdot \frac{1}{\varepsilon}$$
+
+ and we know that the firm maximizes its profit when the both demand's and isporfit's slopes are equal.
+ 
+--
+
+$$ markup = -\frac{(P - MC)}{Q} = - \frac{P}{Q} \cdot \frac{1}{\varepsilon} \iff markup = \frac{(P - MC)}{P} = \frac{1}{\varepsilon}$$
+
+---
+.center2[
+# The price-setting curve: Wages and profits in the whole economy
+]
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Aggregate the decisions of all firms HR and MKT departments.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The figure shows the outcome of the price-setting decisions of firms in the whole economy and we use P to represent the economy-wide price level.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The top horizontal line shows firms’ revenues per worker in real terms: the average product of labour (output per worker, labour productivity, called lambda, `\(\lambda\)`)
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Price-setting (not really much of a) curve: a single number that gives the value of the real wage that is consistent with the markup over costs. 
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The value of the real wage consistent with the markup does not depend on the level of employment in the economy, so it is a horizontal line at the height of `\(w^{PS}\)`.
+
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Output per worker ( `\(\lambda\)` ) is split into real profit per worker `\(\Pi/P\)` and the real wage `\(W/P\)`.
+
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Point B on the price-setting curve shows the outcome of profit-maximizing price-setting behaviour of firms for the economy as a whole.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-9a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Point B on the price-setting curve shows the outcome of profit-maximizing price-setting behaviour of firms for the economy as a whole.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-11a.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Point A is above the price-setting curve, which means that the real wage is higher than is consistent with a firm’s profit maximizing markup. If the real wage is too high, it means the markup is too low.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-11b.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The firm will raise its price so as to move towards higher profits at point B. The increased price will mean that fewer goods are sold, and as this is true of all firms, total employment falls.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-9a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+The firm will raise its price so as to move towards higher profits at point B. The increased price will mean that fewer goods are sold, and as this is true of all firms, total employment falls.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-11c.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Below the price-setting curve, at a point like C, firms lower their prices and hire more people.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-11d.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+Point B is the firm’s profit-maximizing price and profit margin. Given economy-wide demand, total profits are lower at A and C for firms.
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-9a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Point B is the firm’s profit-maximizing price and profit margin. Given economy-wide demand, total profits are lower at A and C for firms.
+
+---
+.center[
+### Deriving the price-setting curve
+]
+
+--
+In our setting, MC is the unit labour cost:
+
+`$$\textit{unit labour cost} = \frac{\textit{nominal wage}}{\textit{labour productivity}} = \frac{W}{\lambda}$$`
+
+--
+
+Firm choices prices so that the markup ( `\(\mu\)` ) is inversely proportional to the elasticity of the demand curve
+
+`$$\mu = \frac{1}{\varepsilon} = \frac{(P-MC)}{P} = \frac{\textit{Profit per unit}}{\textit{Price per unit}}$$`
+--
+
+`$$\mu = \frac{(P- W/\lambda)}{P} = 1 - \frac{W/\lambda}{P}$$`
+
+--
+
+Rearrenging 
+
+`$$\frac{W/\lambda}{P} = 1 - \mu \iff \frac{W/P}{\lambda} = 1 - \mu$$`
+
+$$\iff \frac{W}{P} = \lambda (1 - \mu) = \lambda  - \lambda \mu $$
+
+--
+
+
+`$$\textit{real wage} = \textit{output per worker} - \textit{real profit per worker}$$`
+
+---
+.center[
+## The price-setting curve
+]
+
+&lt;img src="imgs/f9-10.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+.center2[
+# Labour market equilibrium: Wages, profits, and unemployment in the whole economy
+]
+
+---
+.center[
+## The labour market equilibrium
+]
+
+&lt;img src="imgs/f9-12.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+The **Nash equilibrium** of the labour market is where the wage- and price-setting curves intersect. 
+
+---
+.center[
+## The labour market equilibrium
+]
+
+&lt;img src="imgs/f9-12.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+**There will always be unemployment in labour market equilibrium**. Also called **equilibrium unemployment.**
+
+---
+.center[
+## Involuntary unemployment
+]
+
+.pull-left[
+&lt;img src="imgs/f9-12.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+**Unemployment** excess supply in the labour market.
+
+**Involuntarily unemployed**: The state of being out of work, but preferring to have a job at the wages and working conditions that otherwise identical employed workers have.
+
+Why there is always unemployment?
+
+- No unemployment → zero cost of job loss → no effort
+- Unemployment motivates workers
+- These are the involuntarily unemployed
+
+]
+
+
+---
+.center2[
+# How changes in demand for goods and services affect unemployment
+]
+
+---
+.center[
+## Unemployment and aggregate demand
+
+]
+
+The firm’s demand for labour depends on the demand for their goods and services (derived demand for labour).
+
+--
+
+**Aggregate demand** = sum of the demand for all of the goods and services produced in the economy.
+
+--
+
+The increase in unemployment caused by the fall in aggregate demand is called **demand-deficient unemployment**.
+
+&lt;img src="https://www.liberation.fr/resizer/72XWVdKtG5MwXuoH9SflpUlxok0=/768x0/filters:format(jpg):quality(70):focal(1727x824:1737x834)/cloudfront-eu-central-1.images.arcpublishing.com/liberation/HPFL5OPTYJGBBER3HHCWKBLW34.jpg" width="50%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+.center[
+## Demand-deficient unemployment
+]
+
+&lt;img src="imgs/f9-13-a.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+At X, unemployment is at its labour market equilibrium level. Someone losing a job at X is not indifferent between being employed and unemployed because they experience a cost of losing the job.
+
+---
+.center[
+## Demand-deficient unemployment
+]
+
+&lt;img src="imgs/f9-13-b.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+At B, there are additional people looking for work who are also involuntarily unemployed. The additional unemployment at B is due to low aggregate demand and is called demand-deficient, or cyclical, unemployment.
+
+
+---
+.center[
+## Demand-deficient unemployment
+]
+
+&lt;img src="imgs/f9-13-c.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+At point B, total involuntary unemployment is given by the sum of cyclical and equilibrium unemployment. Point X is the Nash equilibrium of the labour market, which means that all actors are doing the best they can, given the actions of the other actors. No worker or firm can improve their position by changing their actions.
+
+
+---
+.center[
+## Automatic adjustment 
+]
+
+
+.left-column[
+
+Point B is not a Nash equilibrium:
+
+- Firms could lower wages without lowering workers’ effort
+- Lower wages allow them to cut their prices 
+
+]
+
+.right-column[
+
+&lt;img src="imgs/f9-14-a.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+The new (lower wage) isoprofit curve passing through the original point B is now steeper than the demand curve, so the firm can do better by lowering its price and moving down the demand curve, selling more.
+
+]
+
+
+---
+.center[
+## Automatic adjustment 
+]
+
+
+.left-column[
+
+Point B is not a Nash equilibrium:
+
+- Firms could lower wages without lowering workers’ effort
+- Lower wages allow them to cut their prices 
+- Lower prices stimulate demand `\(\rightarrow\)` output rises
+- Firms hire more workers to produce more
+
+
+]
+
+.right-column[
+
+&lt;img src="imgs/f9-14-b.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+It will continue doing this until it reaches a point on the demand curve where one of the new darker blue isoprofit curves is tangent to the demand curve. The firm maximizes profits at point X.
+
+]
+
+---
+.center[
+## Automatic adjustment?
+
+]
+
+
+.left-column[
+
+Real economies don't function so smoothly:
+
+- Workers resist cuts to their nominal wage (strikes)
+
+- Lower wages means people spend less → aggregate demand falls further    
+
+- Falling prices across the economy may lead consumers to postpone their purchases
+
+]
+
+.right-column[
+
+&lt;img src="https://img.lemde.fr/2019/03/18/0/0/5900/3933/664/0/75/0/01ed661_i8O1BFWx1FSiiBD9LpDhgZIt.jpg" width="85%" style="display: block; margin: auto;" /&gt;
+
+]
+
+---
+.center[
+## What can be done?
+]
+
+&lt;img src="imgs/f9-13-c.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Government intervention
+]
+
+.left-column[
+
+The government could increase its own spending to expand aggregate demand.
+
+- **fiscal policy** (Unit 14)
+- **monetary policy** (Unit 15)
+
+]
+
+.right-column[
+
+&lt;img src="imgs/f9-15-a.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+As before, the firm begins at point B.
+
+]
+
+---
+.center[
+## Government intervention
+]
+
+.left-column[
+
+The government could increase its own spending to expand aggregate demand.
+
+- **fiscal policy** (Unit 14)
+- **monetary policy** (Unit 15)
+
+]
+
+
+.right-column[
+
+&lt;img src="imgs/f9-15-b.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+Remember, the isoprofit curves do not shift when the demand curve shifts. The firm moves on to a new higher isoprofit curve if demand rises as a result of higher economy-wide demand following monetary or fiscal policy actions.
+
+]
+
+---
+.center2[
+# Labour market equilibrium and the distribution of income
+]
+
+---
+.center[
+## Labour market equilibrium and income distribution
+]
+
+&lt;img src="imgs/f9-18-a.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Labour market equilibrium and income distribution
+]
+
+Inequality changes with: unemployment rate, real wage, markup, productivity
+
+
+&lt;img src="imgs/f9-18-b.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Labour market equilibrium and income distribution
+]
+
+Inequality changes with: unemployment rate, real wage, markup, productivity
+
+&lt;img src="imgs/f9-18-c.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+.center2[
+# Labour supply, labour demand, and bargaining power
+]
+
+---
+.center[
+## Labour supply
+]
+
+The supply of labour is another important determinant of labour market equilibrium.
+
+--
+
+An increase in labour supply shifts the wage-setting curve downward. Thus, in the short-run:
+
+- greater pool of unemployed
+- higher employment rents
+- lower cost of effort 
+
+--
+
+Does this sustaines in the medium-run? 
+
+
+.pull-left[
+&lt;img src="https://are.berkeley.edu/~howardrr/pubs/lmd/html/winterspring_93/pics_ws93/01.gif" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="https://opb-opb-prod.cdn.arcpublishing.com/resizer/vyDxuKYLzgn3GZDaKTo76PLkwaY=/767x0/smart/cloudfront-us-east-1.images.arcpublishing.com/opb/E4LLOGB5JNBZTFQ2FXSFPAQ7YI.jpg" width="65%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-a.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The economy starts at point A, employing 4 million workers at a wage of $20 per hour and a labour force of 5 million.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+
+U = One million.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-c.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Immigrant workers join the labour force. This increases the labour force from 5 million to 5.5 million workers.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-d.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+At any level of employment there are now more unemployed workers. The rise in unemployment to 1.5 million is shown by distance U′. The threat of job loss is greater and firms can secure effort from the workforce at a lower wage.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-e.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+The wage is now set at point B on the wage-setting curve in the figure, with the wage at $13 an hour and employment still at 4 million.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-f.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+This causes firms to hire more workers, which requires rising wages along the wage-setting curve. The labour market moves from point B to point C.
+
+---
+.center[
+## Labour supply
+]
+
+&lt;img src="imgs/f9-19-g.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Employment and wages rise until they reach the price-setting curve, meaning profits are consistent with market competition again. At point C, employment is 4.5 million workers, the wage is $20, and unemployment has fallen back to 1 million workers, as shown by distance U''
+
+---
+.center[
+## Labour supply: Immigration effects 
+]
+
+&lt;img src="imgs/card1990.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+---
+.center2[
+# Division of output and labour unions
+]
+
+
+---
+.center[
+## Labour unions
+]
+
+An organization consisting predominantly of employees. 
+
+Its main activities include the negotiation of rates of pay and conditions of employment for its members.
+
+&lt;img src="https://images.squarespace-cdn.com/content/v1/62923f4f74bc7d0c025784fc/e13e5585-2e6c-4e82-95d2-b8dd8954bb92/ED+DSC05916.jpg?format=1500w" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Labour unions
+]
+
+An organization consisting predominantly of employees. 
+
+Its main activities include the negotiation of rates of pay and conditions of employment for its members.
+
+&lt;img src="imgs/share-of-employees-whose-wages-are-covered-by-collective-bargaining-agreements.svg" width="60%" style="display: block; margin: auto;" /&gt;
+
+---
+.center[
+## Wage bargaining
+]
+
+Where workers are organized into trade unions, the wage is not set by the employer but instead is negotiated between union and firm. 
+
+--
+
+&lt;img src="imgs/f9-21-a.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+At point A, the employer sets the wage that maximizes profits at the point of tangency of the isocost line and the best response function.
+
+---
+.center[
+## Wage bargaining
+]
+
+Where workers are organized into trade unions, the wage is not set by the employer but instead is negotiated between union and firm. 
+
+&lt;img src="imgs/f9-21-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+If the union sets the wage, it will be higher than that preferred by the employer, and effort levels correspondingly higher...
+
+---
+.center[
+## Wage bargaining
+]
+
+Where workers are organized into trade unions, the wage is not set by the employer but instead is negotiated between union and firm. 
+
+&lt;img src="imgs/f9-21-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+... but profits would be lower (indicated by the flatter isocost line passing through C).
+
+---
+.center[
+## Bargained wage setting curve
+]
+
+Its position above the wage-setting curve depends on the relative bargaining power of the union and the employer.
+
+&lt;img src="imgs/f9-22.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+The bargained wage can be above the wage-setting curve, and, paradoxically, it seems that the union’s success in bargaining would harm workers.
+
+---
+.center[
+## Labour unions and unemployment
+]
+
+&lt;img src="imgs/collective-wage-bargaining-coverage-and-unemployment-across-the-oecd.svg" width="60%" style="display: block; margin: auto;" /&gt;
+
+No relation between union adherence and unemployment.
+
+---
+.center[
+## The union voice effect
+]
+
+Providing employees with a voice in how decisions are made may induce them to provide more effort for the same wage. 
+
+&lt;img src="imgs/f9-23-a.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+At point A, the employer sets the wage that maximizes profits at the point of tangency of the isocost line and the best response curve.
+
+---
+.center[
+## The union voice effect
+]
+
+Providing employees with a voice in how decisions are made may induce them to provide more effort for the same wage. 
+
+&lt;img src="imgs/f9-23-b.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+If the employees interpret the employer’s recognition of the trade union, and its willingness to compromise with them over a higher wage, as a sign of goodwill, the best response curve shifts up.
+
+---
+.center[
+## The union voice effect
+]
+
+Providing employees with a voice in how decisions are made may induce them to provide more effort for the same wage. 
+
+&lt;img src="imgs/f9-23-c.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+The result of the greater bargaining power of the workers, and their reciprocation of the company’s worker-friendly policy, is shown as point D.
+
+
+---
+.center[
+## The union voice effect
+]
+
+- The bargained wage curve shifts downward.
+- The overall effect of labour unions on employment is ambiguous.
+
+&lt;img src="imgs/f9-24.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+.center2[
+## Labour market policies
+]
+
+---
+.center[
+## Labour market policies
+]
+
+--
+
+**Shifts in the price-setting curve:**
+
+- Education &amp; training: labour productivity ↑
+- Wage subsidy: Production costs and prices ↓
+
+--
+
+**Shifts in the wage-setting curve:**
+
+- Lower unemployment benefit: reservation wage ↓
+
+--
+
+**Shifts in labour supply curve:**
+
+- immigration policies: labour supply ↑
+- childcare provision: female labour participation ↑
+
+---
+.center[
+## Summary
+]
+
+--
+
+1. Behaviour of firms sets wages and employment in an economy 
+
+  - The wage-setting curve tracks the combinations of wages and unemployment feasible with workers’ effort
+  - The price-setting curve determines the real wage corresponding to profit-maximising price
+
+--
+
+2. There will always be involuntary unemployment 
+
+  - Incomplete contracts
+  - Deficient demand 
+
+--
+
+3. Labour unions bargain over wages with firms, which affects employment
+
+  - Voice to workers may improve their effort and productivity
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
