@@ -1,8 +1,12 @@
 ---
-title: "Fiscal Policy"
-subtitle: "Unit 14: Unemployment and Fiscal Policy"
+title: "CORE Econ Macro"
+subtitle: | 
+ | Unemployment and Fiscal Policy
+ |
 author: "Guillermo Woo-Mora"
-date: "05/04/2022"
+date: | 
+ | Paris Sciences et Lettres
+ | Spring 2025
 output: 
   xaringan::moon_reader:
     lib_dir: libs
@@ -61,23 +65,37 @@ xaringanExtra::style_share_again(
 # scale_colour_discrete <- partial(scale_colour_nhs, discrete = TRUE)
 ```
 
-```{r out.width="60%"}
-knitr::include_graphics("https://i.imgflip.com/75pxgm.jpg")
-```
+.center2[
+# Introduction
+]
 
 ---
 
-```{r out.width="60%"}
-knitr::include_graphics("https://static.boredpanda.com/blog/wp-content/uploads/2019/06/funny-government-memes-28.jpg")
+```{r out.width="32.5%"}
+knitr::include_graphics("https://s1.odilejacob.fr/couvertures/9782738108098.jpg")
 ```
+
+> Pourquoi la politique de stabilisation est-elle une source d’instabilité économique ?
 
 ---
 
+<iframe src="https://ourworldindata.org/grapher/gdp-per-capita-worldbank?tab=line&time=2000..latest&country=USA~DEU~GBR~FRA~JPN~CHN~IND~MEX~BRA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/annual-gdp-growth?tab=chart&country=USA~GBR~JPN~DEU~CHN~IND~FRA~MEX~BRA" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+---
+
+<iframe src="https://ourworldindata.org/grapher/government-spending-vs-gdp-per-capita?tab=chart" loading="lazy" style="width: 100%; height: 600px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+
+---
 ```{r out.width="80%"}
 knitr::include_graphics("imgs/fluctuations-in-output-and-the-size-of-government-in-the-us.svg")
 ```
 
 ---
+## This Unit
 
 Aggregate demand (GDP) can fluctuate due to consumption and investment decisions.
 
@@ -102,18 +120,12 @@ Sometimes the aggregate decisions of households and firms can destabilize the ec
 Use a model of aggregate demand to explain how government spending can stabilize the economy
 
 ---
-
 .center2[
-# The Aggregate Demand function and the multiplier model
+# The transmission of shocks: The multiplier process
 ]
-
 
 ---
-
-.center[
 ## The Multiplier model
-]
---
 
 Simple model that excludes the government and foreign trade.
 --
@@ -149,12 +161,8 @@ knitr::include_graphics("imgs/f14-2-a.png")
 ]
 
 
-
-
 ---
-.center[
 ## The Multiplier model
-]
 
 Simple model that excludes the government and foreign trade. Then we only have consumption and investment.
 
@@ -184,9 +192,7 @@ knitr::include_graphics("imgs/f14-2-b.png")
 
 
 ---
-.center[
 ## The Multiplier model
-]
 
 Simple model that excludes the government and foreign trade. Then we only have consumption and investment.
 
@@ -212,9 +218,14 @@ knitr::include_graphics("imgs/f14-2-c.png")
 ]
 
 ---
-.center[
 ## Consumption function
-]
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-2-c.png")
+```
+
+---
+## Consumption function
 
 Marginal propensity to consume varies across people:
 
@@ -236,9 +247,7 @@ knitr::include_graphics("imgs/f14-3.png")
 ```
 
 ---
-.center[
-## Goods market equilibrium
-]
+## Goods market equilibrium: The multiplier diagram
 
 $$output= \textit{aggregate demand for goods produced in the home economy}$$
 $$Y = AD$$
@@ -252,9 +261,7 @@ knitr::include_graphics("imgs/f14-4-a.png")
 **Goods market equilibrium**: the economy will continue producing at that output level unless something changes spending behaviour.
 
 ---
-.center[
-## Goods market equilibrium
-]
+## Goods market equilibrium: The multiplier diagram
 
 $$Y = AD$$
 
@@ -265,9 +272,8 @@ knitr::include_graphics("imgs/f14-4-b.png")
 The 45-degree line from the origin of the diagram shows all the combinations in which output is equal to aggregate demand, meaning the economy is in goods market equilibrium.
 
 ---
-.center[
-## Goods market equilibrium
-]
+## Goods market equilibrium: The multiplier diagram
+
 $$Y = AD = c_0 + c_1 Y$$
 ```{r out.width="60%"}
 knitr::include_graphics("imgs/f14-4-c.png")
@@ -276,9 +282,7 @@ knitr::include_graphics("imgs/f14-4-c.png")
 The first component of aggregate demand is consumption, which is represented by the consumption line.
 
 ---
-.center[
-## Goods market equilibrium
-]
+## Goods market equilibrium: The multiplier diagram
 
 $$Y = AD = c_0 + c_1 Y + I$$
 
@@ -289,9 +293,7 @@ knitr::include_graphics("imgs/f14-4-d.png")
 Adding investment to the consumption line simply leads to a parallel upward shift of the aggregate demand line.
 
 ---
-.center[
-## The multiplier process
-]
+### The multiplier process
 
 Changes in output can be greater than the initial change in aggregate demand. 
 
@@ -333,84 +335,145 @@ firms will fire workers
  $\rightarrow$ further decline in spending
 
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-a.png")
 ```
 
+The economy starts at point A, in goods market equilibrium.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-b.png")
 ```
 
+The fall in investment cuts aggregate demand by EUR 1.5 billion, and the economy moves vertically downward from point A to point B.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-c.png")
 ```
 
+With demand lower, firms cut back production and reduce employment. With output and employment lower, incomes fall by €1.5 billion. This is the move from B to C.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-d.png")
 ```
 
+When household incomes fall, consumption drops—often due to credit constraints. Initially, aggregate consumption falls by 0.6 times the income loss (from point C to point D).
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-e.png")
 ```
 
+Firms respond by cutting production, output falls, and the economy moves from point D to point E.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-f.png")
 ```
 
+The process will go on until the economy reaches point Z.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-g.png")
 ```
 
+This goes through point Z and shows the new goods market equilibrium of the economy following the investment shock.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-h.png")
 ```
 
+The total fall in output exceeds the initial size of the decline in investment; output has fallen by €3.75 billion.
+
 ---
-.center[
-## The multiplier process
-]
-```{r out.width="75%"}
+### The multiplier process
+
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f14-5-i.png")
 ```
 
+The total change in output is 2.5 times larger than the initial change in investment.
+
+
+---
+### The multiplier process: Quizz
+
+.pull-left[
+The following diagram depicts the change in the aggregate goods market equilibrium when there is a EUR 2 billion increase in investment.
+
+The economy’s marginal propensity to consume is 0.5. Based on this information, which of the following statements is correct?
+
+a) The new goods market equilibrium after the investment increase is E.
+
+b) Aggregate demand increases by a total of €2 billion × 0.5 = €1 billion due to the increase in investment.
+
+c) The multiplier is 2.
+
+d) The distance between C and D is three-quarters the distance between A and B (€1.5 billion).
+
+]
+
+.pull-right[
+```{r out.width="110%"}
+knitr::include_graphics("imgs/f14-q2.png")
+```
+]
+
+---
+### The multiplier process: Quizz
+
+❌ a) The new goods market equilibrium after the investment increase is E. 
+
+ - The equilibrium is where the aggregate consumption line intersects with the 45-degree line. Therefore the new equilibrium is Z.
+
+❌ a) Aggregate demand increases by a total of €2 billion × 0.5 = €1 billion due to the increase in investment.
+
+ - The diagram shows that the increase in investment results in a €4 billion increase in aggregate demand.
+
+<span style="color: #008ac4;">
+✅ **c) The multiplier is 2. **
+</span>
+
+<span style="color: #008ac4;">
+**The multiplier is equal to 1/(1 − 0.5) = 2.**
+</span>
+
+
+❌ a) The distance between C and D is three-quarters the distance between A and B (€1.5 billion).
+
+ - The distance between A and B is the initial increase in investment of €2 billion. At C, the output Y has increased by €2 billion compared with B, which results in an increase in the aggregate demand of ΔY (change in Y) × MPC, that is, €2 billion × 0.5 = €1 billion.
+
+---
+.center2[
+# Household target wealth, collateral, and consumption spending
+]
+
 ---
 
-- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
-
+Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
 --
-
-- But consumption and saving behaviour can also shift the aggregate demand curve.
+ But consumption and saving behaviour can also shift the aggregate demand curve.
 
 --
 
@@ -427,23 +490,24 @@ $\rightarrow$ they may choose to save more (precautionary saving)
 
 $\rightarrow$ their autonomous consumption would fall
 
+**Aggregate demand in the Great Depression**
 ]
 
 --
 
 .right-column[
 
-```{r out.width="80%"}
+```{r out.width="75%"}
 knitr::include_graphics("imgs/f14-6-a.png")
 ```
 
+Point A shows the initial situation of the economy.
 ]
 
 ---
 
-- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
-
-- But consumption and saving behaviour can also shift the aggregate demand curve.
+Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+But consumption and saving behaviour can also shift the aggregate demand curve.
 
 $$Y = AD = c_0 + c_1 Y + I$$ 
 
@@ -456,24 +520,26 @@ $\rightarrow$ they may choose to save more (precautionary saving)
 
 $\rightarrow$ their autonomous consumption would fall
 
+**Aggregate demand in the Great Depression**
 ]
 
 
 .right-column[
 
-```{r out.width="80%"}
+```{r out.width="75%"}
 knitr::include_graphics("imgs/f14-6-b.png")
 ```
 
+This shifts the aggregate demand curve from the pre-crisis to the crisis level.
+
 ]
 
 ---
 
-- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+But consumption and saving behaviour can also shift the aggregate demand curve.
 
-- But consumption and saving behaviour can also shift the aggregate demand curve.
-
-$$Y = AD = c_0 + c_1 Y + I$$ 
+$$Y = AD = c_0 + c_1 Y + I$$  
 
 .left-column[
 **Fall in house prices**
@@ -484,22 +550,25 @@ $\rightarrow$ they may choose to save more (precautionary saving)
 
 $\rightarrow$ their autonomous consumption would fall
 
+**Aggregate demand in the Great Depression**
+
 ]
 
 
 .right-column[
 
-```{r out.width="80%"}
+```{r out.width="75%"}
 knitr::include_graphics("imgs/f14-6-c.png")
 ```
 
+The economy would normally be at point B.
+
 ]
 
 ---
 
-- Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
-
-- But consumption and saving behaviour can also shift the aggregate demand curve.
+Credit constraints and consumption smoothing is reflected in the **slope of the AD curve** and the **size of the multiplier**.
+But consumption and saving behaviour can also shift the aggregate demand curve.
 
 $$Y = AD = c_0 + c_1 Y + I$$ 
 
@@ -512,90 +581,87 @@ $\rightarrow$ they may choose to save more (precautionary saving)
 
 $\rightarrow$ their autonomous consumption would fall
 
+**Aggregate demand in the Great Depression**
 ]
 
 
 .right-column[
 
-```{r out.width="80%"}
+```{r out.width="75%"}
 knitr::include_graphics("imgs/f14-6-d.png")
 ```
 
+However, output fell by much more than can be explained by the multiplier process alone, which is shown by the move from B to C.
+
 ]
 
 ---
+## Composition of Household Wealth
 
-.center2[
-# Household Wealth
-]
+--
 
----
-.center[
-## Household Wealth
-]
-
-```{r out.width="60%"}
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-a.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+Expected future earnings from employment
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-b.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+Financial wealth
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-c.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+The household’s ownership stake in the house
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-d.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+The household’s total broad wealth: This is the sum of the green, blue, and orange rectangles.
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-e.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+Households also hold debt
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-f.png")
 ```
 
----
-.center[
-## Household Wealth
-]
+**Household’s net worth** (material wealth): total assets (excluding expected future earnings), which is the value of the house plus financial wealth, and then subtracting the debt it owes.
 
-```{r out.width="60%"}
+---
+## Composition of Household Wealth
+
+```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-7-g.png")
 ```
 
+**Value of the house**: Household’s equity⁠ in the house, plus what it owes to the bank (the mortgage).
+
 ---
-.center[
-## Household Wealth
-]
+## Composition of Household Wealth
 
 ```{r out.width="60%"}
 knitr::include_graphics("imgs/f14-7-h.png")
@@ -636,7 +702,7 @@ knitr::include_graphics("imgs/f14-8-c.png")
 ---
 
 .center2[
-# Investment
+# Investment spending
 ]
 
 ---
@@ -695,33 +761,43 @@ $$\Pi > \rho ≥ r$$
 
 ---
 
-```{r out.width="60%"}
+```{r out.width="52%"}
 knitr::include_graphics("imgs/f14-9-a.png")
 ```
 
+Firm A has three investment projects of different scale and rate of profit. They are shown in decreasing order of the expected rate of profit.
+
 ---
 
-```{r out.width="60%"}
+```{r out.width="52%"}
 knitr::include_graphics("imgs/f14-9-b.png")
 ```
 
+Firm B also has three different investment projects.
+
 ---
 
-```{r out.width="60%"}
+```{r out.width="52%"}
 knitr::include_graphics("imgs/f14-9-c.png")
 ```
 
+If the interest rate remains at 5%, Firm A goes ahead with project 1 and Firm B does not invest at all. But if the interest rate was 2%, A would undertake projects 1 and 2 and B would undertake all three of its projects.
+
 ---
 
-```{r out.width="60%"}
+```{r out.width="52%"}
 knitr::include_graphics("imgs/f14-9-d.png")
 ```
 
+The lower panel aggregates the potential investments of the two firms, arranged by the expected profit rate as before.
+
 ---
 
-```{r out.width="60%"}
+```{r out.width="52%"}
 knitr::include_graphics("imgs/f14-9-e.png")
 ```
+
+Investment in the economy increases after a fall in the interest rate. Five projects go ahead, instead of just one.
 
 ---
 
@@ -730,6 +806,8 @@ Higher expected rate of profit $E(\Pi)$ increases investment, holding $r$ consta
 ```{r out.width="80%"}
 knitr::include_graphics("imgs/f14-10a-a.png")
 ```
+
+With the interest rate equal to 5%, only one project will go ahead.
 
 ---
 
@@ -743,11 +821,23 @@ Improvement in business environment (such as fall in the risk of expropriation b
 
 ---
 
+Higher expected rate of profit $E(\Pi)$ increases investment, holding $r$ constant.
+
+```{r out.width="80%"}
+knitr::include_graphics("imgs/f14-10a-b.png")
+```
+
+For the same interest rate, investment rises: two more projects go ahead.
+
+---
+
 Higher forecast demand raises the desired size of each project, so investment rises.
 
 ```{r out.width="80%"}
 knitr::include_graphics("imgs/f14-10b-a.png")
 ```
+
+With the interest rate equal to 2%, and the initial desired capacity, investment is shown by the darker coloured blocks.
 
 ---
 
@@ -757,27 +847,29 @@ Higher forecast demand raises the desired size of each project, so investment ri
 knitr::include_graphics("imgs/f14-10b-b.png")
 ```
 
+Pressure on existing capacity from higher forecast demand raises the desired size of each project, so investment rises to include the lighter coloured blocks.
+
 ---
-.center[
 ## Aggregate investment function
-]
 
 ```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-10c-a.png")
 ```
 
+In an economy with many thousands of firms, all their potential investment projects are represented by a downward-sloping aggregate investment function.
+
 ---
-.center[
 ## Aggregate investment function
-]
+
 ```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-10c-b.png")
 ```
 
+In response to a fall in the interest rate, investment increases from C to E.
+
 ---
-.center[
 ## Aggregate investment function
-]
+
 ```{r out.width="55%"}
 knitr::include_graphics("imgs/f14-10c-c.png")
 ```
@@ -786,16 +878,57 @@ How investment spending in the economy as a whole depends on other variables (in
 
 Investment is not very sensitive to interest rate. Instead, the shift factors are much more important.
 
+
+---
+## Aggregate investment function: Quizz
+
+.pull-left[
+a) Ceteris paribus, an increase in the interest rate would lead to a fall in investment due to an inward shift of the investment line.
+
+b) A rise in corporate tax would shift the investment line outwards.
+
+c) A forecast of a permanent demand increase shifts the investment line outwards.
+
+d) A steeper line indicates the higher sensitivity of the level of aggregate investment to changes in interest rate.
+]
+
+.pull-right[
+```{r out.width="100%"}
+knitr::include_graphics("imgs/f14-10c-c.png")
+```
+]
+
+---
+## Aggregate investment function: Quizz
+
+❌ a) Ceteris paribus, an increase in the interest rate would lead to a fall in investment due to an inward shift of the investment line.
+
+ - The investment line represents the relationship between investment and interest rate, ceteris paribus. Therefore the fall in investment would be shown by a movement up the original line (from E to C for example), not a shift of the line.
+
+❌ b) A rise in corporate tax would shift the investment line outwards.
+
+ - A rise in corporate tax would decrease the expected profit rate, shifting the investment line inwards. This results in a fall in investment.
+
+<span style="color: #008ac4;">
+✅ **c) A forecast of a permanent demand increase shifts the investment line outwards.**
+</span>
+
+<span style="color: #008ac4;">
+Higher demand makes it profitable to invest in larger projects, increasing investment at a given interest rate.
+</span>
+
+❌ b) A steeper line indicates the higher sensitivity of the level of aggregate investment to changes in interest rate.
+ 
+ - A steeper line means smaller changes in investment when the interest rate moves, that is, lower sensitivity of investment to the interest rate.
+
 ---
 
 .center2[
-# The role of government
+# The multiplier model: Including the government and net exports
 ]
 
 ---
-.center[
 ## Adding government and net exports to aggregate demand
-]
 
 $$AD = C + I + G + X - M$$
  
@@ -841,9 +974,7 @@ Marginal propensity to import = The fraction of each additional unit of income t
 $$AD = Y = c_0 + c_1(1 - t) Y + I(r) + G + X - mY$$
 
 ---
-.center[
-## The multiplier model (again)
-]
+## The (complete) multiplier model
 
 $$AD = Y = c_0 + c_1(1 - t) Y + I(r) + G + X - mY$$
 
@@ -860,15 +991,29 @@ Saving, taxation and imports are referred to as leakages from the circular flow 
 
 --
 
-$$ Y = \frac{1}{1 - c_1 (1 - t) + m} \cdot (c_0 + I(r) + G + M)$$
+$$Y = 
+\underbrace{
+\frac{1}{1 - c_1 (1 - t) + m}
+}_{\text{multiplier}} 
+\times 
+\underbrace{
+(c_0 + I(r) + G + X)
+}_{\text{demand that doesn't depend on income}}$$
+
 --
 
 Smaller multiplier = flatter AD curve. 
 
+$$\underbrace{ \frac{1}{1 - c_1 (1 - t) + m}}_{\text{multiplier with imports and goverment}}  < \underbrace{\frac{1}{1 - c_1}}_{\text{multiplier}}$$
+
+
 ---
-.center[
-## Stabilising the economy
+.center2[
+# Fiscal policy: How governments can dampen and amplify fluctuations
 ]
+
+---
+## Stabilising the economy
 
 There are three main ways that government spending and taxation can dampen fluctuations in the economy:
 
@@ -905,56 +1050,64 @@ knitr::include_graphics("imgs/14-john-maynard-keynes.jpeg")
 ]
 
 ---
-.center[
 ## Fiscal stimulus
-]
 
-```{r out.width="70%"}
+Temporary increase in government spending or a temporary cut in taxation
+
+--
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11a-a.png")
 ```
 
+The economy starts at point A, in goods market equilibrium, at which aggregate demand is equal to output.
+
 ---
-.center[
 ## Fiscal stimulus
-]
-```{r out.width="70%"}
+
+Temporary increase in government spending or a temporary cut in taxation
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11a-b.png")
 ```
 
-Cut taxes to encourage the private sector to spend more, or increase spending (G), which directly increases AD 
+The economy moves into recession. This occurs after a fall in consumer confidence, reducing $c_0$. The aggregate demand line shifts downward and the economy moves from point A to point B.
 
 ---
-.center[
 ## Fiscal stimulus
-]
-```{r out.width="70%"}
+
+Temporary increase in government spending or a temporary cut in taxation
+
+```{r out.width="62.5%"}
+knitr::include_graphics("imgs/f14-11a-c.png")
+```
+
+The government then increases spending, from G to G′, in order to counteract the decline in aggregate demand. AD shifts back up and the economy moves to point C.
+
+---
+## Fiscal stimulus
+
+Temporary increase in government spending or a temporary cut in taxation
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11a-c.png")
 ```
 
 The rise in G operates via the multiplier, so the increase in Y will typically be greater than the increase in G.
 
 ---
-
-.center[
 ## Fiscal stimulus
-]
 
 ```{r out.width="80%"}
 knitr::include_graphics("https://i.imgflip.com/1cizio.jpg")
 ```
 
 ---
-.center[
 ## Financing fiscal stimulus
-]
-
-
-
 
 ```{r out.width="80%"}
 knitr::include_graphics("https://media.giphy.com/media/26ybwpPwBQ7tblT8c/giphy.gif")
 ```
-
 
 
 - In a recession, budget deficit is part of its stabilizing role.
@@ -962,29 +1115,46 @@ knitr::include_graphics("https://media.giphy.com/media/26ybwpPwBQ7tblT8c/giphy.g
 - When government chooses to reduce its deficit, this may amplify fluctuations in the economy.
 
 ---
-.center[
 ## Austerity policy
-]
 
-```{r out.width="70%"}
+Government tries to improve its budgetary position in a recession by cutting its spending.
+
+--
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11b-a.png")
 ```
 
----
-.center[
-## Austerity policy
-]
+The economy starts at point A in goods market equilibrium, at which aggregate demand is equal to output.
 
-```{r out.width="70%"}
+---
+## Austerity policy
+
+Government tries to improve its budgetary position in a recession by cutting its spending.
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11b-b.png")
 ```
 
----
-.center[
-## Austerity policy
-]
+The economy moves into recession. This occurs after a fall in consumer confidence, reducing $c_0$. The aggregate demand line shifts downward and the economy moves from point A to point B.
 
-```{r out.width="70%"}
+---
+## Austerity policy
+
+Government tries to improve its budgetary position in a recession by cutting its spending.
+
+```{r out.width="62.5%"}
+knitr::include_graphics("imgs/f14-11b-c.png")
+```
+
+Suppose that the government then reduces spending from G to G′, in a bid to offset the deterioration of its budget balance. The recession then feeds back to raise government transfers and reduce tax revenue.
+
+---
+## Austerity policy
+
+Government tries to improve its budgetary position in a recession by cutting its spending.
+
+```{r out.width="62.5%"}
 knitr::include_graphics("imgs/f14-11b-c.png")
 ```
 
@@ -1030,11 +1200,12 @@ knitr::include_graphics("imgs/14_auerbach_gorodnichenko.png")
 ]
 
 ---
-.center[
-## The government’s finances
+.center2[
+# The government’s finances
 ]
 
---
+---
+## The government’s finances
 
 .pull-left[
 **Revenue**
@@ -1078,9 +1249,7 @@ $$\textit{Budget balance} = T - G $$
 
 
 ---
-.center[
 ## Government debt
-]
 
 - **Government debt**: sum of all the bonds sold over time to finance budget deficit – matured bonds (repaid debt).
 
@@ -1112,29 +1281,106 @@ knitr::include_graphics("imgs/uk-government-debt-as-a-percentage-of-gdp-17272016
 ]
 
 ---
-.center[
-## Foreign markets and aggregate demand
+.center2[
+# Fiscal policy and the rest of the world
 ]
 
+---
+## Foreign markets and aggregate demand
+
+```{r, out.width="55%"}
+knitr::include_graphics("imgs/nyt_trump_tariffs1.png")
+```
+
+---
+## Foreign markets and aggregate demand
+
+```{r, out.width="55%"}
+knitr::include_graphics("imgs/nyt_trump_tariffs2.png")
+```
+
+---
+## Foreign markets and aggregate demand
+
 - Fluctuations in the growth rate of important markets abroad influence the domestic economy via demand for exports.
-- Demand for imports dampens domestic fluctuations.
+
+- Demand for imports dampens domestic fluctuations (marginal propoensity to import).
+
 - Foreign trade limits the use of fiscal stimulus if the marginal propensity to import is large.
 
-```{r out.width="70%"}
+---
+## Foreign markets and aggregate demand: France and Germany
+
+A striking example comes from France in the 1980s. 
+
+At the start of the 1980s, the French economy remained weak following the oil shocks of the 1970s, which disrupted the world economy. 
+
+In 1981, François Mitterrand won the presidential election. 
+
+His appointed prime minister, Pierre Mauroy, implemented a program to stimulate aggregate demand through increased government spending and tax cuts (in the multiplier model, this is a rise in G and a fall in t, the tax rate).
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
 knitr::include_graphics("imgs/f14-16.png")
 ```
 
+The figure presents the outcomes for three years. In the first year, there was no stimulus, in the second, there was a fiscal stimulus in France, and the third year was the year following the stimulus.
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+France’s budget balance turned negative after 1980, with a deficit exceeding 3% of GDP by 1983, while Germany maintained a balanced budget.
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+France’s expansionary fiscal policy in 1982 led to a brief increase in growth, but most of the demand boosted imports, benefiting countries like Germany and Japan instead.
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+The French stimulus failed to significantly improve domestic output or employment and caused pressure on the French franc, requiring three devaluations by 1983.
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+The policy highlighted the low effectiveness of unilateral fiscal stimulus in an open economy, where much of the stimulus leaked abroad.
+
+---
+## Foreign markets and aggregate demand: France and Germany
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f14-16.png")
+```
+
+Coordinated fiscal expansion across major European economies might have yielded better results, illustrating the importance of accounting for international economic interdependence.
 
 ---
 
 .center2[
-# Linking Aggregate Demand and unemployment
+# Aggregate Demand and unemployment
 ]
 
 ---
-.center[
-## Linking Aggregate Demand and unemployment
-]
+## Aggregate Demand and unemployment
 
 .pull-left[
 
@@ -1211,6 +1457,11 @@ knitr::include_graphics("imgs/covid-19 stimulus.png")
 ]
 
 ---
+.center2[
+# Summary
+]
+
+---
 .center[
 ## Summary
 ]
@@ -1225,16 +1476,5 @@ knitr::include_graphics("imgs/covid-19 stimulus.png")
   - Austerity policies amplify the negative demand shock
 
 - Fiscal stimulus in a recession must be reversed in a boom to prevent government debt from escalating (sovereign debt crisis)
-
---
-## Next session
-
-- The relationship between unemployment and inflation: The Phillips curve
-
-- How governments use monetary policy to affect inflation
-
-- Developing our model of aggregate demand: What happens to wages and prices in booms/recessions
-
-
 
 
