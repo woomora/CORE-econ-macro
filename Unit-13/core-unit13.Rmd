@@ -1,8 +1,12 @@
 ---
-title: "Economic accounting and fluctuations"
-subtitle: "Unit 13: Economic fluctiations and unemployment"
+title: "CORE Econ Macro"
+subtitle: | 
+ | Economic fluctiations and unemployment
+ |
 author: "Guillermo Woo-Mora"
-date: "28/03/2023"
+date: | 
+ | Paris Sciences et Lettres
+ | Spring 2025
 output: 
   xaringan::moon_reader:
     lib_dir: libs
@@ -87,33 +91,34 @@ knitr::include_graphics("imgs/covid3.png")
 
 ---
 
-```{r out.width="90%"}
-knitr::include_graphics("https://static01.nyt.com/images/2020/03/26/us/up-coronavirus-official-unemployment-claims-promo-1585230160180/up-coronavirus-official-unemployment-claims-promo-1585230160180-superJumbo-v6.jpg")
+.center[
+Unemployment is related to higher stress
+]
+
+```{r out.width="85%"}
+knitr::include_graphics("imgs/f13-1.png")
 ```
 
+Changes in unemployment and wellbeing during the financial crisis: Evidence from the US states (2007–2010)
+
 ---
-.center[
-## Economic growth is not a smooth process
+.center2[
+# Growth and fluctuations
 ]
+
+---
+## Economic growth is not a smooth process
 
 ```{r out.width="70%"}
 knitr::include_graphics("imgs/uk-real-gdp-per-capita-in-2011-us-dollars.svg")
 ```
 
 ---
-.center[
 ## Economic growth is not a smooth process
-]
 
 ```{r out.width="70%"}
 knitr::include_graphics("imgs/uk-log-of-real-gdp-per-capita-in-2011-us.svg")
 ```
-
----
-
-.center2[
-# The business cycle
-]
 
 ---
 .pull-left[
@@ -200,16 +205,81 @@ knitr::include_graphics("imgs/f13-3-d.png")
 ]
 
 ---
-**Okun’s Law**: 
---
-a strong and stable relationship between unemployment and GDP growth. 
+.center2[
+# Output growth and changes in unemployment
+]
 
---
+---
+.left-column[
+## Okun's Law
 
-```{r out.width="57.5%"}
+$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$ 
+
+A strong and stable empirical relationship in most economies since the Second World War
+
+]
+
+.right-column[
+
+```{r out.width="80%"}
 knitr::include_graphics("imgs/f13-5.png")
 ```
+]
 
+
+---
+## Okun's Law
+
+.pull-left[
+
+**Choose the correct answer(s)**
+
+a) The unemployment rate remains stable when there is zero real GDP growth.
+
+b) Okun’s coefficient for the US is **1.0827**.
+
+c) Policymakers can be sure that a **1% increase in real GDP** next year will definitely lead to a **fall in the unemployment rate of 0.37 percentage points**.
+
+d) A **2.8% drop in real GDP in 2009** predicts a rise **2.11 percentage points** in the unemployment rate.
+
+]
+
+.pull-right[
+
+$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$ 
+
+```{r out.width="110%"}
+knitr::include_graphics("imgs/f13-q2.png")
+```
+]
+
+---
+## Okun's Law
+
+.pull-left[
+
+**Choose the correct answer(s)**
+
+❌ a) The unemployment rate remains stable when there is zero real GDP growth.
+
+❌ b) Okun’s coefficient for the US is **1.0827**.
+
+❌ c) Policymakers can be sure that a **1% increase in real GDP** next year will definitely lead to a **fall in the unemployment rate of 0.37 percentage points**.
+
+<span style="color: #008ac4;">
+✅ **d) A 2.8% drop in real GDP in 2009 predicts a rise 2.11 percentage points in the unemployment rate.**
+</span>
+
+]
+
+.pull-right[
+
+$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$ 
+
+```{r out.width="110%"}
+knitr::include_graphics("imgs/f13-q2.png")
+```
+]
 
 ---
 .center2[
@@ -218,13 +288,13 @@ knitr::include_graphics("imgs/f13-5.png")
 
 
 ---
-.center[
 ## Measuring the aggregate economy 
-]
 
-**National accounts**: 
+Economists use what are called aggregate statistics to describe the economy as a whole (known as the aggregate economy, meaning simply the sum of its parts brought together)
+
 --
-system used to measure overall output and expenditure in a country.
+
+**National accounts**:  system used to measure overall output and expenditure in a country.
 
 --
 
@@ -232,9 +302,7 @@ system used to measure overall output and expenditure in a country.
 
 Three equivalent ways to measure GDP:
 
-
 1. Total spending on domestic products
-
 
 2. Total domestic production (measured as value added)
 
@@ -243,15 +311,48 @@ Three equivalent ways to measure GDP:
 ]
 
 .right-column[
-```{r out.width="80%"}
+```{r out.width="70%"}
 knitr::include_graphics("imgs/f13-6.png")
 ```
 ]
 
 ---
-.center[
-## Exports, imports, and government
+## Measuring the aggregate economy 
+
+### Example: GDP in a 3-industry economy
+
+.pull-left[
+Industries involved:
+
+1.	Raw cotton → sells cotton for $50
+
+2.	Cloth → buys cotton, sells cloth for $80
+
+3.	Shirt → buys cloth, sells shirt for $100
+
 ]
+
+--
+
+.pull-right[
+
+- **GDP via final expenditure:**
+ - = $100 (value of shirts sold to consumers)
+
+- **GDP via value added:**
+  - Cotton: $50
+	-	Cloth: $80 − $50 = $30
+	-	Shirt: $100 − $80 = $20
+  - **Total: $100**
+  
+- **GDP via income:**
+  - = Wages + Profits across all industries
+  - = Total value added = $100
+  
+]
+
+---
+## Exports, imports, and government
 
 - How do we account for international transactions?
  e.g. foreign production is domestic consumption (imports); or domestic production is foreign consumption (exports)
@@ -272,17 +373,24 @@ knitr::include_graphics("imgs/f13-6.png")
   
   - Assume that cost of production captures the value added
 
+
 ---
-.center[
-## Components of GDP
+.center2[
+# Measuring the aggregate economy: The components of GDP
 ]
 
---
+---
+## Components of GDP
+
+$$GDP = Y$$
+
+---
+## Components of GDP
 
 $$GDP = Y = C + I + G + X – M$$
 --
 
-- **Consumption (C)**: Expenditure on consumer goods and services 
+- **Consumption (C)**: Expenditure on consumer goods and services (durable, non-durable, intangible)
 
 --
 
@@ -311,14 +419,11 @@ $$GDP = Y = C + I + G + X – M$$
 
 
 ---
-.center[
 ## Components of GDP
-]
-
 
 $$GDP = Y = C + I + G + X – M$$
 
-- **Consumption (C)**: Expenditure on consumer goods and services 
+- **Consumption (C)**: Expenditure on consumer goods and services (durable, non-durable, intangible)
 
 - **Investment (I)**: Expenditure on newly produced capital goods (incl. equipment, buildings, and inventories = unsold output) 
 
@@ -474,9 +579,315 @@ knitr::include_graphics("https://miro.medium.com/max/1280/1*GLCCcriKywWHkfmEW3WI
 ]
 
 ---
-.center[
-## Smoothing Consumption
+.center2[
+# Why is consumption smooth?
 ]
+
+---
+## Why is consumption smooth?
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-e.png")
+```
+
+---
+.center2[
+# Detour to Micro
+]
+
+---
+.center[
+## Consumption over time
+]
+
+Trade-off between consuming goods now and later: **opportunity cost** of having more goods now is having fewer goods later.
+
+--
+
+Borrowing and lending allow us to rearrange our capacity to buy goods and services across time.
+
+--
+
+**Repayment**: principal + interest.
+
+--
+
+**Interest rate (r)**: The price of bringing some buying power forward in time. $r = \frac{repaument}{principal} - 1$ 
+
+--
+
+**(1+r)**: Tradeoff between current and future consumption (MRT)
+
+--
+
+.center[
+Example: Julia, principal = 91 and repayment = 100
+]
+
+
+.pull-left[
+
+$$repayment = 91 + 91\cdot r = 91 \cdot (1 + r) \approx 100$$
+]
+
+.pull-right[
+
+$$r = \frac{100}{91} - 1  \approx 1.10 - 1 = .10 = 10\%$$
+]
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-a.png")
+```
+
+Julia does not have money now, but knows that in the next period (later) she will have $100 from her paycheck or harvest.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-b.png")
+```
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-b.png")
+```
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-c.png")
+```
+
+At the same interest rate (10%), she could also borrow 70 to spend now, and repay 77 at the end of the year. In that case she would have 23 to spend next year.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-d.png")
+```
+
+She could also borrow 30 to spend now, and repay 33 at the end of the year. In that case she would have 67 to spend next year.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-e.png")
+```
+
+The boundary of Julia’s feasible set is her feasible frontier, shown for the interest rate of 10%.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-f.png")
+```
+
+Juila can borrow now and choose any combination on her feasible frontier.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-g.png")
+```
+
+If, instead of 10%, the interest rate is 78%, Julia can only borrow a maximum of $56 now.
+
+---
+### Borrowing
+
+```{r out.width="60%"}
+knitr::include_graphics("imgs/f10-2-h.png")
+```
+
+The feasible set with the interest rate of 78% is the dark shaded area, while the feasible set with an interest rate of 10% is the dark shaded area plus the light shaded area.
+
+
+---
+### Preferences for consumption
+
+How much consumption we bring forward depends on how impatient we are.
+--
+
+How much consumption an individual will bring forward depends on:  
+
+- **consumption smoothing**: changing consumption across time (consuming a lot in one period and little in the other).
+- **impatience**
+  - **Myopia (short-sightedness)**: People experience the present satisfaction more strongly than the same satisfaction later
+  - **Prudence**: People know that they may not be around in the future, and so they want to consume now
+  
+--
+
+**Diminishing marginal returns to consumption**  the value to the individual of an additional unit of consumption in a given period declines the more that is consumed.
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-a.png")
+```
+
+The dashed line shows the combinations of consumption now and consumption later from which Julia can choose.
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-b.png")
+```
+
+Julia’s IC is bowed toward the origin as a consequence of diminishing marginal returns to consumption in each period: the more goods she has in the present, the less she values an additional one now relative to more in the future. 
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-c.png")
+```
+
+The MRS at C is high (the slope of her indifference curve is steep): Julia has little consumption now and a lot later, so diminishing marginal returns mean that she would like to move some consumption to the present.
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-c.png")
+```
+
+The MRS at E is low: She has a lot of consumption now and less later, so diminishing marginal returns mean that she would like to move some consumption to the future.
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-d.png")
+```
+
+MRS is falling as we move along the indifference curve from C to E: the slope is steeper at C than at E.
+
+---
+### Consumption smoothing
+
+```{r out.width="55%"}
+knitr::include_graphics("imgs/f10-3-e.png")
+```
+
+Julia will choose point F. It is on the highest attainable indifference curve. She prefers to smooth consumption between now and later.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+**Discount rate** $(\rho)$: a measure of a person's impatience.
+
+--
+  - Consumption smoothing
+  - Pure impatience 
+  
+--
+
+Individual borrows at the point where discount rate = interest rate
+
+--
+
+$$ \textit{slope of the indifference curve (MRS)} = \textit{slope of the feasible frontier (MRT)}$$
+
+--
+
+.pull-left[
+$$MRS = 1 + \rho$$
+]
+
+.pull-right[
+$$MRT = 1 + r$$
+]
+
+--
+
+$$ MRS = MRT \iff 1 + \rho = 1 + r \iff \rho = r $$
+
+---
+### Consumption smoothing: Optimal decision-making
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-a.png")
+```
+
+Julia wishes to get to the highest indifference curve but is limited by her feasible frontier.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-b.png")
+```
+
+When the interest rate is 10%, the highest attainable indifference curve will be the one that is tangent to the feasible frontier.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-c.png")
+```
+
+Point E: MRS = MRT.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-d.png")
+```
+
+At point F, her discount rate, $\rho$, exceeds $r$, the interest rate, so she would like to bring consumption forward in time. 
+
+---
+### Consumption smoothing: Optimal decision-making
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-e.png")
+```
+
+If the interest rate at which she can borrow increases, the feasible set gets smaller.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+```{r out.width="52.25%"}
+knitr::include_graphics("imgs/f10-4-f.png")
+```
+
+The best Julia can do now is to borrow less (35 instead of 58), as shown by point G.
+
+---
+.center2[
+# Back to Macro
+]
+
+---
+## Why is consumption smooth? 
+
+```{r out.width="75%"}
+knitr::include_graphics("imgs/f13-9a-e.png")
+```
+
+---
+## Smoothing Consumption
 
 ```{r out.width="70%"}
 knitr::include_graphics("imgs/f13-10-a.png")
@@ -485,9 +896,7 @@ knitr::include_graphics("imgs/f13-10-a.png")
 The blue line shows the path of income over time: it starts low, rises when the individual is promoted and falls at retirement.
 
 ---
-.center[
 ## Smoothing Consumption
-]
 
 ```{r out.width="70%"}
 knitr::include_graphics("imgs/f13-10-b.png")
@@ -496,9 +905,8 @@ knitr::include_graphics("imgs/f13-10-b.png")
 This is the red line. It is smooth (flat) from the point at which the individual first gets a job.
 
 ---
-.center[
 ## Smoothing Consumption
-]
+
 
 ```{r out.width="65%"}
 knitr::include_graphics("imgs/f13-10-c.png")
@@ -507,9 +915,8 @@ knitr::include_graphics("imgs/f13-10-c.png")
 At this time income is low. The individual saves and repays the debt when older and earning more, and finally runs down savings after retirement, when income falls again.
 
 ---
-.center[
 ## Smoothing Consumption
-]
+
 
 ```{r out.width="65%"}
 knitr::include_graphics("imgs/f13-10-c.png")
@@ -538,9 +945,7 @@ knitr::include_graphics("imgs/f13-11-a.png")
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -558,9 +963,7 @@ knitr::include_graphics("imgs/f13-11-b.png")
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -578,9 +981,7 @@ knitr::include_graphics("imgs/f13-11-c.png")
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -602,9 +1003,8 @@ knitr::include_graphics("imgs/f13-11-c.png")
 
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-a.png")
@@ -613,9 +1013,8 @@ knitr::include_graphics("imgs/f13-12-a.png")
 Consider a household that receives the same income, y, this period and next period, indicated by the endowment point A.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-b.png")
@@ -624,9 +1023,7 @@ knitr::include_graphics("imgs/f13-12-b.png")
 The interest rate is r so if the household can borrow and save, then it can choose any point on the budget constraint, which has the slope −(1 + r).
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-c.png")
@@ -635,9 +1032,8 @@ knitr::include_graphics("imgs/f13-12-c.png")
 If the household prefers to consume the same amount each period, shown by the point A where the indifference curve is tangent to the budget constraint.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-d.png")
@@ -646,9 +1042,7 @@ knitr::include_graphics("imgs/f13-12-d.png")
 There is an unexpected negative temporary shock in income, which lowers this year’s income to y′, leaving expected income next year unaffected at y.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-e.png")
@@ -657,9 +1051,8 @@ knitr::include_graphics("imgs/f13-12-e.png")
 If it can borrow and save, then its budget constraint has a slope of −(1 + r) and passes through point A′.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 ```{r out.width="45%"}
 knitr::include_graphics("imgs/f13-12-f.png")
@@ -668,9 +1061,7 @@ knitr::include_graphics("imgs/f13-12-f.png")
 Optimal consumption at A″: the household prefers to smooth consumption, consuming c′ in both periods. The household borrows c′ − y′ now and repays (1 + r)(c′ − y′) next period following the shock.
 
 ---
-.center[
-## Limitations to smoothing: weakness of will
-]
+## Limitations to smoothing: credit constraints
 
 .left-column[
 
@@ -944,7 +1335,9 @@ knitr::include_graphics("imgs/inflation-levels-and-volatility-in-high--and-low-i
 
 ---
 .center2[
-## Example. Aggregate economy and shocks: Mexico
+# Example. Aggregate economy and shocks
+
+## Populist policies in Mexico
 ]
 
 ---
@@ -954,148 +1347,180 @@ knitr::include_graphics("imgs/inflation-levels-and-volatility-in-high--and-low-i
 ]
 
 ---
-
-.center[
-# Mexico's New International Airport (NAIM)
-]
+## Mexico's New International Airport (NAIM)
 
 ```{r out.width = "75%"}
 knitr::include_graphics("https://www.proceso.com.mx/u/fotografias/m/2021/4/30/f800x450-134426_185872_5050.jpg")
 ```
 
 ---
-
-.center[
-# Mexico's New International Airport (NAIM)
-]
+## Mexico's New International Airport (NAIM)
 
 ```{r out.width = "65%"}
 knitr::include_graphics("https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RRRFDF25TBAKRDKUPSCJ5A53YA.jpg")
 ```
 
 ---
+## Populism
+
+```{r out.width = "60%"}
+knitr::include_graphics("imgs/POS/funke_et_al_populist.png")
+```
+
+*A ‘thin-centered’ ideology that views society as fundamentally divided into two homogeneous, opposing groups: ‘the people’ against ‘the elite’* (Mudde 2004, 2007; Mudde and Rovira Kaltwasser 2017)
+
+---
+## Populists
+
+```{r out.width = "60%"}
+knitr::include_graphics("imgs/POS/amlo.jpeg")
+```
 
 .center[
-# NAIM: Public abuse
+AMLO (Mexican president between 2018-2024)
 ]
+
+---
+## Populist policies 
+
+```{r out.width = "70%"}
+knitr::include_graphics("imgs/POS/consulta_naim.jpeg")
+```
+
+.center[
+*acclaim for referendums occupies a central place in the rhetoric of contemporary populisms* (Rosanvallon 2021)
+
+Populist policies prioritize politics over sound policy —or *“politics without policy”* (Schmidt 2006)
+]
+
+---
+## Economic activity 
+
+```{r out.width = "80%"}
+knitr::include_graphics("imgs/POS/economic_activity.gif")
+```
+
+Does the populist policy have economic consequences without dismantling institutional constraints?
+
+---
+## Causality: Create a Mexico without NAIM Cancellation
+
+```{r out.width = "80%"}
+knitr::include_graphics("imgs/POS/country_weights.gif")
+```
+
+Synthetic Control: Choose countries that predict Mexico's economic activity before the policy
+
+---
+## Causality: Create a Mexico without NAIM Cancellation
+
+```{r out.width = "80%"}
+knitr::include_graphics("imgs/POS/sc_series_construction.gif")
+```
+
+
+Synthetic Control: Weight those countries to match Mexico's economic activity before the policy 
+
+---
+## Real vs. Synthetic Mexico
+
+```{r out.width = "70%"}
+knitr::include_graphics("imgs/POS/sc.gif")
+```
+
+Within a year of the NAIM cancellation, Mexico’s GDP declined by 3.3% to 4.5%
+
+---
+## Real vs. Synthetic Mexico: Gap
+
+```{r out.width = "70%"}
+knitr::include_graphics("imgs/POS/att.gif")
+```
+
+Within a year of the NAIM cancellation, Mexico’s GDP declined by 3.3% to 4.5%
+
+---
+## Why? Populist policies create uncertainty
+
+```{r out.width = "60%"}
+knitr::include_graphics("imgs/POS/Fig6a.png")
+```
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## Why? Populist policies create uncertainty
 
 ```{r out.width = "65%"}
-knitr::include_graphics("https://static01.nyt.com/images/2016/09/22/universal/es/22mujeres1ES/22mujeres1ES-superJumbo.jpg?quality=75&auto=webp")
+knitr::include_graphics("imgs/POS/Fig6a.png")
+```
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## Why? Populist policies create uncertainty
+
+```{r out.width = "65%"}
+knitr::include_graphics("imgs/POS/Fig6b.png")
+```
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## GDP components
+
+Which components are more responsive to shocks?
+
+--
+
+```{r out.width="45%"}
+knitr::include_graphics("imgs/f13-15.png")
 ```
 
 ---
-.center[
-# Public abuse: Populist policies 
-]
+## GDP components
 
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/amlo.jpeg")
+Which components are more responsive to shocks?
+
+```{r out.width = "65%"}
+knitr::include_graphics("imgs/POS/Fig7.png")
 ```
 
----
 .center[
-# Public abuse: Populist policies 
+**Investment**
 ]
 
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/consulta_naim.jpeg")
+---
+## GDP components
+
+Which components are more responsive to shocks? Zero effects on consumption, government spending, exports and imports.
+
+```{r out.width = "60%"}
+knitr::include_graphics("imgs/POS/FigC2_1consumption.png")
 ```
 
----
 .center[
-# Economic activity 
+**Consumption**
 ]
+
+---
+## Distributional effects?
 
 ```{r out.width = "80%"}
-knitr::include_graphics("imgs/economic_activity.gif")
+knitr::include_graphics("imgs/POS/billionaires.gif")
 ```
 
 ---
-.center[
-# Create a Mexico without NAIM Cancellation
+## Sounds familiar?
+
+.pull-left[
+```{r out.width = "90%"}
+knitr::include_graphics("https://pbs.twimg.com/media/GnneyYsWkAAg43r?format=jpg&name=medium")
+```
 ]
 
-```{r out.width = "80%"}
-knitr::include_graphics("imgs/country_weights.gif")
+.pull-right[
+```{r out.width = "100%"}
+knitr::include_graphics("https://pbs.twimg.com/media/GoLsoxCWIAAba9c?format=jpg&name=large")
 ```
-
----
-.center[
-# Create a Mexico without NAIM Cancellation
 ]
-
-```{r out.width = "80%"}
-knitr::include_graphics("imgs/sc_series_construction.gif")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico
-]
-
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/sc.gif")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: Gap
-]
-
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/att.gif")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: GDP components
-]
-
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/osc_gdp_components.png")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: GDP components
-]
-
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/osc_gdp_components.png")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: GDP per capita
-]
-
-```{r out.width = "70%"}
-knitr::include_graphics("imgs/osc_gdppc.png")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: Income distribution
-]
-
-```{r out.width = "80%"}
-knitr::include_graphics("imgs/cic_obs.gif")
-```
-
----
-.center[
-# Real vs. Synthetic Mexico: Income distribution
-]
-
-```{r out.width = "80%"}
-knitr::include_graphics("imgs/cic_synth.gif")
-```
-
----
-.center[
-# Mexican Billionaires
-]
-
-```{r out.width = "80%"}
-knitr::include_graphics("imgs/billionaires.gif")
-```

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Economic accounting and fluctuations</title>
+    <title>CORE Econ Macro</title>
     <meta charset="utf-8" />
     <meta name="author" content="Guillermo Woo-Mora" />
     <script src="libs/header-attrs/header-attrs.js"></script>
@@ -32,16 +32,18 @@
 class: center, middle, inverse, title-slide
 
 .title[
-# Economic accounting and fluctuations
+# CORE Econ Macro
 ]
 .subtitle[
-## Unit 13: Economic fluctiations and unemployment
+## <div class="line-block">Economic fluctiations and unemployment<br />
+</div>
 ]
 .author[
 ### Guillermo Woo-Mora
 ]
 .date[
-### 28/03/2023
+### <div class="line-block">Paris Sciences et Lettres<br />
+Spring 2025</div>
 ]
 
 ---
@@ -80,27 +82,28 @@ class: center, middle, inverse, title-slide
 
 ---
 
-&lt;img src="https://static01.nyt.com/images/2020/03/26/us/up-coronavirus-official-unemployment-claims-promo-1585230160180/up-coronavirus-official-unemployment-claims-promo-1585230160180-superJumbo-v6.jpg" width="90%" style="display: block; margin: auto;" /&gt;
+.center[
+Unemployment is related to higher stress
+]
+
+&lt;img src="imgs/f13-1.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+Changes in unemployment and wellbeing during the financial crisis: Evidence from the US states (2007–2010)
 
 ---
-.center[
-## Economic growth is not a smooth process
+.center2[
+# Growth and fluctuations
 ]
+
+---
+## Economic growth is not a smooth process
 
 &lt;img src="imgs/uk-real-gdp-per-capita-in-2011-us-dollars.svg" width="70%" style="display: block; margin: auto;" /&gt;
 
 ---
-.center[
 ## Economic growth is not a smooth process
-]
 
 &lt;img src="imgs/uk-log-of-real-gdp-per-capita-in-2011-us.svg" width="70%" style="display: block; margin: auto;" /&gt;
-
----
-
-.center2[
-# The business cycle
-]
 
 ---
 .pull-left[
@@ -177,14 +180,75 @@ class: center, middle, inverse, title-slide
 ]
 
 ---
-**Okun’s Law**: 
---
-a strong and stable relationship between unemployment and GDP growth. 
+.center2[
+# Output growth and changes in unemployment
+]
 
---
+---
+.left-column[
+## Okun's Law
 
-&lt;img src="imgs/f13-5.png" width="57.5%" style="display: block; margin: auto;" /&gt;
+`$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$` 
 
+A strong and stable empirical relationship in most economies since the Second World War
+
+]
+
+.right-column[
+
+&lt;img src="imgs/f13-5.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+## Okun's Law
+
+.pull-left[
+
+**Choose the correct answer(s)**
+
+a) The unemployment rate remains stable when there is zero real GDP growth.
+
+b) Okun’s coefficient for the US is **1.0827**.
+
+c) Policymakers can be sure that a **1% increase in real GDP** next year will definitely lead to a **fall in the unemployment rate of 0.37 percentage points**.
+
+d) A **2.8% drop in real GDP in 2009** predicts a rise **2.11 percentage points** in the unemployment rate.
+
+]
+
+.pull-right[
+
+`$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$` 
+
+&lt;img src="imgs/f13-q2.png" width="110%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+## Okun's Law
+
+.pull-left[
+
+**Choose the correct answer(s)**
+
+a) The unemployment rate remains stable when there is zero real GDP growth.
+
+b) Okun’s coefficient for the US is **1.0827**.
+
+c) Policymakers can be sure that a **1% increase in real GDP** next year will definitely lead to a **fall in the unemployment rate of 0.37 percentage points**.
+
+&lt;span style="color: #008ac4;"&gt;
+**d) A 2.8% drop in real GDP in 2009 predicts a rise 2.11 percentage points in the unemployment rate.**
+&lt;/span&gt;
+
+]
+
+.pull-right[
+
+`$$\Delta u_t = \alpha + \beta \textit{GDP Growth}_t$$` 
+
+&lt;img src="imgs/f13-q2.png" width="110%" style="display: block; margin: auto;" /&gt;
+]
 
 ---
 .center2[
@@ -193,13 +257,13 @@ a strong and stable relationship between unemployment and GDP growth.
 
 
 ---
-.center[
 ## Measuring the aggregate economy 
-]
 
-**National accounts**: 
+Economists use what are called aggregate statistics to describe the economy as a whole (known as the aggregate economy, meaning simply the sum of its parts brought together)
+
 --
-system used to measure overall output and expenditure in a country.
+
+**National accounts**:  system used to measure overall output and expenditure in a country.
 
 --
 
@@ -207,9 +271,7 @@ system used to measure overall output and expenditure in a country.
 
 Three equivalent ways to measure GDP:
 
-
 1. Total spending on domestic products
-
 
 2. Total domestic production (measured as value added)
 
@@ -218,13 +280,46 @@ Three equivalent ways to measure GDP:
 ]
 
 .right-column[
-&lt;img src="imgs/f13-6.png" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/f13-6.png" width="70%" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
-.center[
-## Exports, imports, and government
+## Measuring the aggregate economy 
+
+### Example: GDP in a 3-industry economy
+
+.pull-left[
+Industries involved:
+
+1.	Raw cotton → sells cotton for $50
+
+2.	Cloth → buys cotton, sells cloth for $80
+
+3.	Shirt → buys cloth, sells shirt for $100
+
 ]
+
+--
+
+.pull-right[
+
+- **GDP via final expenditure:**
+ - = $100 (value of shirts sold to consumers)
+
+- **GDP via value added:**
+  - Cotton: $50
+	-	Cloth: $80 − $50 = $30
+	-	Shirt: $100 − $80 = $20
+  - **Total: $100**
+  
+- **GDP via income:**
+  - = Wages + Profits across all industries
+  - = Total value added = $100
+  
+]
+
+---
+## Exports, imports, and government
 
 - How do we account for international transactions?
  e.g. foreign production is domestic consumption (imports); or domestic production is foreign consumption (exports)
@@ -245,17 +340,24 @@ Three equivalent ways to measure GDP:
   
   - Assume that cost of production captures the value added
 
+
 ---
-.center[
-## Components of GDP
+.center2[
+# Measuring the aggregate economy: The components of GDP
 ]
 
---
+---
+## Components of GDP
+
+`$$GDP = Y$$`
+
+---
+## Components of GDP
 
 `$$GDP = Y = C + I + G + X – M$$`
 --
 
-- **Consumption (C)**: Expenditure on consumer goods and services 
+- **Consumption (C)**: Expenditure on consumer goods and services (durable, non-durable, intangible)
 
 --
 
@@ -284,14 +386,11 @@ Three equivalent ways to measure GDP:
 
 
 ---
-.center[
 ## Components of GDP
-]
-
 
 `$$GDP = Y = C + I + G + X – M$$`
 
-- **Consumption (C)**: Expenditure on consumer goods and services 
+- **Consumption (C)**: Expenditure on consumer goods and services (durable, non-durable, intangible)
 
 - **Investment (I)**: Expenditure on newly produced capital goods (incl. equipment, buildings, and inventories = unsold output) 
 
@@ -431,36 +530,292 @@ Informal mechanisms
 ]
 
 ---
-.center[
-## Smoothing Consumption
+.center2[
+# Why is consumption smooth?
 ]
+
+---
+## Why is consumption smooth?
+
+&lt;img src="imgs/f13-9a-e.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+.center2[
+# Detour to Micro
+]
+
+---
+.center[
+## Consumption over time
+]
+
+Trade-off between consuming goods now and later: **opportunity cost** of having more goods now is having fewer goods later.
+
+--
+
+Borrowing and lending allow us to rearrange our capacity to buy goods and services across time.
+
+--
+
+**Repayment**: principal + interest.
+
+--
+
+**Interest rate (r)**: The price of bringing some buying power forward in time. `\(r = \frac{repaument}{principal} - 1\)` 
+
+--
+
+**(1+r)**: Tradeoff between current and future consumption (MRT)
+
+--
+
+.center[
+Example: Julia, principal = 91 and repayment = 100
+]
+
+
+.pull-left[
+
+`$$repayment = 91 + 91\cdot r = 91 \cdot (1 + r) \approx 100$$`
+]
+
+.pull-right[
+
+`$$r = \frac{100}{91} - 1  \approx 1.10 - 1 = .10 = 10\%$$`
+]
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Julia does not have money now, but knows that in the next period (later) she will have $100 from her paycheck or harvest.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-b.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-b.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Julia could borrow 91 now and promise to pay the lender the 100 that she will have later. The interest rate would be 10%.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-c.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+At the same interest rate (10%), she could also borrow 70 to spend now, and repay 77 at the end of the year. In that case she would have 23 to spend next year.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-d.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+She could also borrow 30 to spend now, and repay 33 at the end of the year. In that case she would have 67 to spend next year.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-e.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+The boundary of Julia’s feasible set is her feasible frontier, shown for the interest rate of 10%.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-f.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Juila can borrow now and choose any combination on her feasible frontier.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-g.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+If, instead of 10%, the interest rate is 78%, Julia can only borrow a maximum of $56 now.
+
+---
+### Borrowing
+
+&lt;img src="imgs/f10-2-h.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+The feasible set with the interest rate of 78% is the dark shaded area, while the feasible set with an interest rate of 10% is the dark shaded area plus the light shaded area.
+
+
+---
+### Preferences for consumption
+
+How much consumption we bring forward depends on how impatient we are.
+--
+
+How much consumption an individual will bring forward depends on:  
+
+- **consumption smoothing**: changing consumption across time (consuming a lot in one period and little in the other).
+- **impatience**
+  - **Myopia (short-sightedness)**: People experience the present satisfaction more strongly than the same satisfaction later
+  - **Prudence**: People know that they may not be around in the future, and so they want to consume now
+  
+--
+
+**Diminishing marginal returns to consumption**  the value to the individual of an additional unit of consumption in a given period declines the more that is consumed.
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-a.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The dashed line shows the combinations of consumption now and consumption later from which Julia can choose.
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-b.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+Julia’s IC is bowed toward the origin as a consequence of diminishing marginal returns to consumption in each period: the more goods she has in the present, the less she values an additional one now relative to more in the future. 
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The MRS at C is high (the slope of her indifference curve is steep): Julia has little consumption now and a lot later, so diminishing marginal returns mean that she would like to move some consumption to the present.
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-c.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+The MRS at E is low: She has a lot of consumption now and less later, so diminishing marginal returns mean that she would like to move some consumption to the future.
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-d.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+MRS is falling as we move along the indifference curve from C to E: the slope is steeper at C than at E.
+
+---
+### Consumption smoothing
+
+&lt;img src="imgs/f10-3-e.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+Julia will choose point F. It is on the highest attainable indifference curve. She prefers to smooth consumption between now and later.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+**Discount rate** `\((\rho)\)`: a measure of a person's impatience.
+
+--
+  - Consumption smoothing
+  - Pure impatience 
+  
+--
+
+Individual borrows at the point where discount rate = interest rate
+
+--
+
+$$ \textit{slope of the indifference curve (MRS)} = \textit{slope of the feasible frontier (MRT)}$$
+
+--
+
+.pull-left[
+`$$MRS = 1 + \rho$$`
+]
+
+.pull-right[
+`$$MRT = 1 + r$$`
+]
+
+--
+
+$$ MRS = MRT \iff 1 + \rho = 1 + r \iff \rho = r $$
+
+---
+### Consumption smoothing: Optimal decision-making
+
+&lt;img src="imgs/f10-4-a.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+Julia wishes to get to the highest indifference curve but is limited by her feasible frontier.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+&lt;img src="imgs/f10-4-b.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+When the interest rate is 10%, the highest attainable indifference curve will be the one that is tangent to the feasible frontier.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+
+&lt;img src="imgs/f10-4-c.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+Point E: MRS = MRT.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+&lt;img src="imgs/f10-4-d.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+At point F, her discount rate, `\(\rho\)`, exceeds `\(r\)`, the interest rate, so she would like to bring consumption forward in time. 
+
+---
+### Consumption smoothing: Optimal decision-making
+
+&lt;img src="imgs/f10-4-e.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+If the interest rate at which she can borrow increases, the feasible set gets smaller.
+
+---
+### Consumption smoothing: Optimal decision-making
+
+&lt;img src="imgs/f10-4-f.png" width="52.25%" style="display: block; margin: auto;" /&gt;
+
+The best Julia can do now is to borrow less (35 instead of 58), as shown by point G.
+
+---
+.center2[
+# Back to Macro
+]
+
+---
+## Why is consumption smooth? 
+
+&lt;img src="imgs/f13-9a-e.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+## Smoothing Consumption
 
 &lt;img src="imgs/f13-10-a.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 The blue line shows the path of income over time: it starts low, rises when the individual is promoted and falls at retirement.
 
 ---
-.center[
 ## Smoothing Consumption
-]
 
 &lt;img src="imgs/f13-10-b.png" width="70%" style="display: block; margin: auto;" /&gt;
 
 This is the red line. It is smooth (flat) from the point at which the individual first gets a job.
 
 ---
-.center[
 ## Smoothing Consumption
-]
+
 
 &lt;img src="imgs/f13-10-c.png" width="65%" style="display: block; margin: auto;" /&gt;
 
 At this time income is low. The individual saves and repays the debt when older and earning more, and finally runs down savings after retirement, when income falls again.
 
 ---
-.center[
 ## Smoothing Consumption
-]
+
 
 &lt;img src="imgs/f13-10-c.png" width="65%" style="display: block; margin: auto;" /&gt;
 
@@ -485,9 +840,7 @@ The blue lines on the figure show that the path of income over time is the same 
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -503,9 +856,7 @@ In a consumption-smoothing household, consumption changes immediately once the h
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -521,9 +872,7 @@ A credit-constrained household that cannot borrow has to wait until the income a
 ]
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 .left-column[
 
@@ -543,63 +892,53 @@ The households unable to adjust to a temporary income shock have lower welfare.
 
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 &lt;img src="imgs/f13-12-a.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 Consider a household that receives the same income, y, this period and next period, indicated by the endowment point A.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 &lt;img src="imgs/f13-12-b.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 The interest rate is r so if the household can borrow and save, then it can choose any point on the budget constraint, which has the slope −(1 + r).
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 &lt;img src="imgs/f13-12-c.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 If the household prefers to consume the same amount each period, shown by the point A where the indifference curve is tangent to the budget constraint.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 &lt;img src="imgs/f13-12-d.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 There is an unexpected negative temporary shock in income, which lowers this year’s income to y′, leaving expected income next year unaffected at y.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
 
 &lt;img src="imgs/f13-12-e.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 If it can borrow and save, then its budget constraint has a slope of −(1 + r) and passes through point A′.
 
 ---
-.center[
 ## Limitations to smoothing: credit constraints
-]
+
 
 &lt;img src="imgs/f13-12-f.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 Optimal consumption at A″: the household prefers to smooth consumption, consuming c′ in both periods. The household borrows c′ − y′ now and repays (1 + r)(c′ − y′) next period following the shock.
 
 ---
-.center[
-## Limitations to smoothing: weakness of will
-]
+## Limitations to smoothing: credit constraints
 
 .left-column[
 
@@ -843,7 +1182,9 @@ A measure of the level of prices for domestically produced output (ratio of nomi
 
 ---
 .center2[
-## Example. Aggregate economy and shocks: Mexico
+# Example. Aggregate economy and shocks
+
+## Populist policies in Mexico
 ]
 
 ---
@@ -853,119 +1194,145 @@ A measure of the level of prices for domestically produced output (ratio of nomi
 ]
 
 ---
-
-.center[
-# Mexico's New International Airport (NAIM)
-]
+## Mexico's New International Airport (NAIM)
 
 &lt;img src="https://www.proceso.com.mx/u/fotografias/m/2021/4/30/f800x450-134426_185872_5050.jpg" width="75%" style="display: block; margin: auto;" /&gt;
 
 ---
-
-.center[
-# Mexico's New International Airport (NAIM)
-]
+## Mexico's New International Airport (NAIM)
 
 &lt;img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RRRFDF25TBAKRDKUPSCJ5A53YA.jpg" width="65%" style="display: block; margin: auto;" /&gt;
 
 ---
+## Populism
 
-.center[
-# NAIM: Public abuse
-]
+&lt;img src="imgs/POS/funke_et_al_populist.png" width="60%" style="display: block; margin: auto;" /&gt;
 
-&lt;img src="https://static01.nyt.com/images/2016/09/22/universal/es/22mujeres1ES/22mujeres1ES-superJumbo.jpg?quality=75&amp;auto=webp" width="65%" style="display: block; margin: auto;" /&gt;
-
----
-.center[
-# Public abuse: Populist policies 
-]
-
-&lt;img src="imgs/amlo.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+*A ‘thin-centered’ ideology that views society as fundamentally divided into two homogeneous, opposing groups: ‘the people’ against ‘the elite’* (Mudde 2004, 2007; Mudde and Rovira Kaltwasser 2017)
 
 ---
-.center[
-# Public abuse: Populist policies 
-]
+## Populists
 
-&lt;img src="imgs/consulta_naim.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/amlo.jpeg" width="60%" style="display: block; margin: auto;" /&gt;
+
+.center[
+AMLO (Mexican president between 2018-2024)
+]
 
 ---
-.center[
-# Economic activity 
-]
+## Populist policies 
 
-&lt;img src="imgs/economic_activity.gif" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/consulta_naim.jpeg" width="70%" style="display: block; margin: auto;" /&gt;
+
+.center[
+*acclaim for referendums occupies a central place in the rhetoric of contemporary populisms* (Rosanvallon 2021)
+
+Populist policies prioritize politics over sound policy —or *“politics without policy”* (Schmidt 2006)
+]
 
 ---
-.center[
-# Create a Mexico without NAIM Cancellation
-]
+## Economic activity 
 
-&lt;img src="imgs/country_weights.gif" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/economic_activity.gif" width="80%" style="display: block; margin: auto;" /&gt;
 
----
-.center[
-# Create a Mexico without NAIM Cancellation
-]
-
-&lt;img src="imgs/sc_series_construction.gif" width="80%" style="display: block; margin: auto;" /&gt;
+Does the populist policy have economic consequences without dismantling institutional constraints?
 
 ---
-.center[
-# Real vs. Synthetic Mexico
-]
+## Causality: Create a Mexico without NAIM Cancellation
 
-&lt;img src="imgs/sc.gif" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/country_weights.gif" width="80%" style="display: block; margin: auto;" /&gt;
 
----
-.center[
-# Real vs. Synthetic Mexico: Gap
-]
-
-&lt;img src="imgs/att.gif" width="70%" style="display: block; margin: auto;" /&gt;
+Synthetic Control: Choose countries that predict Mexico's economic activity before the policy
 
 ---
-.center[
-# Real vs. Synthetic Mexico: GDP components
-]
+## Causality: Create a Mexico without NAIM Cancellation
 
-&lt;img src="imgs/osc_gdp_components.png" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/sc_series_construction.gif" width="80%" style="display: block; margin: auto;" /&gt;
 
----
-.center[
-# Real vs. Synthetic Mexico: GDP components
-]
 
-&lt;img src="imgs/osc_gdp_components.png" width="70%" style="display: block; margin: auto;" /&gt;
+Synthetic Control: Weight those countries to match Mexico's economic activity before the policy 
 
 ---
-.center[
-# Real vs. Synthetic Mexico: GDP per capita
-]
+## Real vs. Synthetic Mexico
 
-&lt;img src="imgs/osc_gdppc.png" width="70%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/sc.gif" width="70%" style="display: block; margin: auto;" /&gt;
 
----
-.center[
-# Real vs. Synthetic Mexico: Income distribution
-]
-
-&lt;img src="imgs/cic_obs.gif" width="80%" style="display: block; margin: auto;" /&gt;
+Within a year of the NAIM cancellation, Mexico’s GDP declined by 3.3% to 4.5%
 
 ---
-.center[
-# Real vs. Synthetic Mexico: Income distribution
-]
+## Real vs. Synthetic Mexico: Gap
 
-&lt;img src="imgs/cic_synth.gif" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="imgs/POS/att.gif" width="70%" style="display: block; margin: auto;" /&gt;
+
+Within a year of the NAIM cancellation, Mexico’s GDP declined by 3.3% to 4.5%
 
 ---
+## Why? Populist policies create uncertainty
+
+&lt;img src="imgs/POS/Fig6a.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## Why? Populist policies create uncertainty
+
+&lt;img src="imgs/POS/Fig6a.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## Why? Populist policies create uncertainty
+
+&lt;img src="imgs/POS/Fig6b.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+Such policies create economic uncertainty: creates ambiguity about future economic policies.
+
+---
+## GDP components
+
+Which components are more responsive to shocks?
+
+--
+
+&lt;img src="imgs/f13-15.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+---
+## GDP components
+
+Which components are more responsive to shocks?
+
+&lt;img src="imgs/POS/Fig7.png" width="65%" style="display: block; margin: auto;" /&gt;
+
 .center[
-# Mexican Billionaires
+**Investment**
 ]
 
-&lt;img src="imgs/billionaires.gif" width="80%" style="display: block; margin: auto;" /&gt;
+---
+## GDP components
+
+Which components are more responsive to shocks? Zero effects on consumption, government spending, exports and imports.
+
+&lt;img src="imgs/POS/FigC2_1consumption.png" width="60%" style="display: block; margin: auto;" /&gt;
+
+.center[
+**Consumption**
+]
+
+---
+## Distributional effects?
+
+&lt;img src="imgs/POS/billionaires.gif" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+## Sounds familiar?
+
+.pull-left[
+&lt;img src="https://pbs.twimg.com/media/GnneyYsWkAAg43r?format=jpg&amp;name=medium" width="90%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+&lt;img src="https://pbs.twimg.com/media/GoLsoxCWIAAba9c?format=jpg&amp;name=large" width="100%" style="display: block; margin: auto;" /&gt;
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
