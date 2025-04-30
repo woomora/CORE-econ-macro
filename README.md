@@ -23,8 +23,6 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
   - [Unit 6: The firm: Owners, managers, and employees](https://woomora.github.io/CORE-econ-macro/Unit-6/core-unit6.html#1)
   - [Unit 7: The firm and its customers](https://woomora.github.io/CORE-econ-macro/Unit-7/core-unit7.html#1)
   - [Unit 9: The labour market: Wages, profit, and unemployment](https://woomora.github.io/CORE-econ-macro/Unit-9/core-unit9.html#1)
-
- <!--- - **Credit markets** - [Unit 10: Banks, money, and the credit market](https://woomora.github.io/CORE-econ-macro/Unit-10/core-unit10.html#1) --->
   
 - **Economic accounting and fluctuations**
 
@@ -36,7 +34,6 @@ Hi! Welcome to the CORE Economics - Macro course's website :wave:
     
 - **Monetary Policy**
 
-  - [Unit 15: Inflation, unemployment, and monetary policy]
-<!---  (https://woomora.github.io/CORE-econ-macro/Unit-15/core-unit15.html#1) --->
+  - [Unit 15: Inflation, unemployment, and monetary policy](https://woomora.github.io/CORE-econ-macro/Unit-15/core-unit15.html#1)
 
 You can reach me at guillermo.woo-mora [at] psemail.eu.
